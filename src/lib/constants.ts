@@ -2,12 +2,12 @@
 export const SUPPORTED_LOCALES = ['ja', 'en', 'zh-cn'] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 
-// Default theme values
+// Default theme values (light)
 export const DEFAULT_THEME = {
-  bg: '#0b0f14',
-  fg: '#e9f0ff',
-  accent: '#4c9bff',
-  muted: '#9bb3d1',
+  bg: '#ffffff',
+  fg: '#1f2937',
+  accent: '#3b82f6',
+  muted: '#6b7280',
 } as const;
 
 // Locale display labels

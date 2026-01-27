@@ -1,0 +1,23 @@
+{
+  "name": "3 min. Calendar",
+  "catch": "3分钟完成本月营业日历。",
+  "description": "为忙碌的个体经营者节省时间。轻松分享到Instagram或LINE。",
+  "theme": {
+    "bg": "#f8fafc",
+    "fg": "#1e293b",
+    "accent": "#3b82f6",
+    "muted": "#64748b"
+  },
+  "links": {
+    "play": "https://3min.llll-ll.com/",
+    "github": "https://github.com/kako-jun/3min"
+  },
+  "og": {
+    "title": "3 min. Calendar",
+    "description": "只需3分钟即可完成本月营业日历"
+  },
+  "gallery": [],
+  "author": {
+    "name": "kako-jun"
+  }
+}

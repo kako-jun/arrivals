@@ -1,0 +1,23 @@
+{
+  "name": "Agasteer",
+  "catch": "永不冲突的最简Markdown笔记应用。",
+  "description": "直接同步GitHub。无中间服务器，直接保存到您的仓库。",
+  "theme": {
+    "bg": "#f0f4f8",
+    "fg": "#1a1a2e",
+    "accent": "#4a90e2",
+    "muted": "#6b7b8c"
+  },
+  "links": {
+    "play": "https://agasteer.llll-ll.com/",
+    "github": "https://github.com/kako-jun/agasteer"
+  },
+  "og": {
+    "title": "Agasteer",
+    "description": "直接连接GitHub的最简Markdown笔记应用"
+  },
+  "gallery": [],
+  "author": {
+    "name": "kako-jun"
+  }
+}

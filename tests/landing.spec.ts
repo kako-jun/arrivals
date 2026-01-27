@@ -7,53 +7,42 @@ test.describe('Landing Page', () => {
   test('index page shows app list', async ({ page }) => {
     await page.goto('./');
     await expect(page.locator('h1')).toContainText('Landing Pages');
-    await expect(page.locator('.app-card')).toHaveCount(1);
+    await expect(page.locator('.app-card')).toHaveCount(2); // 3min and agasteer
   });
 
   test('japanese landing page loads correctly', async ({ page }) => {
-    await page.goto('./narukami/ja/');
-    await expect(page.locator('h1')).toContainText('金沢は今日も鳴雷');
+    await page.goto('./3min/ja/');
+    await expect(page.locator('h1')).toContainText('3 min. Calendar');
     await expect(page.locator('.tagline')).toBeVisible();
     await expect(page.locator('.media img, .media video')).toBeVisible();
   });
 
   test('english landing page loads correctly', async ({ page }) => {
-    await page.goto('./narukami/en/');
-    await expect(page.locator('h1')).toContainText('Narukami');
+    await page.goto('./3min/en/');
+    await expect(page.locator('h1')).toContainText('3 min. Calendar');
   });
 
   test('language switcher works', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
     await page.click('.lang a[href*="/en/"]');
-    await expect(page).toHaveURL(/\/narukami\/en\//);
-    await expect(page.locator('h1')).toContainText('Narukami');
+    await expect(page).toHaveURL(/\/3min\/en\//);
+    await expect(page.locator('h1')).toContainText('3 min. Calendar');
   });
 
   test('CTA button is visible and has correct href', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
     const cta = page.locator('.cta-button');
     await expect(cta).toBeVisible();
-    await expect(cta).toHaveAttribute('href', /narukami\.llll-ll\.com/);
+    await expect(cta).toHaveAttribute('href', /3min\.llll-ll\.com/);
     await expect(cta).toHaveAttribute('target', '_blank');
     await expect(cta).toHaveAttribute('rel', 'noopener noreferrer');
   });
 
-  test('gallery images are lazy loaded', async ({ page }) => {
-    await page.goto('./narukami/ja/');
-    const galleryImages = page.locator('.gallery img');
-    const count = await galleryImages.count();
-    expect(count).toBeGreaterThan(0);
-
-    for (let i = 0; i < count; i++) {
-      await expect(galleryImages.nth(i)).toHaveAttribute('loading', 'lazy');
-    }
-  });
-
   test('page has correct meta tags', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
 
     // Check title
-    await expect(page).toHaveTitle('金沢は今日も鳴雷');
+    await expect(page).toHaveTitle('3 min. Calendar');
 
     // Check meta description
     const description = page.locator('meta[name="description"]');
@@ -71,7 +60,7 @@ test.describe('Landing Page', () => {
   });
 
   test('page has hreflang tags', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
 
     const hreflangs = page.locator('link[rel="alternate"][hreflang]');
     const count = await hreflangs.count();
@@ -79,7 +68,7 @@ test.describe('Landing Page', () => {
   });
 
   test('skip link is accessible', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
 
     const skipLink = page.locator('.skip-link');
     await expect(skipLink).toBeAttached();
@@ -93,11 +82,16 @@ test.describe('Landing Page', () => {
     await page.goto('./nonexistent/');
     await expect(page.locator('h1')).toContainText('404');
   });
+
+  test('agasteer page loads correctly', async ({ page }) => {
+    await page.goto('./agasteer/ja/');
+    await expect(page.locator('h1')).toContainText('Agasteer');
+  });
 });
 
 test.describe('Accessibility', () => {
   test('page has no duplicate IDs', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
 
     const ids = await page.evaluate(() => {
       const elements = document.querySelectorAll('[id]');
@@ -110,7 +104,7 @@ test.describe('Accessibility', () => {
   });
 
   test('images have alt attributes', async ({ page }) => {
-    await page.goto('./narukami/ja/');
+    await page.goto('./3min/ja/');
 
     const images = page.locator('img');
     const count = await images.count();

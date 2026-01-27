@@ -1,0 +1,23 @@
+{
+  "name": "Agasteer",
+  "catch": "The simplest Markdown app that never conflicts.",
+  "description": "Direct GitHub sync. No intermediate server - saves directly to your repository.",
+  "theme": {
+    "bg": "#f0f4f8",
+    "fg": "#1a1a2e",
+    "accent": "#4a90e2",
+    "muted": "#6b7b8c"
+  },
+  "links": {
+    "play": "https://agasteer.llll-ll.com/",
+    "github": "https://github.com/kako-jun/agasteer"
+  },
+  "og": {
+    "title": "Agasteer",
+    "description": "The simplest Markdown app with GitHub sync"
+  },
+  "gallery": [],
+  "author": {
+    "name": "kako-jun"
+  }
+}

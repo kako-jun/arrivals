@@ -1,0 +1,23 @@
+{
+  "name": "Agasteer",
+  "catch": "コンフリクトしない、最もシンプルなMarkdownノートアプリ。",
+  "description": "GitHubと直接同期。中間サーバーなし、あなたのリポジトリに直接保存。",
+  "theme": {
+    "bg": "#f0f4f8",
+    "fg": "#1a1a2e",
+    "accent": "#4a90e2",
+    "muted": "#6b7b8c"
+  },
+  "links": {
+    "play": "https://agasteer.llll-ll.com/",
+    "github": "https://github.com/kako-jun/agasteer"
+  },
+  "og": {
+    "title": "Agasteer",
+    "description": "GitHubと直接つながる、最もシンプルなMarkdownノートアプリ"
+  },
+  "gallery": [],
+  "author": {
+    "name": "kako-jun"
+  }
+}

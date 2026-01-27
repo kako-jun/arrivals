@@ -1,0 +1,23 @@
+{
+  "name": "3 min. Calendar",
+  "catch": "3分で、今月の営業カレンダー完成。",
+  "description": "がんばる個人経営者の時短に。InstagramやLINEで、お客様にサッと共有できます。",
+  "theme": {
+    "bg": "#f8fafc",
+    "fg": "#1e293b",
+    "accent": "#3b82f6",
+    "muted": "#64748b"
+  },
+  "links": {
+    "play": "https://3min.llll-ll.com/",
+    "github": "https://github.com/kako-jun/3min"
+  },
+  "og": {
+    "title": "3 min. Calendar",
+    "description": "カップラーメンができる間に、今月のカレンダー完成"
+  },
+  "gallery": [],
+  "author": {
+    "name": "kako-jun"
+  }
+}

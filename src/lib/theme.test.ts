@@ -5,27 +5,27 @@ describe('resolveTheme', () => {
   it('returns default theme when no meta theme provided', () => {
     const result = resolveTheme();
     expect(result).toEqual({
-      bg: '#0b0f14',
-      fg: '#e9f0ff',
-      accent: '#4c9bff',
-      muted: '#9bb3d1',
+      bg: '#ffffff',
+      fg: '#1f2937',
+      accent: '#3b82f6',
+      muted: '#6b7280',
     });
   });
 
   it('merges meta theme with defaults', () => {
-    const result = resolveTheme({ bg: '#ffffff', accent: '#ff0000' });
+    const result = resolveTheme({ bg: '#000000', accent: '#ff0000' });
     expect(result).toEqual({
-      bg: '#ffffff',
-      fg: '#e9f0ff',
+      bg: '#000000',
+      fg: '#1f2937',
       accent: '#ff0000',
-      muted: '#9bb3d1',
+      muted: '#6b7280',
     });
   });
 
   it('handles partial theme', () => {
     const result = resolveTheme({ muted: '#666666' });
     expect(result.muted).toBe('#666666');
-    expect(result.bg).toBe('#0b0f14');
+    expect(result.bg).toBe('#ffffff');
   });
 });
 

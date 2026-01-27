@@ -1,0 +1,23 @@
+{
+  "name": "3 min. Calendar",
+  "catch": "Create your business calendar in 3 minutes.",
+  "description": "Save time for busy small business owners. Share instantly on Instagram or LINE.",
+  "theme": {
+    "bg": "#f8fafc",
+    "fg": "#1e293b",
+    "accent": "#3b82f6",
+    "muted": "#64748b"
+  },
+  "links": {
+    "play": "https://3min.llll-ll.com/",
+    "github": "https://github.com/kako-jun/3min"
+  },
+  "og": {
+    "title": "3 min. Calendar",
+    "description": "Create this month's business calendar in just 3 minutes"
+  },
+  "gallery": [],
+  "author": {
+    "name": "kako-jun"
+  }
+}

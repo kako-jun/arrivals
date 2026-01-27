@@ -7,8 +7,8 @@ describe('buildAssetPath', () => {
   });
 
   it('builds path with file', () => {
-    expect(buildAssetPath('/landing/', 'myapp', 'icon.png')).toBe(
-      '/landing/content/myapp/icon.png'
+    expect(buildAssetPath('/landing/', 'myapp', 'icon.webp')).toBe(
+      '/landing/content/myapp/icon.webp'
     );
   });
 

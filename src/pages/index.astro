@@ -18,7 +18,7 @@ for (const [path, mod] of Object.entries(metas)) {
     apps.set(app, {
       locales: [],
       meta: mod.default,
-      icon: buildAssetPath(base, app, 'icon.png'),
+      icon: buildAssetPath(base, app, 'icon.webp'),
     });
   }
   apps.get(app)!.locales.push(locale);
