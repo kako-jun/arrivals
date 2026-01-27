@@ -126,15 +126,8 @@ const ogLocale = getOGLocale(locale);
     </main>
 
     <script>
-      function initFadeIn() {
-        const io = new IntersectionObserver(
-          (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('is-in')),
-          { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }
-        );
-        document.querySelectorAll('.fade-in').forEach((el) => io.observe(el));
-      }
-      initFadeIn();
-      document.addEventListener('astro:page-load', initFadeIn);
+      import { setupFadeIn } from '@/scripts/fade-in';
+      setupFadeIn();
     </script>
   </body>
 </html>

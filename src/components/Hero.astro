@@ -1,13 +1,15 @@
 ---
+import type { Locale } from '@/lib';
 import { ASSET_DIMENSIONS } from '@/lib';
+import LocaleNav from './LocaleNav.astro';
 
 interface Props {
   iconSrc: string;
   name: string;
   tagline?: string;
-  locales: string[];
-  currentLocale: string;
-  localeLabels: Record<string, string>;
+  locales: Locale[];
+  currentLocale: Locale;
+  localeLabels: Record<Locale, string>;
   basePath: string;
   app: string;
 }
@@ -27,19 +29,11 @@ const iconSize = ASSET_DIMENSIONS.icon;
   />
   <h1>{name}</h1>
   {tagline && <p class="tagline">{tagline}</p>}
-  {
-    locales.length > 1 && (
-      <nav class="lang" aria-label="Language">
-        {locales.map((l) => (
-          <a
-            href={`${basePath}${app}/${l}/`}
-            aria-current={l === currentLocale ? 'page' : undefined}
-            class:list={[{ current: l === currentLocale }]}
-          >
-            {localeLabels[l] ?? l}
-          </a>
-        ))}
-      </nav>
-    )
-  }
+  <LocaleNav
+    locales={locales}
+    currentLocale={currentLocale}
+    localeLabels={localeLabels}
+    basePath={basePath}
+    app={app}
+  />
 </header>

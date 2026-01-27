@@ -1,0 +1,29 @@
+---
+import type { Locale } from '@/lib';
+
+interface Props {
+  locales: Locale[];
+  currentLocale: Locale;
+  localeLabels: Record<Locale, string>;
+  basePath: string;
+  app: string;
+}
+
+const { locales, currentLocale, localeLabels, basePath, app } = Astro.props;
+---
+
+{
+  locales.length > 1 && (
+    <nav class="lang" aria-label="Language">
+      {locales.map((l) => (
+        <a
+          href={`${basePath}${app}/${l}/`}
+          aria-current={l === currentLocale ? 'page' : undefined}
+          class:list={[{ current: l === currentLocale }]}
+        >
+          {localeLabels[l] ?? l}
+        </a>
+      ))}
+    </nav>
+  )
+}
