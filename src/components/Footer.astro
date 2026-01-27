@@ -8,11 +8,11 @@ interface Props {
 }
 
 const { author, links } = Astro.props;
-const authorName = author?.name ?? '';
+const authorName = author?.name;
 ---
 
 <footer class="author fade-in">
-  <p>Created by {authorName}</p>
+  {authorName && <p>Created by {authorName}</p>}
   {
     links && (
       <nav aria-label="Links">

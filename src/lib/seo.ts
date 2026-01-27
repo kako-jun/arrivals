@@ -64,7 +64,7 @@ export function generateJsonLd(
     image: ogImage,
     author: {
       '@type': 'Person',
-      name: meta.author?.name ?? '',
+      name: meta.author?.name ?? 'Developer',
     },
   };
 
