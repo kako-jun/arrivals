@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import { ClientRouter } from 'astro:transitions';
 import '@/styles/base.css';
-import type { Meta, Voice } from '@/lib';
+import type { Meta, Voice, Locale } from '@/lib';
 import { DEFAULT_THEME, LOCALE_LABELS, OG_LOCALE_MAP, validateMeta, validateVoices } from '@/lib';
 import Hero from '@/components/Hero.astro';
 import HeroMedia from '@/components/HeroMedia.astro';
@@ -24,7 +24,8 @@ export function getStaticPaths() {
     .map((m) => ({ params: { app: m[1], locale: m[2] } }));
 }
 
-const { app, locale } = Astro.params;
+const { app, locale: localeParam } = Astro.params;
+const locale = localeParam as Locale;
 const base = import.meta.env.BASE_URL;
 const site = Astro.site?.origin ?? '';
 

@@ -6,19 +6,13 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-
-const LOCALES = ['ja', 'en', 'zh-cn'];
+import { SUPPORTED_LOCALES, DEFAULT_THEME, ASSET_DIMENSIONS } from '../src/lib/constants';
 
 const META_TEMPLATE = {
   name: '',
   catch: '',
   description: '',
-  theme: {
-    bg: '#0b0f14',
-    fg: '#e9f0ff',
-    accent: '#4c9bff',
-    muted: '#9bb3d1',
-  },
+  theme: { ...DEFAULT_THEME },
   links: {
     play: '',
     github: '',
@@ -52,7 +46,7 @@ function createApp(appName: string) {
   fs.mkdirSync(galleryDir, { recursive: true });
 
   // Create locale directories and files
-  for (const locale of LOCALES) {
+  for (const locale of SUPPORTED_LOCALES) {
     const localeDir = path.join(dataDir, locale);
     fs.mkdirSync(localeDir, { recursive: true });
 
@@ -75,10 +69,11 @@ function createApp(appName: string) {
   }
 
   // Create placeholder files
+  const { icon, hero, og } = ASSET_DIMENSIONS;
   const placeholders = [
-    { file: 'icon.png', desc: 'App icon (64x64)' },
-    { file: 'hero.webp', desc: 'Hero image (1280x720)' },
-    { file: 'og.png', desc: 'OG image (1200x630)' },
+    { file: 'icon.png', desc: `App icon (${icon.width}x${icon.height})` },
+    { file: 'hero.webp', desc: `Hero image (${hero.width}x${hero.height})` },
+    { file: 'og.png', desc: `OG image (${og.width}x${og.height})` },
   ];
 
   // Create README in public dir

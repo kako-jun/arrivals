@@ -1,20 +1,18 @@
 ---
+import type { Locale } from '@/lib';
+import { CTA_TEXT } from '@/lib';
+
 interface Props {
   href: string;
   locale: string;
 }
 
 const { href, locale } = Astro.props;
-
-const ctaText: Record<string, string> = {
-  ja: '今すぐプレイ',
-  en: 'Play Now',
-  'zh-cn': '立即游玩',
-};
+const text = CTA_TEXT[locale as Locale] ?? CTA_TEXT.en;
 ---
 
 <div class="cta fade-in">
   <a href={href} class="cta-button" target="_blank" rel="noopener noreferrer">
-    {ctaText[locale] ?? ctaText.en}
+    {text}
   </a>
 </div>

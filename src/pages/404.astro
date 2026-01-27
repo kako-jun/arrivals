@@ -1,21 +1,9 @@
 ---
 import Base from '@/layouts/Base.astro';
+import { NOT_FOUND_MESSAGES } from '@/lib';
 
 const base = import.meta.env.BASE_URL;
-
-const messages: Record<string, { title: string; message: string; back: string }> = {
-  ja: {
-    title: 'ページが見つかりません',
-    message: 'お探しのページは存在しないか、移動した可能性があります。',
-    back: 'ホームに戻る',
-  },
-  en: {
-    title: 'Page Not Found',
-    message: 'The page you are looking for does not exist or has been moved.',
-    back: 'Back to home',
-  },
-  'zh-cn': { title: '页面未找到', message: '您访问的页面不存在或已被移动。', back: '返回首页' },
-};
+const messages = NOT_FOUND_MESSAGES;
 ---
 
 <Base title="404" noindex enableTransitions={false}>

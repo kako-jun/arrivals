@@ -1,10 +1,13 @@
 ---
+import { ASSET_DIMENSIONS } from '@/lib';
+
 interface Props {
   images: string[];
   basePath: string;
 }
 
 const { images, basePath } = Astro.props;
+const { width, height } = ASSET_DIMENSIONS.gallery;
 ---
 
 {
@@ -16,8 +19,8 @@ const { images, basePath } = Astro.props;
           alt={`Screenshot ${i + 1}`}
           loading="lazy"
           decoding="async"
-          width="800"
-          height="500"
+          width={width}
+          height={height}
         />
       ))}
     </section>

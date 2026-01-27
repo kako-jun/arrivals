@@ -1,4 +1,6 @@
 ---
+import { ASSET_DIMENSIONS } from '@/lib';
+
 interface Props {
   hasVideo: boolean;
   videoSrc: string;
@@ -7,6 +9,7 @@ interface Props {
 }
 
 const { hasVideo, videoSrc, imageSrc, alt } = Astro.props;
+const { width, height } = ASSET_DIMENSIONS.hero;
 ---
 
 <div class="media fade-in">
@@ -19,16 +22,16 @@ const { hasVideo, videoSrc, imageSrc, alt } = Astro.props;
         muted
         playsinline
         loop
-        width="1280"
-        height="720"
+        width={width}
+        height={height}
         aria-label={alt}
       />
     ) : (
       <img
         src={imageSrc}
         alt={alt}
-        width="1280"
-        height="720"
+        width={width}
+        height={height}
         fetchpriority="high"
         decoding="async"
       />
