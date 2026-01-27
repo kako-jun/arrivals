@@ -1,21 +1,15 @@
 ---
 import fs from 'node:fs';
 import { ClientRouter } from 'astro:transitions';
-import '../../../styles/base.css';
-import type { Meta, Voice } from '../../../types';
-import {
-  DEFAULT_THEME,
-  LOCALE_LABELS,
-  OG_LOCALE_MAP,
-  validateMeta,
-  validateVoices,
-} from '../../../types';
-import Hero from '../../../components/Hero.astro';
-import HeroMedia from '../../../components/HeroMedia.astro';
-import Gallery from '../../../components/Gallery.astro';
-import Voices from '../../../components/Voices.astro';
-import CTA from '../../../components/CTA.astro';
-import Footer from '../../../components/Footer.astro';
+import '@/styles/base.css';
+import type { Meta, Voice } from '@/lib';
+import { DEFAULT_THEME, LOCALE_LABELS, OG_LOCALE_MAP, validateMeta, validateVoices } from '@/lib';
+import Hero from '@/components/Hero.astro';
+import HeroMedia from '@/components/HeroMedia.astro';
+import Gallery from '@/components/Gallery.astro';
+import Voices from '@/components/Voices.astro';
+import CTA from '@/components/CTA.astro';
+import Footer from '@/components/Footer.astro';
 
 const metas = import.meta.glob<{ default: Meta }>('../../../data/*/*/meta.json', { eager: true });
 const voicesAll = import.meta.glob<{ default: Voice[] }>('../../../data/*/*/voices.json', {

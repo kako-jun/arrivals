@@ -6,7 +6,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { MetaSchema, VoicesSchema } from '../src/schemas';
+import { MetaSchema, VoicesSchema } from '../src/lib/schemas';
 
 const DATA_DIR = path.join(process.cwd(), 'src/data');
 const PUBLIC_DIR = path.join(process.cwd(), 'public/content');

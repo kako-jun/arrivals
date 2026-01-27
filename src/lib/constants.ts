@@ -1,7 +1,3 @@
-// Re-export types from schemas
-export type { Meta, Voice, Theme, Links, Author } from './schemas';
-export { validateMeta, validateVoices } from './schemas';
-
 export const DEFAULT_THEME = {
   bg: '#0b0f14',
   fg: '#e9f0ff',

@@ -6,6 +6,9 @@ Astro静的サイト。複数アプリのランディングページを多言語
 
 - `pnpm dev` - 開発サーバー
 - `pnpm build` - ビルド
+- `pnpm test` - E2Eテスト
+- `pnpm validate` - コンテンツ検証
+- `pnpm new-app <name>` - 新規アプリ作成
 
 ## 構成
 

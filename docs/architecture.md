@@ -7,20 +7,37 @@ Astroベースの静的サイトジェネレーター。複数アプリのラン
 ## 技術スタック
 
 - **Astro 5.x** - 静的サイト生成
+- **View Transitions API** - ページ遷移アニメーション
+- **Zod** - スキーマバリデーション
 - **@astrojs/sitemap** - サイトマップ自動生成
 - **Vanilla CSS** - CSS変数によるテーマ
 - **IntersectionObserver** - フェードインアニメーション
+- **Playwright** - E2Eテスト
 
 ## ディレクトリ構成
 
 ```
 src/
+├── components/              # UIコンポーネント
+│   ├── Hero.astro
+│   ├── HeroMedia.astro
+│   ├── Gallery.astro
+│   ├── Voices.astro
+│   ├── CTA.astro
+│   └── Footer.astro
 ├── data/                    # コンテンツデータ
 │   └── {app}/
 │       └── {locale}/
 │           ├── meta.json    # アプリ情報・テーマ
 │           └── voices.json  # レビュー（任意）
+├── layouts/
+│   └── Base.astro           # 共通レイアウト
+├── lib/                     # ユーティリティ
+│   ├── schemas.ts           # Zodスキーマ
+│   ├── constants.ts         # 定数定義
+│   └── index.ts             # エクスポート
 ├── pages/
+│   ├── index.astro          # アプリ一覧
 │   ├── 404.astro            # 404ページ
 │   └── [app]/[locale]/
 │       └── index.astro      # ページテンプレート
