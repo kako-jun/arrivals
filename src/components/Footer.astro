@@ -1,5 +1,6 @@
 ---
 import type { Links, Author } from '@/lib';
+import ExternalLink from './ExternalLink.astro';
 
 interface Props {
   author?: Author;
@@ -15,16 +16,8 @@ const authorName = author?.name ?? '';
   {
     links && (
       <nav aria-label="Links">
-        {links.github && (
-          <a href={links.github} target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-        )}
-        {links.zenn && (
-          <a href={links.zenn} target="_blank" rel="noopener noreferrer">
-            Zenn
-          </a>
-        )}
+        {links.github && <ExternalLink href={links.github}>GitHub</ExternalLink>}
+        {links.zenn && <ExternalLink href={links.zenn}>Zenn</ExternalLink>}
       </nav>
     )
   }

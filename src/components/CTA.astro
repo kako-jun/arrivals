@@ -1,6 +1,7 @@
 ---
 import type { Locale } from '@/lib';
 import { CTA_TEXT } from '@/lib';
+import ExternalLink from './ExternalLink.astro';
 
 interface Props {
   href: string;
@@ -12,7 +13,7 @@ const text = CTA_TEXT[locale as Locale] ?? CTA_TEXT.en;
 ---
 
 <div class="cta fade-in">
-  <a href={href} class="cta-button" target="_blank" rel="noopener noreferrer">
+  <ExternalLink href={href} class="cta-button">
     {text}
-  </a>
+  </ExternalLink>
 </div>
