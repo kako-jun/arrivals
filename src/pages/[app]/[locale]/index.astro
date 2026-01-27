@@ -3,7 +3,19 @@ import fs from 'node:fs';
 import { ClientRouter } from 'astro:transitions';
 import '@/styles/base.css';
 import type { Meta, Voice, Locale } from '@/lib';
-import { DEFAULT_THEME, LOCALE_LABELS, OG_LOCALE_MAP, validateMeta, validateVoices } from '@/lib';
+import {
+  LOCALE_LABELS,
+  generateStaticPaths,
+  getAvailableLocales,
+  loadMeta,
+  loadVoices,
+  buildAssetPath,
+  generatePageMeta,
+  getOGLocale,
+  generateJsonLd,
+  resolveTheme,
+  generateThemeCSS,
+} from '@/lib';
 import Hero from '@/components/Hero.astro';
 import HeroMedia from '@/components/HeroMedia.astro';
 import Gallery from '@/components/Gallery.astro';
@@ -18,10 +30,7 @@ const voicesAll = import.meta.glob<{ default: Voice[] }>('../../../data/*/*/voic
 
 export function getStaticPaths() {
   const metas = import.meta.glob('../../../data/*/*/meta.json', { eager: true });
-  return Object.keys(metas)
-    .map((path) => path.match(/data\/([^/]+)\/([^/]+)\/meta\.json$/))
-    .filter((m): m is RegExpMatchArray => m !== null)
-    .map((m) => ({ params: { app: m[1], locale: m[2] } }));
+  return generateStaticPaths(metas);
 }
 
 const { app, locale: localeParam } = Astro.params;
@@ -29,47 +38,23 @@ const locale = localeParam as Locale;
 const base = import.meta.env.BASE_URL;
 const site = Astro.site?.origin ?? '';
 
-const metaKey = `../../../data/${app}/${locale}/meta.json`;
-const rawMeta = metas[metaKey]?.default;
-if (!rawMeta) throw new Error(`meta not found for ${app}/${locale}`);
+const meta = loadMeta(metas, app, locale);
+const voices = loadVoices(voicesAll, app, locale);
 
-const meta = validateMeta(rawMeta, metaKey);
-const voices = validateVoices(voicesAll[`../../../data/${app}/${locale}/voices.json`]?.default);
-
-const assetBase = `${base}content/${app}`;
-const heroWebp = `${assetBase}/hero.webp`;
-const heroMp4 = `${assetBase}/hero.mp4`;
-const iconPng = `${assetBase}/icon.png`;
+const assetBase = buildAssetPath(base, app);
+const heroWebp = buildAssetPath(base, app, 'hero.webp');
+const heroMp4 = buildAssetPath(base, app, 'hero.mp4');
+const iconPng = buildAssetPath(base, app, 'icon.png');
 const hasVideo = fs.existsSync(`./public/content/${app}/hero.mp4`);
 
-const availableLocales = Object.keys(metas)
-  .map((p) => p.match(new RegExp(`data/${app}/([^/]+)/meta\\.json$`)))
-  .filter((m): m is RegExpMatchArray => m !== null)
-  .map((m) => m[1]);
-
-const theme = { ...DEFAULT_THEME, ...meta.theme };
+const availableLocales = getAvailableLocales(app, metas);
+const theme = resolveTheme(meta.theme);
+const themeCSS = generateThemeCSS(theme);
 
 const pageUrl = Astro.url.href;
-const ogImage = meta.og?.image || `${site}${assetBase}/og.png`;
-const pageTitle = meta.og?.title ?? meta.name;
-const pageDescription = meta.og?.description ?? meta.description ?? '';
-
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'WebApplication',
-  name: meta.name,
-  description: pageDescription,
-  url: pageUrl,
-  image: ogImage,
-  author: {
-    '@type': 'Person',
-    name: meta.author?.name ?? '',
-  },
-  ...(meta.links?.play && {
-    applicationCategory: 'Game',
-    offers: { '@type': 'Offer', price: '0', priceCurrency: 'JPY' },
-  }),
-};
+const pageMeta = generatePageMeta(meta, site, assetBase, pageUrl);
+const jsonLd = generateJsonLd(meta, pageUrl, pageMeta.ogImage, pageMeta.description);
+const ogLocale = getOGLocale(locale);
 ---
 
 <!doctype html>
@@ -77,8 +62,8 @@ const jsonLd = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{pageTitle}</title>
-    <meta name="description" content={pageDescription} />
+    <title>{pageMeta.title}</title>
+    <meta name="description" content={pageMeta.description} />
     <link rel="icon" href={iconPng} />
     <link rel="canonical" href={pageUrl} />
     <link rel="preload" href={heroWebp} as="image" />
@@ -94,19 +79,17 @@ const jsonLd = {
     />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={meta.name} />
-    <meta property="og:locale" content={OG_LOCALE_MAP[locale] ?? locale} />
+    <meta property="og:locale" content={ogLocale} />
     <meta property="og:url" content={pageUrl} />
-    <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={pageDescription} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:title" content={pageMeta.title} />
+    <meta property="og:description" content={pageMeta.description} />
+    <meta property="og:image" content={pageMeta.ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={pageTitle} />
-    <meta name="twitter:description" content={pageDescription} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:title" content={pageMeta.title} />
+    <meta name="twitter:description" content={pageMeta.description} />
+    <meta name="twitter:image" content={pageMeta.ogImage} />
     <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-    <Fragment
-      set:html={`<style>:root{--bg:${theme.bg};--fg:${theme.fg};--accent:${theme.accent};--muted:${theme.muted}}</style>`}
-    />
+    <Fragment set:html={`<style>${themeCSS}</style>`} />
     <ClientRouter />
   </head>
   <body>
