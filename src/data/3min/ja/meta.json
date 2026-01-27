@@ -3,8 +3,8 @@
   "catch": "3分で、今月の営業カレンダー完成。",
   "description": "がんばる個人経営者の時短に。InstagramやLINEで、お客様にサッと共有できます。",
   "theme": {
-    "bg": "#f8fafc",
-    "fg": "#1e293b",
+    "bg": "#eff6ff",
+    "fg": "#1e3a5f",
     "accent": "#3b82f6",
     "muted": "#64748b"
   },

@@ -1,8 +1,4 @@
 :root {
-  --bg: #ffffff;
-  --fg: #1f2937;
-  --accent: #3b82f6;
-  --muted: #6b7280;
   --maxw: 1200px;
   --card-bg: rgba(0, 0, 0, 0.02);
   --card-border: rgba(0, 0, 0, 0.08);

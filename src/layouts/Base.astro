@@ -1,6 +1,7 @@
 ---
 import { ClientRouter } from 'astro:transitions';
 import '../styles/base.css';
+import { DEFAULT_THEME } from '@/lib/constants';
 
 interface Props {
   title: string;
@@ -17,6 +18,8 @@ const {
   noindex = false,
   enableTransitions = true,
 } = Astro.props;
+
+const defaultThemeCSS = `:root{--bg:${DEFAULT_THEME.bg};--fg:${DEFAULT_THEME.fg};--accent:${DEFAULT_THEME.accent};--muted:${DEFAULT_THEME.muted}}`;
 ---
 
 <!doctype html>
@@ -27,6 +30,7 @@ const {
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     {noindex && <meta name="robots" content="noindex" />}
+    <Fragment set:html={`<style>${defaultThemeCSS}</style>`} />
     {enableTransitions && <ClientRouter />}
     <slot name="head" />
   </head>
