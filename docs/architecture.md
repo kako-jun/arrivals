@@ -19,12 +19,13 @@ Astroベースの静的サイトジェネレーター。複数アプリのラン
 ```
 src/
 ├── components/              # UIコンポーネント
-│   ├── Hero.astro
-│   ├── HeroMedia.astro
-│   ├── Gallery.astro
-│   ├── Voices.astro
-│   ├── CTA.astro
-│   └── Footer.astro
+│   ├── Hero.astro           # ヘッダー・言語切替
+│   ├── HeroMedia.astro      # ヒーロー画像/動画
+│   ├── Gallery.astro        # ギャラリー
+│   ├── Voices.astro         # レビュー
+│   ├── CTA.astro            # アクションボタン
+│   ├── Footer.astro         # フッター
+│   └── ExternalLink.astro   # 外部リンク
 ├── data/                    # コンテンツデータ
 │   └── {app}/
 │       └── {locale}/
@@ -33,8 +34,12 @@ src/
 ├── layouts/
 │   └── Base.astro           # 共通レイアウト
 ├── lib/                     # ユーティリティ
+│   ├── constants.ts         # 定数・型定義
 │   ├── schemas.ts           # Zodスキーマ
-│   ├── constants.ts         # 定数定義
+│   ├── data.ts              # データ読み込み
+│   ├── url.ts               # URL生成
+│   ├── seo.ts               # SEOメタ生成
+│   ├── theme.ts             # テーマ処理
 │   └── index.ts             # エクスポート
 ├── pages/
 │   ├── index.astro          # アプリ一覧
@@ -89,6 +94,21 @@ CSS変数で各アプリのテーマをカスタマイズ:
 - `aria-label` / `aria-current`
 - `prefers-reduced-motion` 対応
 - フォーカス状態のスタイル
+
+## ユーティリティ
+
+`src/lib/` に共通ロジックを集約:
+
+| ファイル       | 内容                                       |
+| -------------- | ------------------------------------------ |
+| `constants.ts` | `Locale` 型、多言語テキスト、アセットサイズ |
+| `schemas.ts`   | Zodスキーマ、バリデーション関数            |
+| `data.ts`      | データ読み込み、パス解析                   |
+| `url.ts`       | URL/パス生成ヘルパー                       |
+| `seo.ts`       | OGメタ、JSON-LD生成                        |
+| `theme.ts`     | テーマ解決、CSS生成                        |
+
+すべてのエクスポートは `@/lib` から利用可能。
 
 ## ビルド出力
 
