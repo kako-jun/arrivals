@@ -1,0 +1,20 @@
+---
+interface Props {
+  href: string;
+  locale: string;
+}
+
+const { href, locale } = Astro.props;
+
+const ctaText: Record<string, string> = {
+  ja: '今すぐプレイ',
+  en: 'Play Now',
+  'zh-cn': '立即游玩',
+};
+---
+
+<div class="cta fade-in">
+  <a href={href} class="cta-button" target="_blank" rel="noopener noreferrer">
+    {ctaText[locale] ?? ctaText.en}
+  </a>
+</div>

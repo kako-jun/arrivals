@@ -1,0 +1,37 @@
+---
+interface Props {
+  hasVideo: boolean;
+  videoSrc: string;
+  imageSrc: string;
+  alt: string;
+}
+
+const { hasVideo, videoSrc, imageSrc, alt } = Astro.props;
+---
+
+<div class="media fade-in">
+  {
+    hasVideo ? (
+      <video
+        src={videoSrc}
+        poster={imageSrc}
+        autoplay
+        muted
+        playsinline
+        loop
+        width="1280"
+        height="720"
+        aria-label={alt}
+      />
+    ) : (
+      <img
+        src={imageSrc}
+        alt={alt}
+        width="1280"
+        height="720"
+        fetchpriority="high"
+        decoding="async"
+      />
+    )
+  }
+</div>

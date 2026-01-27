@@ -1,0 +1,36 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import '../styles/base.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  locale?: string;
+  noindex?: boolean;
+  enableTransitions?: boolean;
+}
+
+const {
+  title,
+  description = '',
+  locale = 'en',
+  noindex = false,
+  enableTransitions = true,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {noindex && <meta name="robots" content="noindex" />}
+    {enableTransitions && <ClientRouter />}
+    <slot name="head" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

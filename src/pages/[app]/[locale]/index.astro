@@ -1,0 +1,162 @@
+---
+import fs from 'node:fs';
+import { ClientRouter } from 'astro:transitions';
+import '../../../styles/base.css';
+import type { Meta, Voice } from '../../../types';
+import {
+  DEFAULT_THEME,
+  LOCALE_LABELS,
+  OG_LOCALE_MAP,
+  validateMeta,
+  validateVoices,
+} from '../../../types';
+import Hero from '../../../components/Hero.astro';
+import HeroMedia from '../../../components/HeroMedia.astro';
+import Gallery from '../../../components/Gallery.astro';
+import Voices from '../../../components/Voices.astro';
+import CTA from '../../../components/CTA.astro';
+import Footer from '../../../components/Footer.astro';
+
+const metas = import.meta.glob<{ default: Meta }>('../../../data/*/*/meta.json', { eager: true });
+const voicesAll = import.meta.glob<{ default: Voice[] }>('../../../data/*/*/voices.json', {
+  eager: true,
+});
+
+export function getStaticPaths() {
+  const metas = import.meta.glob('../../../data/*/*/meta.json', { eager: true });
+  return Object.keys(metas)
+    .map((path) => path.match(/data\/([^/]+)\/([^/]+)\/meta\.json$/))
+    .filter((m): m is RegExpMatchArray => m !== null)
+    .map((m) => ({ params: { app: m[1], locale: m[2] } }));
+}
+
+const { app, locale } = Astro.params;
+const base = import.meta.env.BASE_URL;
+const site = Astro.site?.origin ?? '';
+
+const metaKey = `../../../data/${app}/${locale}/meta.json`;
+const rawMeta = metas[metaKey]?.default;
+if (!rawMeta) throw new Error(`meta not found for ${app}/${locale}`);
+
+const meta = validateMeta(rawMeta, metaKey);
+const voices = validateVoices(voicesAll[`../../../data/${app}/${locale}/voices.json`]?.default);
+
+const assetBase = `${base}content/${app}`;
+const heroWebp = `${assetBase}/hero.webp`;
+const heroMp4 = `${assetBase}/hero.mp4`;
+const iconPng = `${assetBase}/icon.png`;
+const hasVideo = fs.existsSync(`./public/content/${app}/hero.mp4`);
+
+const availableLocales = Object.keys(metas)
+  .map((p) => p.match(new RegExp(`data/${app}/([^/]+)/meta\\.json$`)))
+  .filter((m): m is RegExpMatchArray => m !== null)
+  .map((m) => m[1]);
+
+const theme = { ...DEFAULT_THEME, ...meta.theme };
+
+const pageUrl = Astro.url.href;
+const ogImage = meta.og?.image || `${site}${assetBase}/og.png`;
+const pageTitle = meta.og?.title ?? meta.name;
+const pageDescription = meta.og?.description ?? meta.description ?? '';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: meta.name,
+  description: pageDescription,
+  url: pageUrl,
+  image: ogImage,
+  author: {
+    '@type': 'Person',
+    name: meta.author?.name ?? '',
+  },
+  ...(meta.links?.play && {
+    applicationCategory: 'Game',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'JPY' },
+  }),
+};
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="icon" href={iconPng} />
+    <link rel="canonical" href={pageUrl} />
+    <link rel="preload" href={heroWebp} as="image" />
+    {
+      availableLocales.map((l) => (
+        <link rel="alternate" hreflang={l} href={`${site}${base}${app}/${l}/`} />
+      ))
+    }
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={`${site}${base}${app}/${availableLocales[0]}/`}
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={meta.name} />
+    <meta property="og:locale" content={OG_LOCALE_MAP[locale] ?? locale} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={ogImage} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    <Fragment
+      set:html={`<style>:root{--bg:${theme.bg};--fg:${theme.fg};--accent:${theme.accent};--muted:${theme.muted}}</style>`}
+    />
+    <ClientRouter />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <main id="main" class="section">
+      <Hero
+        iconSrc={iconPng}
+        name={meta.name}
+        tagline={meta.catch}
+        locales={availableLocales}
+        currentLocale={locale}
+        localeLabels={LOCALE_LABELS}
+        basePath={base}
+        app={app}
+      />
+
+      <HeroMedia hasVideo={hasVideo} videoSrc={heroMp4} imageSrc={heroWebp} alt={meta.name} />
+
+      {
+        meta.description && (
+          <section class="fade-in">
+            <p class="desc">{meta.description}</p>
+          </section>
+        )
+      }
+
+      {meta.links?.play && <CTA href={meta.links.play} locale={locale} />}
+
+      {meta.gallery && <Gallery images={meta.gallery} basePath={base} />}
+
+      <Voices voices={voices} />
+
+      <Footer author={meta.author} links={meta.links} />
+    </main>
+
+    <script>
+      function initFadeIn() {
+        const io = new IntersectionObserver(
+          (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add('is-in')),
+          { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }
+        );
+        document.querySelectorAll('.fade-in').forEach((el) => io.observe(el));
+      }
+      initFadeIn();
+      document.addEventListener('astro:page-load', initFadeIn);
+    </script>
+  </body>
+</html>

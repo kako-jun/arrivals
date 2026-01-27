@@ -1,0 +1,285 @@
+:root {
+  --bg: #0b0f14;
+  --fg: #e9f0ff;
+  --accent: #4c9bff;
+  --muted: #9bb3d1;
+  --maxw: 960px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Noto Sans JP',
+    'Hiragino Kaku Gothic ProN',
+    Meiryo,
+    sans-serif;
+  line-height: 1.6;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  padding: 8px 16px;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 4px;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.section {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: clamp(24px, 6vw, 80px) 16px;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(24px, 4vw, 48px);
+}
+
+.hero {
+  display: grid;
+  gap: 12px;
+}
+
+.hero .icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+}
+
+.tagline {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.lang {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.lang a.current {
+  color: var(--fg);
+  font-weight: 600;
+  pointer-events: none;
+}
+
+.media img,
+.media video {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+  background: #000;
+}
+
+.desc {
+  line-height: 1.8;
+}
+
+/* CTA Button */
+.cta {
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 32px;
+  background: var(--accent);
+  color: var(--bg);
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.cta-button:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(76, 155, 255, 0.4);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+.gallery {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.gallery img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 16 / 10;
+}
+
+.voices blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+  margin: 16px 0;
+  font-style: italic;
+}
+
+.voices cite {
+  display: block;
+  color: var(--muted);
+  margin-top: 6px;
+  font-style: normal;
+  font-size: 0.9rem;
+}
+
+.author nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(8px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.fade-in.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .cta-button {
+    transition: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  /* Light mode override if needed in future */
+}
+
+/* Print styles */
+@media print {
+  :root {
+    --bg: #fff;
+    --fg: #000;
+    --accent: #000;
+    --muted: #666;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .skip-link,
+  .lang,
+  .cta,
+  video {
+    display: none !important;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  .media img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    color: #666;
+  }
+}

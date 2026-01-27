@@ -1,0 +1,31 @@
+---
+import type { Links, Author } from '../types';
+
+interface Props {
+  author?: Author;
+  links?: Links;
+}
+
+const { author, links } = Astro.props;
+const authorName = author?.name ?? '';
+---
+
+<footer class="author fade-in">
+  <p>Created by {authorName}</p>
+  {
+    links && (
+      <nav aria-label="Links">
+        {links.github && (
+          <a href={links.github} target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        )}
+        {links.zenn && (
+          <a href={links.zenn} target="_blank" rel="noopener noreferrer">
+            Zenn
+          </a>
+        )}
+      </nav>
+    )
+  }
+</footer>

@@ -1,0 +1,25 @@
+---
+interface Props {
+  images: string[];
+  basePath: string;
+}
+
+const { images, basePath } = Astro.props;
+---
+
+{
+  images.length > 0 && (
+    <section class="gallery fade-in" aria-label="Gallery">
+      {images.map((src, i) => (
+        <img
+          src={`${basePath}${src}`}
+          alt={`Screenshot ${i + 1}`}
+          loading="lazy"
+          decoding="async"
+          width="800"
+          height="500"
+        />
+      ))}
+    </section>
+  )
+}

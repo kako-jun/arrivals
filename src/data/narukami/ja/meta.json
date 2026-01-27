@@ -1,0 +1,25 @@
+{
+  "name": "金沢は今日も鳴雷",
+  "catch": "雷を先読みして、スコアを稼げ。",
+  "description": "ブラウザで、今の雷の動きを予測して遊べるゲーム。",
+  "theme": {
+    "bg": "#0b0f14",
+    "fg": "#e9f0ff",
+    "accent": "#4c9bff",
+    "muted": "#9bb3d1"
+  },
+  "links": {
+    "play": "https://narukami.llll-ll.com/play",
+    "github": "https://github.com/you/narukami",
+    "zenn": "https://zenn.dev/you/articles/narukami"
+  },
+  "og": {
+    "title": "金沢は今日も鳴雷",
+    "description": "落雷を先読みしてスコアを稼ごう",
+    "image": "https://narukami.llll-ll.com/landing/og.png"
+  },
+  "gallery": ["content/narukami/gallery/01.jpg", "content/narukami/gallery/02.jpg"],
+  "author": {
+    "name": ""
+  }
+}

@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const messages: Record<string, { title: string; message: string; back: string }> = {
+  ja: {
+    title: 'ページが見つかりません',
+    message: 'お探しのページは存在しないか、移動した可能性があります。',
+    back: 'ホームに戻る',
+  },
+  en: {
+    title: 'Page Not Found',
+    message: 'The page you are looking for does not exist or has been moved.',
+    back: 'Back to home',
+  },
+  'zh-cn': { title: '页面未找到', message: '您访问的页面不存在或已被移动。', back: '返回首页' },
+};
+---
+
+<Base title="404" noindex enableTransitions={false}>
+  <main class="section error-page">
+    <h1>404</h1>
+    <p
+      class="message"
+      data-ja={messages.ja.message}
+      data-en={messages.en.message}
+      data-zh-cn={messages['zh-cn'].message}
+    >
+      {messages.en.message}
+    </p>
+    <a
+      href={base}
+      class="back-link"
+      data-ja={messages.ja.back}
+      data-en={messages.en.back}
+      data-zh-cn={messages['zh-cn'].back}
+    >
+      {messages.en.back}
+    </a>
+  </main>
+
+  <script>
+    function detectLocale(): string {
+      // Check URL path for locale hint
+      const pathMatch = window.location.pathname.match(/\/landing\/[^/]+\/([a-z-]+)\//);
+      if (pathMatch) return pathMatch[1];
+
+      // Check browser language
+      const browserLang = navigator.language.toLowerCase();
+      if (browserLang.startsWith('ja')) return 'ja';
+      if (browserLang.startsWith('zh')) return 'zh-cn';
+      return 'en';
+    }
+
+    function updateMessages() {
+      const locale = detectLocale();
+      const dataKey = `data-${locale}`;
+
+      document.querySelectorAll('[data-ja]').forEach((el) => {
+        const text = el.getAttribute(dataKey);
+        if (text) el.textContent = text;
+      });
+
+      document.documentElement.lang = locale === 'zh-cn' ? 'zh' : locale;
+    }
+
+    updateMessages();
+  </script>
+
+  <style>
+    .error-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 16px;
+    }
+
+    .error-page h1 {
+      font-size: 6rem;
+      color: var(--accent);
+      line-height: 1;
+      margin: 0;
+    }
+
+    .message {
+      color: var(--muted);
+      max-width: 400px;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 12px 24px;
+      background: var(--accent);
+      color: var(--bg);
+      border-radius: 6px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: none;
+      opacity: 0.9;
+    }
+  </style>
+</Base>

@@ -1,0 +1,119 @@
+---
+import Base from '../layouts/Base.astro';
+import type { Meta } from '../types';
+
+const base = import.meta.env.BASE_URL;
+const metas = import.meta.glob<{ default: Meta }>('../data/*/*/meta.json', { eager: true });
+
+// Group by app
+const apps = new Map<string, { locales: string[]; meta: Meta; icon: string }>();
+
+for (const [path, mod] of Object.entries(metas)) {
+  const match = path.match(/data\/([^/]+)\/([^/]+)\/meta\.json$/);
+  if (!match) continue;
+
+  const [, app, locale] = match;
+  if (!apps.has(app)) {
+    apps.set(app, {
+      locales: [],
+      meta: mod.default,
+      icon: `${base}content/${app}/icon.png`,
+    });
+  }
+  apps.get(app)!.locales.push(locale);
+}
+---
+
+<Base title="Landing Pages" description="App landing pages" noindex>
+  <main class="section">
+    <h1>Landing Pages</h1>
+    <p class="subtitle">Available apps</p>
+
+    <ul class="app-list">
+      {
+        [...apps.entries()].map(([app, { locales, meta, icon }]) => (
+          <li class="app-card">
+            <img src={icon} alt="" width="48" height="48" class="app-icon" />
+            <div class="app-info">
+              <h2>{meta.name}</h2>
+              {meta.catch && <p class="app-catch">{meta.catch}</p>}
+              <nav class="app-locales">
+                {locales.map((l) => (
+                  <a href={`${base}${app}/${l}/`}>{l.toUpperCase()}</a>
+                ))}
+              </nav>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+
+  <style>
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .app-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .app-card {
+      display: flex;
+      gap: 16px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+    }
+
+    .app-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+
+    .app-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .app-info h2 {
+      margin: 0 0 4px;
+      font-size: 1.2rem;
+    }
+
+    .app-catch {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
+
+    .app-locales {
+      display: flex;
+      gap: 8px;
+    }
+
+    .app-locales a {
+      padding: 4px 10px;
+      background: var(--accent);
+      color: var(--bg);
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .app-locales a:hover {
+      opacity: 0.9;
+      text-decoration: none;
+    }
+  </style>
+</Base>

@@ -1,0 +1,23 @@
+---
+import type { Voice } from '../types';
+
+interface Props {
+  voices: Voice[];
+  maxCount?: number;
+}
+
+const { voices, maxCount = 3 } = Astro.props;
+const displayVoices = voices.slice(0, maxCount);
+---
+
+{
+  displayVoices.length > 0 && (
+    <section class="voices fade-in" aria-label="Reviews">
+      {displayVoices.map((v) => (
+        <blockquote>
+          "{v.text}"{v.by && <cite>— {v.by}</cite>}
+        </blockquote>
+      ))}
+    </section>
+  )
+}

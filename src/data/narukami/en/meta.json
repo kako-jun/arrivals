@@ -1,0 +1,25 @@
+{
+  "name": "Narukami",
+  "catch": "Predict lightning and rack up points.",
+  "description": "A browser game to predict current lightning movement.",
+  "theme": {
+    "bg": "#0b0f14",
+    "fg": "#e9f0ff",
+    "accent": "#4c9bff",
+    "muted": "#9bb3d1"
+  },
+  "links": {
+    "play": "https://narukami.llll-ll.com/play",
+    "github": "https://github.com/you/narukami",
+    "zenn": "https://zenn.dev/you/articles/narukami"
+  },
+  "og": {
+    "title": "Narukami",
+    "description": "Read lightning ahead",
+    "image": "https://narukami.llll-ll.com/landing/og.png"
+  },
+  "gallery": ["content/narukami/gallery/01.jpg", "content/narukami/gallery/02.jpg"],
+  "author": {
+    "name": ""
+  }
+}
