@@ -1,0 +1,15 @@
+{
+  "name": "Nostalgic",
+  "catch": "将1990年代互联网带入现代",
+  "description": "计数器、点赞按钮、留言板、排行榜、招财猫组件。简单API实现经典Web功能。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
+  "og": {"title": "Nostalgic", "description": "将经典Web功能带入现代网站"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "5种怀旧功能", "description": "计数器、点赞、排行榜、BBS、招财猫。重现90年代的Web功能。", "image": "hero.webp"},
+    {"title": "简单GET API", "description": "无需注册。仅用GET请求即可使用。静态网站也能轻松集成。", "image": "hero.webp"},
+    {"title": "Web Components支持", "description": "作为自定义元素轻松嵌入。方便添加到现有网站。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

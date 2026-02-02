@@ -1,0 +1,15 @@
+{
+  "name": "diffx",
+  "catch": "Semantic diff tool for structured data",
+  "description": "Compare JSON, YAML, TOML, XML, INI, CSV ignoring key ordering and whitespace. Shows only meaningful changes.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
+  "og": {"title": "diffx", "description": "Semantic diff tool for structured data"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "6+ File Formats", "description": "Auto-detect JSON, YAML, TOML, XML, INI, CSV or specify manually.", "image": "hero.webp"},
+    {"title": "Recursive Directory Comparison", "description": "Compare entire directories with regex-based key filtering.", "image": "hero.webp"},
+    {"title": "CI/CD Integration", "description": "Quiet mode and machine-readable output (JSON/YAML) for easy pipeline integration.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

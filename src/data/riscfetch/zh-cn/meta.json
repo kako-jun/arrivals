@@ -1,0 +1,40 @@
+{
+  "name": "riscfetch",
+  "catch": "RISC-V专用系统信息工具",
+  "description": "以neofetch风格显示RISC-V特定信息。ISA扩展、核心数、硬件ID等美观格式化展示。",
+  "theme": {
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
+  },
+  "links": {
+    "play": "https://crates.io/crates/riscfetch",
+    "github": "https://github.com/kako-jun/riscfetch"
+  },
+  "og": {
+    "title": "riscfetch",
+    "description": "RISC-V专用系统信息显示工具"
+  },
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {
+      "title": "支持144种RISC-V扩展",
+      "description": "按类别显示98个Z扩展和46个S扩展，可查看扩展详情。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "13种厂商Logo",
+      "description": "Pine64、SiFive、StarFive、WCH等主要厂商的ASCII艺术Logo。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "JSON输出支持",
+      "description": "支持JSON格式输出，便于集成到脚本和CI/CD流水线。",
+      "image": "hero.webp"
+    }
+  ],
+  "author": {
+    "name": "kako-jun"
+  }
+}

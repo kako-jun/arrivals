@@ -1,0 +1,40 @@
+{
+  "name": "Osaka-Kenpo",
+  "catch": "Legal documents in friendly Osaka dialect",
+  "description": "Over 70 laws from Japanese Constitution to international treaties, explained in approachable Osaka dialect. Making law accessible to everyone.",
+  "theme": {
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
+  },
+  "links": {
+    "play": "https://osaka-kenpo.llll-ll.com",
+    "github": "https://github.com/kako-jun/osaka-kenpo"
+  },
+  "og": {
+    "title": "Osaka-Kenpo",
+    "description": "Legal documents explained in Osaka dialect"
+  },
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {
+      "title": "70+ Laws Covered",
+      "description": "From constitution, civil law, criminal law to historical laws and international treaties.",
+      "image": "hero.webp"
+    },
+    {
+      "title": "Toggle Original & Translation",
+      "description": "Switch between complex legal text and easy-to-understand Osaka dialect with one click.",
+      "image": "hero.webp"
+    },
+    {
+      "title": "Category-based Browsing",
+      "description": "Laws organized by category. Mobile-responsive for learning anywhere.",
+      "image": "hero.webp"
+    }
+  ],
+  "author": {
+    "name": "kako-jun"
+  }
+}

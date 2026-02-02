@@ -1,0 +1,15 @@
+{
+  "name": "Sasso",
+  "catch": "電卓×パズル。数字を消す新感覚ゲーム",
+  "description": "隣り合う同じ数字を消す電卓パズル。メンサ会員も唸る頭脳ゲーム。エンドレスモードで限界に挑戦。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
+  "og": {"title": "Sasso", "description": "電卓パズルゲーム"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "数字消去パズル", "description": "隣り合う同じ数字を作って消す。四則演算を駆使して連鎖を狙え。", "image": "hero.webp"},
+    {"title": "3つのモード", "description": "電卓モード、練習モード、エンドレスモード。自分のペースで遊べる。", "image": "hero.webp"},
+    {"title": "スコアシステム", "description": "連鎖・準備・リスクでスコア倍率アップ。ハイスコアを目指せ。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

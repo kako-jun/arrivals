@@ -1,0 +1,15 @@
+{
+  "name": "Noun Gender",
+  "catch": "Learn grammatical gender in 8 languages",
+  "description": "4,600+ words in French, German, Spanish, and 5 more languages. Learn with quizzes and pronunciation.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://noun-gender.llll-ll.com", "github": "https://github.com/kako-jun/noun-gender"},
+  "og": {"title": "Noun Gender", "description": "Learn grammatical gender in 8 languages"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "8 Languages", "description": "French, German, Spanish, Italian, Portuguese, Russian, Arabic, and Hindi.", "image": "hero.webp"},
+    {"title": "Interactive Quizzes", "description": "Test your knowledge with quizzes. Includes memory tricks for difficult words.", "image": "hero.webp"},
+    {"title": "Audio Pronunciation", "description": "Hear correct pronunciation via Web Speech API. Improve your listening skills.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

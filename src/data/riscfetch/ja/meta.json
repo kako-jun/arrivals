@@ -1,0 +1,40 @@
+{
+  "name": "riscfetch",
+  "catch": "RISC-V専用のシステム情報ツール",
+  "description": "neofetchスタイルでRISC-V固有の情報を表示。ISA拡張、ハート数、ハードウェアIDなどを美しくフォーマット。",
+  "theme": {
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
+  },
+  "links": {
+    "play": "https://crates.io/crates/riscfetch",
+    "github": "https://github.com/kako-jun/riscfetch"
+  },
+  "og": {
+    "title": "riscfetch",
+    "description": "RISC-V専用のシステム情報表示ツール"
+  },
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {
+      "title": "144種類のRISC-V拡張に対応",
+      "description": "98のZ拡張と46のS拡張をカテゴリ別に表示。拡張機能の詳細も確認可能。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "13種のベンダーロゴ",
+      "description": "Pine64、SiFive、StarFive、WCHなど主要ベンダーのロゴをアスキーアートで表示。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "JSON出力対応",
+      "description": "スクリプトやCI/CDパイプラインに組み込みやすいJSON形式での出力に対応。",
+      "image": "hero.webp"
+    }
+  ],
+  "author": {
+    "name": "kako-jun"
+  }
+}

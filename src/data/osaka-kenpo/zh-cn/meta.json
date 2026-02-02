@@ -1,0 +1,15 @@
+{
+  "name": "大阪宪法",
+  "catch": "用亲切的大阪方言解读法律",
+  "description": "从日本宪法到国际条约，70多部法律用通俗易懂的大阪方言解释。让法律变得触手可及。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://osaka-kenpo.llll-ll.com", "github": "https://github.com/kako-jun/osaka-kenpo"},
+  "og": {"title": "大阪宪法", "description": "用大阪方言解读法律"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "收录70多部法律", "description": "涵盖宪法、民法、刑法以及历史法律和国际条约。", "image": "hero.webp"},
+    {"title": "原文与翻译切换", "description": "一键切换复杂法律原文和通俗易懂的大阪方言翻译。", "image": "hero.webp"},
+    {"title": "分类浏览", "description": "法律按类别整理。支持移动端，随时随地学习法律。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

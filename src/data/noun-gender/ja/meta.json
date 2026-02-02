@@ -1,0 +1,15 @@
+{
+  "name": "Noun Gender",
+  "catch": "8言語の名詞の性を学ぶ",
+  "description": "フランス語、ドイツ語、スペイン語など8言語の4,600語以上を収録。クイズと発音で楽しく学習。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://noun-gender.llll-ll.com", "github": "https://github.com/kako-jun/noun-gender"},
+  "og": {"title": "Noun Gender", "description": "8言語の名詞の性を楽しく学習"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "8言語対応", "description": "フランス語、ドイツ語、スペイン語、イタリア語、ポルトガル語、ロシア語、アラビア語、ヒンディー語。", "image": "hero.webp"},
+    {"title": "インタラクティブクイズ", "description": "クイズ形式で名詞の性をテスト。覚え方のコツも収録。", "image": "hero.webp"},
+    {"title": "音声発音", "description": "Web Speech APIで正しい発音を確認。リスニング力も向上。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

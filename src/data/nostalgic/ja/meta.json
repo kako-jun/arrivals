@@ -1,0 +1,15 @@
+{
+  "name": "Nostalgic",
+  "catch": "1990年代のインターネットを現代に",
+  "description": "カウンター、いいねボタン、掲示板、ランキング、招き猫ウィジェット。懐かしのWeb機能をシンプルなAPIで。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
+  "og": {"title": "Nostalgic", "description": "懐かしのWeb機能を現代に蘇らせるツール"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "5つのレトロ機能", "description": "カウンター、いいね、ランキング、BBS、招き猫。90年代の懐かしい機能を再現。", "image": "hero.webp"},
+    {"title": "シンプルなGET API", "description": "登録不要。GETリクエストだけで使えるシンプル設計。静的サイトにも簡単導入。", "image": "hero.webp"},
+    {"title": "Web Components対応", "description": "カスタム要素として簡単に埋め込み。既存サイトへの導入も容易。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

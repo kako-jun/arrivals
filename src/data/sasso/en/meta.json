@@ -1,0 +1,15 @@
+{
+  "name": "Sasso",
+  "catch": "Calculator meets puzzle. Eliminate digits.",
+  "description": "A calculator-based puzzle game. Eliminate adjacent identical digits. Challenge yourself in Endless mode.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
+  "og": {"title": "Sasso", "description": "Calculator puzzle game"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Digit Elimination", "description": "Create adjacent identical digits to eliminate them. Master arithmetic for chain reactions.", "image": "hero.webp"},
+    {"title": "3 Game Modes", "description": "Calculator, Practice, and Endless modes. Play at your own pace or face the challenge.", "image": "hero.webp"},
+    {"title": "Score System", "description": "Chain, preparation, and risk multipliers. Aim for the high score.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

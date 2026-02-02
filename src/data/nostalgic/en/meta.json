@@ -1,0 +1,15 @@
+{
+  "name": "Nostalgic",
+  "catch": "Revive 1990s Internet in modern era",
+  "description": "Counter, Like button, BBS, Ranking, Lucky Cat widget. Classic web features with simple APIs.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
+  "og": {"title": "Nostalgic", "description": "Revive classic web features for modern sites"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "5 Retro Features", "description": "Counter, Like, Ranking, BBS, Lucky Cat. Recreate nostalgic 90s web functionality.", "image": "hero.webp"},
+    {"title": "Simple GET API", "description": "No registration. Works with just GET requests. Easy integration with static sites.", "image": "hero.webp"},
+    {"title": "Web Components", "description": "Embed as custom elements. Easy to add to existing websites.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

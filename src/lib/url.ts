@@ -1,12 +1,14 @@
 /** Build asset path for app content */
 export function buildAssetPath(base: string, app: string, file = ''): string {
-  const path = `${base}content/${app}`;
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+  const path = `${normalizedBase}content/${app}`;
   return file ? `${path}/${file}` : path;
 }
 
 /** Build page URL for app/locale */
 export function buildPageUrl(site: string, base: string, app: string, locale: string): string {
-  return `${site}${base}${app}/${locale}/`;
+  const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+  return `${site}${normalizedBase}${app}/${locale}/`;
 }
 
 /** Build hreflang URLs for available locales */

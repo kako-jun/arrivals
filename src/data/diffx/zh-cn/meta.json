@@ -1,0 +1,15 @@
+{
+  "name": "diffx",
+  "catch": "结构化数据语义比较工具",
+  "description": "比较JSON、YAML、TOML、XML、INI、CSV，忽略键顺序和空白。只显示有意义的变更。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
+  "og": {"title": "diffx", "description": "结构化数据语义比较工具"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "支持6种以上格式", "description": "自动检测JSON、YAML、TOML、XML、INI、CSV，也可手动指定。", "image": "hero.webp"},
+    {"title": "目录递归比较", "description": "比较整个目录，支持正则表达式键过滤。", "image": "hero.webp"},
+    {"title": "CI/CD集成", "description": "静默模式和机器可读输出（JSON/YAML）便于流水线集成。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}
