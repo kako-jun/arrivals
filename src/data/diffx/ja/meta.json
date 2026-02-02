@@ -7,9 +7,10 @@
   "og": {"title": "diffx", "description": "構造化データのセマンティックdiffツール"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "6種類以上のフォーマット対応", "description": "JSON、YAML、TOML、XML、INI、CSVを自動検出。手動指定も可能。", "image": "hero.webp"},
-    {"title": "ディレクトリ再帰比較", "description": "ディレクトリ全体を比較。正規表現でキーをフィルタリング。", "image": "hero.webp"},
-    {"title": "CI/CD統合", "description": "quietモードと機械可読出力（JSON/YAML）でパイプラインに簡単統合。", "image": "hero.webp"}
+    {"title": "6種類のフォーマット対応", "description": "JSON、YAML、TOML、XML、INI、CSVを自動検出。", "image": "hero.webp"},
+    {"title": "キー順序・空白を無視", "description": "意味のある変更のみをハイライト表示。ノイズなし。", "image": "hero.webp"},
+    {"title": "ディレクトリ一括比較", "description": "フォルダ全体を再帰的に比較。設定ファイルの差分確認に。", "image": "hero.webp"},
+    {"title": "Python/Node.js対応", "description": "pip・npmでインストール可能。お好みの言語から利用。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

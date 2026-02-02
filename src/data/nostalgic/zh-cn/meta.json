@@ -1,15 +1,17 @@
 {
   "name": "Nostalgic",
-  "catch": "将1990年代互联网带入现代",
-  "description": "计数器、点赞按钮、留言板、排行榜、招财猫组件。简单API实现经典Web功能。",
+  "catch": "将1990年代的互联网带到现代",
+  "description": "计数器、点赞按钮、留言板、排行榜、招财猫小部件。用简单的API实现怀旧的Web功能。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
-  "og": {"title": "Nostalgic", "description": "将经典Web功能带入现代网站"},
+  "og": {"title": "Nostalgic", "description": "让经典Web功能在现代网站重生"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "5种怀旧功能", "description": "计数器、点赞、排行榜、BBS、招财猫。重现90年代的Web功能。", "image": "hero.webp"},
-    {"title": "简单GET API", "description": "无需注册。仅用GET请求即可使用。静态网站也能轻松集成。", "image": "hero.webp"},
-    {"title": "Web Components支持", "description": "作为自定义元素轻松嵌入。方便添加到现有网站。", "image": "hero.webp"}
+    {"title": "计数器", "description": "显示累计、今日、昨日、本周、本月访问数。完美重现90年代经典功能。", "image": "hero.webp"},
+    {"title": "点赞按钮", "description": "记录并显示每页的点赞数。简单API轻松集成。", "image": "hero.webp"},
+    {"title": "留言板（BBS）", "description": "经典留言板功能。让访客之间可以交流。", "image": "hero.webp"},
+    {"title": "排行榜", "description": "显示页面人气排名。支持多页面比较。", "image": "hero.webp"},
+    {"title": "招财猫", "description": "招手的招财猫小部件。为您的网站带来好运和趣味。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

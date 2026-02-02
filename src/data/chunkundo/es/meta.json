@@ -1,0 +1,15 @@
+{
+  "name": "chunkundo.nvim",
+  "catch": "Fragmentación inteligente de deshacer para Neovim",
+  "description": "Deshaz incrementalmente incluso en sesiones de edición largas. Plugin de Neovim potenciado por debounce/throttle/batch de chillout.nvim.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
+  "og": {"title": "chunkundo.nvim", "description": "Fragmentación inteligente de deshacer para Neovim"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Fragmentación basada en tiempo", "description": "Detecta pausas de escritura y divide unidades de deshacer automáticamente. No más perder todo de una vez.", "image": "hero.webp"},
+    {"title": "Auto-ajuste", "description": "Aprende tu patrón de escritura y ajusta el intervalo automáticamente.", "image": "hero.webp"},
+    {"title": "Integración con chillout.nvim", "description": "Construido sobre la biblioteca debounce/throttle/batch. Útil también para desarrollo de plugins.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

@@ -18,21 +18,10 @@
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "支持144种RISC-V扩展",
-      "description": "按类别显示98个Z扩展和46个S扩展，可查看扩展详情。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "13种厂商Logo",
-      "description": "Pine64、SiFive、StarFive、WCH等主要厂商的ASCII艺术Logo。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "JSON输出支持",
-      "description": "支持JSON格式输出，便于集成到脚本和CI/CD流水线。",
-      "image": "hero.webp"
-    }
+    {"title": "144种RISC-V扩展", "description": "按类别显示98个Z扩展和46个S扩展。", "image": "hero.webp"},
+    {"title": "13种厂商Logo", "description": "Pine64、SiFive、StarFive、WCH等厂商的ASCII艺术Logo。", "image": "hero.webp"},
+    {"title": "硬件详情", "description": "核心数、硬件ID、缓存信息等详细规格。", "image": "hero.webp"},
+    {"title": "扩展功能说明", "description": "查看每个ISA扩展的详细功能说明。", "image": "hero.webp"}
   ],
   "author": {
     "name": "kako-jun"

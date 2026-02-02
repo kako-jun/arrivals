@@ -8,8 +8,11 @@
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
     {"title": "8 Languages", "description": "French, German, Spanish, Italian, Portuguese, Russian, Arabic, and Hindi.", "image": "hero.webp"},
-    {"title": "Interactive Quizzes", "description": "Test your knowledge with quizzes. Includes memory tricks for difficult words.", "image": "hero.webp"},
-    {"title": "Audio Pronunciation", "description": "Hear correct pronunciation via Web Speech API. Improve your listening skills.", "image": "hero.webp"}
+    {"title": "4,600+ Words", "description": "Curated everyday vocabulary. Start learning with practical words.", "image": "hero.webp"},
+    {"title": "Interactive Quizzes", "description": "Test your knowledge with quizzes. Gamified learning for better retention.", "image": "hero.webp"},
+    {"title": "Audio Pronunciation", "description": "Hear correct pronunciation via Web Speech API. Learn native-like pronunciation.", "image": "hero.webp"},
+    {"title": "Memory Tricks", "description": "Tips and tricks to memorize gender. Learn efficiently.", "image": "hero.webp"},
+    {"title": "A-Z Browse", "description": "Browse dictionary alphabetically. Quickly search any word.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

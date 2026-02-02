@@ -1,15 +1,17 @@
 {
-  "name": "SID Note",
+  "name": "Sid Note",
   "catch": "可视化学习音乐理论",
   "description": "可视化和弦、音阶、自然和弦、五度圈。为作曲和演奏提供音乐理论工具。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
-  "og": {"title": "SID Note", "description": "可视化学习音乐理论"},
+  "og": {"title": "Sid Note", "description": "可视化学习音乐理论"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "和弦显示", "description": "在吉他指板、五线谱、键盘上可视化和弦。", "image": "hero.webp"},
-    {"title": "音阶与自然和弦", "description": "显示所有调的音阶和自然和弦。", "image": "hero.webp"},
-    {"title": "五度圈", "description": "直观理解调性关系。", "image": "hero.webp"}
+    {"title": "贝斯指板显示", "description": "比TAB谱更详细的指板记谱法。可视化学习准确的指位。", "image": "hero.webp"},
+    {"title": "和弦可视化", "description": "同时在吉他指板、五线谱、键盘上显示和弦。直观理解理论。", "image": "hero.webp"},
+    {"title": "音阶与自然和弦", "description": "显示所有调的音阶和自然和弦。轻松掌握转调。", "image": "hero.webp"},
+    {"title": "五度圈", "description": "用五度圈直观理解调性关系。作曲编曲的强大工具。", "image": "hero.webp"},
+    {"title": "34+练习曲目", "description": "收录大量练习曲目。边看指板边演奏实际歌曲。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

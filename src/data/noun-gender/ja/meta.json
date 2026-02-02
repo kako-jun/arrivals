@@ -8,8 +8,11 @@
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
     {"title": "8言語対応", "description": "フランス語、ドイツ語、スペイン語、イタリア語、ポルトガル語、ロシア語、アラビア語、ヒンディー語。", "image": "hero.webp"},
-    {"title": "インタラクティブクイズ", "description": "クイズ形式で名詞の性をテスト。覚え方のコツも収録。", "image": "hero.webp"},
-    {"title": "音声発音", "description": "Web Speech APIで正しい発音を確認。リスニング力も向上。", "image": "hero.webp"}
+    {"title": "4,600語以上収録", "description": "厳選された日常語彙をカバー。実用的な単語から学習開始。", "image": "hero.webp"},
+    {"title": "インタラクティブクイズ", "description": "クイズ形式で名詞の性をテスト。ゲーム感覚で記憶定着。", "image": "hero.webp"},
+    {"title": "音声発音", "description": "Web Speech APIで正しい発音を確認。ネイティブに近い発音を習得。", "image": "hero.webp"},
+    {"title": "記憶トリック", "description": "性別を覚えるためのヒントやコツを収録。効率的に暗記。", "image": "hero.webp"},
+    {"title": "A-Zブラウズ", "description": "アルファベット順で辞書閲覧。気になる単語をすぐに検索。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Osaka-Kenpo",
+  "name": "Osaka Kenpo",
   "catch": "Legal documents in friendly Osaka dialect",
   "description": "Over 70 laws from Japanese Constitution to international treaties, explained in approachable Osaka dialect. Making law accessible to everyone.",
   "theme": {
@@ -13,7 +13,7 @@
     "github": "https://github.com/kako-jun/osaka-kenpo"
   },
   "og": {
-    "title": "Osaka-Kenpo",
+    "title": "Osaka Kenpo",
     "description": "Legal documents explained in Osaka dialect"
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

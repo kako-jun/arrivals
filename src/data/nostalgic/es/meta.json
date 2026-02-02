@@ -1,0 +1,17 @@
+{
+  "name": "Nostalgic",
+  "catch": "Revive el Internet de los 90 en la era moderna",
+  "description": "Contador, botón Me gusta, BBS, Ranking, widget de Gato de la Suerte. Funciones web clásicas con APIs simples.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
+  "og": {"title": "Nostalgic", "description": "Revive funciones web clásicas para sitios modernos"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Contador", "description": "Muestra conteos de visitantes totales, hoy, ayer, semanales y mensuales. Un clásico de los 90 completamente recreado.", "image": "hero.webp"},
+    {"title": "Botón Me gusta", "description": "Rastrea y muestra 'me gusta' por página. API simple para fácil integración.", "image": "hero.webp"},
+    {"title": "BBS", "description": "Funcionalidad clásica de tablón de anuncios. Permite comunicación entre visitantes.", "image": "hero.webp"},
+    {"title": "Ranking", "description": "Muestra rankings de popularidad de páginas. Compara múltiples páginas a la vez.", "image": "hero.webp"},
+    {"title": "Gato de la Suerte", "description": "Widget de gato de la suerte saludando. Trae buena fortuna a tu sitio con un toque divertido.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

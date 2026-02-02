@@ -7,9 +7,11 @@
   "og": {"title": "Nostalgic", "description": "懐かしのWeb機能を現代に蘇らせるツール"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "5つのレトロ機能", "description": "カウンター、いいね、ランキング、BBS、招き猫。90年代の懐かしい機能を再現。", "image": "hero.webp"},
-    {"title": "シンプルなGET API", "description": "登録不要。GETリクエストだけで使えるシンプル設計。静的サイトにも簡単導入。", "image": "hero.webp"},
-    {"title": "Web Components対応", "description": "カスタム要素として簡単に埋め込み。既存サイトへの導入も容易。", "image": "hero.webp"}
+    {"title": "カウンター", "description": "累計・今日・昨日・週間・月間の訪問者数を表示。90年代の定番機能を完全再現。", "image": "hero.webp"},
+    {"title": "いいねボタン", "description": "ページごとの「いいね」数を記録・表示。シンプルなAPIで簡単導入。", "image": "hero.webp"},
+    {"title": "掲示板（BBS）", "description": "懐かしの掲示板機能。訪問者同士のコミュニケーションに。", "image": "hero.webp"},
+    {"title": "ランキング", "description": "ページの人気順位を表示。複数ページの比較にも対応。", "image": "hero.webp"},
+    {"title": "招き猫", "description": "手を振る招き猫ウィジェット。サイトに幸運を呼び込む遊び心。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

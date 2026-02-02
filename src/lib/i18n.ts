@@ -6,21 +6,25 @@ export const UI_TEXT = {
     ja: '機能',
     en: 'Features',
     'zh-cn': '功能',
+    es: 'Características',
   },
   cta: {
     ja: '無料で始める',
     en: 'Get Started Free',
     'zh-cn': '免费开始',
+    es: 'Comenzar Gratis',
   },
   demo: {
     ja: 'デモを見る',
     en: 'View Demo',
     'zh-cn': '查看演示',
+    es: 'Ver Demo',
   },
   producedBy: {
     ja: 'Produced by',
     en: 'Produced by',
     'zh-cn': 'Produced by',
+    es: 'Produced by',
   },
 } as const;
 
@@ -50,11 +54,12 @@ export function detectLocale(pathname: string, acceptLanguage?: string): Locale 
     const browserLang = acceptLanguage.split(',')[0]?.split('-')[0]?.toLowerCase();
     if (browserLang === 'ja') return 'ja';
     if (browserLang === 'zh') return 'zh-cn';
+    if (browserLang === 'es') return 'es';
   }
 
   return 'en';
 }
 
 function isValidLocale(locale: string): boolean {
-  return ['ja', 'en', 'zh-cn'].includes(locale);
+  return ['ja', 'en', 'zh-cn', 'es'].includes(locale);
 }

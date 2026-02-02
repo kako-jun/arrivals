@@ -1,0 +1,16 @@
+{
+  "name": "diffx",
+  "catch": "Diferencias semánticas para datos estructurados",
+  "description": "Compara JSON, YAML, TOML y más por estructura, no por líneas. Diseñado para agentes AI y automatización.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
+  "og": {"title": "diffx", "description": "Diferencias conscientes de estructura para datos estructurados"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "6 formatos soportados", "description": "Detecta automáticamente JSON, YAML, TOML, XML, INI, CSV.", "image": "hero.webp"},
+    {"title": "Ignora orden de claves", "description": "Resalta solo cambios significativos. Sin ruido.", "image": "hero.webp"},
+    {"title": "Comparación de directorios", "description": "Compara carpetas completas recursivamente. Para verificar configs.", "image": "hero.webp"},
+    {"title": "Soporte Python/Node.js", "description": "Instalable via pip o npm. Usa tu lenguaje preferido.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

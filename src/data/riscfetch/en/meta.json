@@ -2,39 +2,15 @@
   "name": "riscfetch",
   "catch": "System info tool for RISC-V architecture",
   "description": "Display RISC-V specific information in neofetch style. ISA extensions, hart count, hardware IDs beautifully formatted.",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://crates.io/crates/riscfetch",
-    "github": "https://github.com/kako-jun/riscfetch"
-  },
-  "og": {
-    "title": "riscfetch",
-    "description": "System information tool for RISC-V architecture"
-  },
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/riscfetch", "github": "https://github.com/kako-jun/riscfetch"},
+  "og": {"title": "riscfetch", "description": "System information tool for RISC-V architecture"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "144 RISC-V Extensions Supported",
-      "description": "Display 98 Z-extensions and 46 S-extensions by category with detailed explanations.",
-      "image": "hero.webp"
-    },
-    {
-      "title": "13 Vendor Logos",
-      "description": "ASCII art logos for major vendors: Pine64, SiFive, StarFive, WCH, and more.",
-      "image": "hero.webp"
-    },
-    {
-      "title": "JSON Output",
-      "description": "Easy integration with scripts and CI/CD pipelines with JSON format output.",
-      "image": "hero.webp"
-    }
+    {"title": "144 RISC-V Extensions", "description": "Display 98 Z-extensions and 46 S-extensions by category.", "image": "hero.webp"},
+    {"title": "13 Vendor Logos", "description": "ASCII art logos for Pine64, SiFive, StarFive, WCH, and more.", "image": "hero.webp"},
+    {"title": "Hardware Details", "description": "Hart count, HW ID, cache info and more detailed specs.", "image": "hero.webp"},
+    {"title": "Extension Explanations", "description": "See what each ISA extension does with detailed descriptions.", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

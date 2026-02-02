@@ -8,8 +8,11 @@
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
     {"title": "支持8种语言", "description": "法语、德语、西班牙语、意大利语、葡萄牙语、俄语、阿拉伯语、印地语。", "image": "hero.webp"},
-    {"title": "互动测验", "description": "通过测验测试知识。包含难词记忆技巧。", "image": "hero.webp"},
-    {"title": "语音发音", "description": "通过Web Speech API收听正确发音。提高听力能力。", "image": "hero.webp"}
+    {"title": "收录4,600多个词汇", "description": "涵盖精选日常词汇。从实用单词开始学习。", "image": "hero.webp"},
+    {"title": "互动测验", "description": "通过测验形式测试名词性别。游戏化学习，加深记忆。", "image": "hero.webp"},
+    {"title": "语音发音", "description": "使用Web Speech API确认正确发音。学习接近母语者的发音。", "image": "hero.webp"},
+    {"title": "记忆技巧", "description": "收录记忆性别的提示和技巧。高效背诵。", "image": "hero.webp"},
+    {"title": "A-Z浏览", "description": "按字母顺序浏览词典。快速搜索感兴趣的单词。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

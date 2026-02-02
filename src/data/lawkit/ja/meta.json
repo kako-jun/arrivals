@@ -1,15 +1,17 @@
 {
   "name": "lawkit",
   "catch": "統計法則でデータ異常を検出",
-  "description": "ベンフォードの法則、パレートの法則、ジップの法則、正規分布、ポアソン分布でデータを分析。不正検出やデータ品質評価に。",
+  "description": "ベンフォードの法則、パレートの法則、ジップの法則、正規分布、ポアソン分布でデータを分析。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/lawkit", "github": "https://github.com/kako-jun/lawkit"},
   "og": {"title": "lawkit", "description": "統計法則分析ツールキット"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "5つの統計法則", "description": "ベンフォード、パレート、ジップ、正規分布、ポアソン分布に対応。", "image": "hero.webp"},
-    {"title": "異常検出", "description": "リスクレベルと終了コードでCI/CDに統合可能。", "image": "hero.webp"},
-    {"title": "多様な入出力", "description": "CSV/JSON/YAML入力、text/json/yaml/csv出力に対応。", "image": "hero.webp"}
+    {"title": "ベンフォードの法則", "description": "会計データや選挙結果の不正検出に。第一桁の出現頻度を分析。", "image": "hero.webp"},
+    {"title": "パレートの法則", "description": "80/20の法則でデータの偏りを可視化。売上分析に。", "image": "hero.webp"},
+    {"title": "ジップの法則", "description": "言語学やWebアクセス解析に。ランク付けデータの分布を分析。", "image": "hero.webp"},
+    {"title": "正規分布・ポアソン分布", "description": "品質管理や予測分析に。外れ値の検出。", "image": "hero.webp"},
+    {"title": "ASCIIチャート", "description": "ターミナルで直接グラフ表示。結果を即座に確認。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

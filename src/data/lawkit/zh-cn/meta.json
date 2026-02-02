@@ -7,9 +7,11 @@
   "og": {"title": "lawkit", "description": "统计法则分析工具包"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "5种统计法则", "description": "本福特、帕累托、齐普夫、正态分布、泊松分布。", "image": "hero.webp"},
-    {"title": "异常检测", "description": "风险级别和退出码可集成到CI/CD。", "image": "hero.webp"},
-    {"title": "灵活输入输出", "description": "支持CSV/JSON/YAML输入，text/json/yaml/csv输出。", "image": "hero.webp"}
+    {"title": "本福特定律", "description": "检测会计数据或选举结果中的欺诈。分析第一位数字频率。", "image": "hero.webp"},
+    {"title": "帕累托法则", "description": "用80/20法则可视化数据偏斜。非常适合销售分析。", "image": "hero.webp"},
+    {"title": "齐普夫定律", "description": "适用于语言学和网页分析。分析排名数据分布。", "image": "hero.webp"},
+    {"title": "正态与泊松分布", "description": "用于质量控制和预测分析。检测异常值。", "image": "hero.webp"},
+    {"title": "ASCII图表", "description": "在终端直接显示图表。即时查看结果。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

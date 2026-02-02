@@ -1,15 +1,16 @@
 {
   "name": "diffai",
   "catch": "Semantic diff for AI/ML models",
-  "description": "Compare PyTorch, Safetensors, NumPy, MATLAB files with meaningful diffs. Auto-analyze learning rate, gradients, convergence.",
+  "description": "Compare PyTorch, Safetensors, NumPy, MATLAB files with meaningful diffs. See model changes at a glance.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
   "og": {"title": "diffai", "description": "Diff tool for AI/ML models"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "4 Formats", "description": "PyTorch, Safetensors, NumPy, MATLAB supported.", "image": "hero.webp"},
-    {"title": "Auto ML Analysis", "description": "11 analyses: learning rate, gradients, quantization, convergence, etc.", "image": "hero.webp"},
-    {"title": "CI/CD Ready", "description": "Exit codes and structured output for pipeline integration.", "image": "hero.webp"}
+    {"title": "4 Formats", "description": "Compare PyTorch, Safetensors, NumPy, MATLAB files.", "image": "hero.webp"},
+    {"title": "Tensor Statistics", "description": "Compare detailed stats: mean, std, min, max.", "image": "hero.webp"},
+    {"title": "Shape Change Detection", "description": "Auto-detect layer additions, deletions, modifications.", "image": "hero.webp"},
+    {"title": "Training Progress Check", "description": "Visualize weight changes between checkpoints.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

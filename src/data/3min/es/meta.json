@@ -1,0 +1,31 @@
+{
+  "name": "3 min. Calendar",
+  "catch": "Crea tu calendario de negocios en 3 minutos.",
+  "description": "Ahorra tiempo para propietarios de pequeños negocios ocupados. Comparte instantáneamente en Instagram o LINE.",
+  "theme": {
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
+  },
+  "links": {
+    "play": "https://3min.llll-ll.com/",
+    "github": "https://github.com/kako-jun/3min"
+  },
+  "og": {
+    "title": "3 min. Calendar",
+    "description": "Crea el calendario de negocios de este mes en solo 3 minutos"
+  },
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Edición con un clic", "description": "Haz clic en fechas para alternar días hábiles y festivos. Operación intuitiva que cualquiera puede usar.", "image": "hero.webp"},
+    {"title": "20+ países soportados", "description": "Festivos automáticos para 20+ países, no solo Japón. Perfecto para negocios internacionales.", "image": "hero.webp"},
+    {"title": "Visualización Rokuyo", "description": "Días tradicionales japoneses (Taian, Butsumetsu) mostrados automáticamente. Ideal para bodas/funerales.", "image": "hero.webp"},
+    {"title": "Generación de códigos QR", "description": "Genera códigos QR automáticamente para URLs del calendario. Completamente offline, seguro.", "image": "hero.webp"},
+    {"title": "14 temas de color", "description": "7 variaciones claras y 7 oscuras. Combina con el ambiente de tu tienda.", "image": "hero.webp"},
+    {"title": "Soporte PWA", "description": "Funciona offline, instalable en pantalla de inicio. Edita en cualquier momento y lugar.", "image": "hero.webp"}
+  ],
+  "author": {
+    "name": "kako-jun"
+  }
+}

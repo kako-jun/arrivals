@@ -7,9 +7,11 @@
   "og": {"title": "Nostalgic", "description": "Revive classic web features for modern sites"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "5 Retro Features", "description": "Counter, Like, Ranking, BBS, Lucky Cat. Recreate nostalgic 90s web functionality.", "image": "hero.webp"},
-    {"title": "Simple GET API", "description": "No registration. Works with just GET requests. Easy integration with static sites.", "image": "hero.webp"},
-    {"title": "Web Components", "description": "Embed as custom elements. Easy to add to existing websites.", "image": "hero.webp"}
+    {"title": "Counter", "description": "Display total, today, yesterday, weekly, and monthly visitor counts. A 90s classic fully recreated.", "image": "hero.webp"},
+    {"title": "Like Button", "description": "Track and display 'likes' per page. Simple API for easy integration.", "image": "hero.webp"},
+    {"title": "BBS", "description": "Classic bulletin board functionality. Enable visitor-to-visitor communication.", "image": "hero.webp"},
+    {"title": "Ranking", "description": "Show page popularity rankings. Compare multiple pages at once.", "image": "hero.webp"},
+    {"title": "Lucky Cat", "description": "Waving lucky cat widget. Bring good fortune to your site with a playful touch.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

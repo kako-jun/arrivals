@@ -1,0 +1,18 @@
+{
+  "name": "Noun Gender",
+  "catch": "Aprende el género gramatical en 8 idiomas",
+  "description": "Aplicación web para aprender y buscar sustantivos con género en francés, alemán, español y más. 4,651 palabras con quizzes y pronunciación.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://noun-gender.llll-ll.com", "github": "https://github.com/kako-jun/noun-gender"},
+  "og": {"title": "Noun Gender", "description": "Aprende el género gramatical en múltiples idiomas"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "8 idiomas", "description": "Francés, alemán, español, italiano, portugués, ruso, árabe, hindi.", "image": "hero.webp"},
+    {"title": "4,600+ palabras", "description": "Vocabulario esencial cuidadosamente seleccionado. Empieza con palabras prácticas.", "image": "hero.webp"},
+    {"title": "Quizzes interactivos", "description": "Pon a prueba los géneros de sustantivos con quizzes. Aprendizaje gamificado.", "image": "hero.webp"},
+    {"title": "Pronunciación de voz", "description": "Confirma la pronunciación correcta con Web Speech API. Aprende como nativo.", "image": "hero.webp"},
+    {"title": "Trucos de memoria", "description": "Consejos y trucos para recordar géneros. Memorización eficiente.", "image": "hero.webp"},
+    {"title": "Navegación A-Z", "description": "Busca en el diccionario por orden alfabético. Encuentra palabras rápidamente.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

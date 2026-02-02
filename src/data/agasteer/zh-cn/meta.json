@@ -18,21 +18,12 @@
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "直接同步GitHub",
-      "description": "无需中间服务器，直接保存到您的GitHub仓库。数据始终在您的掌控之中。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "无冲突",
-      "description": "独特的合并算法可安全同步来自多个设备的编辑。无需担心数据丢失。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "简洁的Markdown",
-      "description": "没有多余功能。极简界面让您专注于写作。",
-      "image": "hero.webp"
-    }
+    {"title": "直接同步GitHub", "description": "无需中间服务器，直接保存到您的GitHub仓库。数据始终在您的掌控之中。", "image": "hero.webp"},
+    {"title": "零冲突", "description": "启动时自动Pull。GitHub是唯一真相源。多设备编辑安全同步。", "image": "hero.webp"},
+    {"title": "Vim模式", "description": "hjkl键盘导航，PC上高速编辑。Vim用户的最爱。", "image": "hero.webp"},
+    {"title": "稿纸线模式", "description": "显示类似笔记本的横线。手写笔记风格，提升专注力。", "image": "hero.webp"},
+    {"title": "日式主题", "description": "复古RPG风蓝色窗口等，专为亚洲用户设计的独特主题。", "image": "hero.webp"},
+    {"title": "PWA支持", "description": "无需安装，浏览器即可使用。支持离线操作。", "image": "hero.webp"}
   ],
   "author": {
     "name": "kako-jun"

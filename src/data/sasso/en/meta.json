@@ -8,8 +8,10 @@
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
     {"title": "Digit Elimination", "description": "Create adjacent identical digits to eliminate them. Master arithmetic for chain reactions.", "image": "hero.webp"},
-    {"title": "3 Game Modes", "description": "Calculator, Practice, and Endless modes. Play at your own pace or face the challenge.", "image": "hero.webp"},
-    {"title": "Score System", "description": "Chain, preparation, and risk multipliers. Aim for the high score.", "image": "hero.webp"}
+    {"title": "3 Game Modes", "description": "Calculator for basics, Practice for free play, Endless for the challenge.", "image": "hero.webp"},
+    {"title": "Score Multipliers", "description": "Base×Chain×Prep×Risk scoring. Strategic play for high scores.", "image": "hero.webp"},
+    {"title": "Negative & Decimal", "description": "Use negative numbers and decimals strategically. Advanced techniques.", "image": "hero.webp"},
+    {"title": "Mac System 7 UI", "description": "Classic retro design. Nostalgia meets modern gameplay.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

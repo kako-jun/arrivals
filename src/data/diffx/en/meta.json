@@ -7,9 +7,10 @@
   "og": {"title": "diffx", "description": "Semantic diff tool for structured data"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "6+ File Formats", "description": "Auto-detect JSON, YAML, TOML, XML, INI, CSV or specify manually.", "image": "hero.webp"},
-    {"title": "Recursive Directory Comparison", "description": "Compare entire directories with regex-based key filtering.", "image": "hero.webp"},
-    {"title": "CI/CD Integration", "description": "Quiet mode and machine-readable output (JSON/YAML) for easy pipeline integration.", "image": "hero.webp"}
+    {"title": "6 File Formats", "description": "Auto-detect JSON, YAML, TOML, XML, INI, CSV.", "image": "hero.webp"},
+    {"title": "Ignore Key Order & Whitespace", "description": "Highlights only meaningful changes. No noise.", "image": "hero.webp"},
+    {"title": "Directory Comparison", "description": "Recursively compare entire folders. Great for config file diffs.", "image": "hero.webp"},
+    {"title": "Python/Node.js Support", "description": "Install via pip or npm. Use from your favorite language.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

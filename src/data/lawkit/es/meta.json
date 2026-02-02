@@ -1,0 +1,17 @@
+{
+  "name": "lawkit",
+  "catch": "Kit de análisis estadístico multi-ley",
+  "description": "Detecta anomalías con Benford, Pareto, Zipf, Normal y Poisson. Procesamiento paralelo de alto rendimiento en Rust.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/lawkit", "github": "https://github.com/kako-jun/lawkit"},
+  "og": {"title": "lawkit", "description": "Kit de análisis estadístico multi-ley"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Ley de Benford", "description": "Detecta fraudes en datos contables o resultados electorales. Analiza frecuencias del primer dígito.", "image": "hero.webp"},
+    {"title": "Principio de Pareto", "description": "Visualiza la asimetría 80/20 de datos. Ideal para análisis de ventas.", "image": "hero.webp"},
+    {"title": "Ley de Zipf", "description": "Para lingüística y análisis web. Analiza distribuciones de datos clasificados.", "image": "hero.webp"},
+    {"title": "Normal y Poisson", "description": "Para control de calidad y predicción. Detecta valores atípicos.", "image": "hero.webp"},
+    {"title": "Gráficos ASCII", "description": "Muestra gráficos directamente en la terminal. Resultados instantáneos.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

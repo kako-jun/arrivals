@@ -1,6 +1,6 @@
 {
-  "name": "大阪憲法",
-  "catch": "法律をあずきちゃん風大阪弁で、わかりやすく。",
+  "name": "おおさかけんぽう",
+  "catch": "難解な法律を、親しみやすい大阪弁で。",
   "description": "日本国憲法から国際条約まで70以上の法律を、親しみやすい大阪弁で解説。法律がぐっと身近になります。",
   "theme": {
     "bg": "#1a0a2e",
@@ -13,8 +13,8 @@
     "github": "https://github.com/kako-jun/osaka-kenpo"
   },
   "og": {
-    "title": "大阪憲法",
-    "description": "法律を大阪弁でわかりやすく解説"
+    "title": "おおさかけんぽう",
+    "description": "難解な法律を大阪弁でわかりやすく解説"
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [

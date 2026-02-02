@@ -18,21 +18,12 @@
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "Easy Drag & Drop Editing",
-      "description": "Just click on calendar dates to toggle business days and holidays. Intuitive operation anyone can use immediately.",
-      "image": "hero.webp"
-    },
-    {
-      "title": "Auto Holiday Detection",
-      "description": "Japanese holidays are automatically displayed, eliminating manual entry. Significantly reduces monthly update work.",
-      "image": "hero.webp"
-    },
-    {
-      "title": "Instant Social Sharing",
-      "description": "Share your created calendar to Instagram or LINE with one click. Smooth customer communication.",
-      "image": "hero.webp"
-    }
+    {"title": "One-Click Editing", "description": "Click dates to toggle business days and holidays. Intuitive operation anyone can use immediately.", "image": "hero.webp"},
+    {"title": "20+ Countries Supported", "description": "Automatic holidays for 20+ countries, not just Japan. Perfect for international businesses.", "image": "hero.webp"},
+    {"title": "Rokuyo Display", "description": "Japanese traditional calendar days (Taian, Butsumetsu) shown automatically. Great for wedding/funeral industries.", "image": "hero.webp"},
+    {"title": "QR Code Generation", "description": "Auto-generate QR codes for calendar URLs. Completely offline, secure and safe.", "image": "hero.webp"},
+    {"title": "14 Color Themes", "description": "7 light and 7 dark color variations. Match your store's atmosphere.", "image": "hero.webp"},
+    {"title": "PWA Support", "description": "Works offline, installable to home screen. Edit anytime, anywhere.", "image": "hero.webp"}
   ],
   "author": {
     "name": "kako-jun"

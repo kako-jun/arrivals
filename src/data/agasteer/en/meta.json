@@ -18,21 +18,12 @@
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "Direct GitHub Sync",
-      "description": "Save directly to your GitHub repository without intermediate servers. Your data stays under your control.",
-      "image": "hero.webp"
-    },
-    {
-      "title": "No Conflicts",
-      "description": "Unique merge algorithm safely syncs edits from multiple devices. No worry about data loss.",
-      "image": "hero.webp"
-    },
-    {
-      "title": "Simple Markdown",
-      "description": "No unnecessary features. A minimal interface that lets you focus on writing.",
-      "image": "hero.webp"
-    }
+    {"title": "Direct GitHub Sync", "description": "Save directly to your GitHub repository without intermediate servers. Your data stays under your control.", "image": "hero.webp"},
+    {"title": "Zero Conflicts", "description": "Always pulls on startup. GitHub is the single source of truth. Safe sync from multiple devices.", "image": "hero.webp"},
+    {"title": "Vim Mode", "description": "hjkl key navigation for fast editing on PC. Perfect for Vim users.", "image": "hero.webp"},
+    {"title": "Rule Line Mode", "description": "Display notebook-like ruled lines. Hand-written note feel for better focus.", "image": "hero.webp"},
+    {"title": "Japanese Themes", "description": "Unique themes for Japanese users including retro RPG-style blue windows.", "image": "hero.webp"},
+    {"title": "PWA Support", "description": "No installation needed, start instantly in browser. Works offline too.", "image": "hero.webp"}
   ],
   "author": {
     "name": "kako-jun"

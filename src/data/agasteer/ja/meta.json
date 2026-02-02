@@ -18,21 +18,12 @@
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "GitHubと直接同期",
-      "description": "中間サーバーを介さず、あなたのGitHubリポジトリに直接保存。データは常にあなたの管理下に。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "コンフリクトなし",
-      "description": "独自のマージアルゴリズムで、複数デバイスからの編集も安全に同期。データ消失の心配なし。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "シンプルなMarkdown",
-      "description": "余計な機能は一切なし。書くことに集中できる、最小限のインターフェース。",
-      "image": "hero.webp"
-    }
+    {"title": "GitHubと直接同期", "description": "中間サーバーを介さず、あなたのGitHubリポジトリに直接保存。データは常にあなたの管理下に。", "image": "hero.webp"},
+    {"title": "コンフリクトゼロ", "description": "起動時に常にPull。GitHubが唯一の真実。複数デバイスからの編集も安全に同期。", "image": "hero.webp"},
+    {"title": "Vimモード対応", "description": "hjklキーナビゲーションでPC上での高速編集。Vimユーザーに最適。", "image": "hero.webp"},
+    {"title": "ルール線モード", "description": "ノートのようなルール線を表示。手書きノート風の見た目で集中力アップ。", "image": "hero.webp"},
+    {"title": "日本語テーマ", "description": "レトロRPG風青ウィンドウなど、日本語ユーザー向けの独自テーマ。", "image": "hero.webp"},
+    {"title": "PWA対応", "description": "インストール不要、ブラウザで即座に開始。オフラインでも動作。", "image": "hero.webp"}
   ],
   "author": {
     "name": "kako-jun"

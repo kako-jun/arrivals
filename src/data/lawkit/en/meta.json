@@ -1,15 +1,17 @@
 {
   "name": "lawkit",
   "catch": "Detect data anomalies with statistical laws",
-  "description": "Analyze data with Benford's law, Pareto principle, Zipf's law, Normal and Poisson distributions. For fraud detection and data quality.",
+  "description": "Analyze data with Benford's law, Pareto principle, Zipf's law, Normal and Poisson distributions.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/lawkit", "github": "https://github.com/kako-jun/lawkit"},
   "og": {"title": "lawkit", "description": "Statistical law analysis toolkit"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "5 Statistical Laws", "description": "Benford, Pareto, Zipf, Normal, and Poisson distributions.", "image": "hero.webp"},
-    {"title": "Anomaly Detection", "description": "Risk levels and exit codes for CI/CD integration.", "image": "hero.webp"},
-    {"title": "Flexible I/O", "description": "CSV/JSON/YAML input, text/json/yaml/csv output.", "image": "hero.webp"}
+    {"title": "Benford's Law", "description": "Detect fraud in accounting data or election results. Analyze first digit frequencies.", "image": "hero.webp"},
+    {"title": "Pareto Principle", "description": "Visualize 80/20 data skew. Great for sales analysis.", "image": "hero.webp"},
+    {"title": "Zipf's Law", "description": "For linguistics and web analytics. Analyze ranked data distributions.", "image": "hero.webp"},
+    {"title": "Normal & Poisson", "description": "Quality control and prediction. Detect outliers.", "image": "hero.webp"},
+    {"title": "ASCII Charts", "description": "Display graphs directly in terminal. See results instantly.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

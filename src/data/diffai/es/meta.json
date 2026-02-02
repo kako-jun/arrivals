@@ -1,0 +1,16 @@
+{
+  "name": "diffai",
+  "catch": "Herramienta de diferencias semánticas para modelos ML",
+  "description": "Diferencias semánticas para modelos AI/ML. Compara PyTorch, Safetensors, NumPy y archivos MATLAB con análisis profundo.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
+  "og": {"title": "diffai", "description": "Herramienta de diferencias semánticas para modelos ML"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "4 formatos soportados", "description": "Compara archivos PyTorch, Safetensors, NumPy, MATLAB.", "image": "hero.webp"},
+    {"title": "Estadísticas de tensores", "description": "Compara estadísticas detalladas: mean, std, min, max.", "image": "hero.webp"},
+    {"title": "Detección de cambios de forma", "description": "Detecta automáticamente capas añadidas, eliminadas o modificadas.", "image": "hero.webp"},
+    {"title": "Verificación de progreso", "description": "Visualiza cambios de pesos entre checkpoints de entrenamiento.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

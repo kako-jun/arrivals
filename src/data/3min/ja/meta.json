@@ -18,21 +18,12 @@
   },
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {
-      "title": "ドラッグ&ドロップで簡単編集",
-      "description": "カレンダーの日付をクリックするだけで、営業日・休業日を切り替え。直感的な操作で誰でもすぐに使えます。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "祝日を自動反映",
-      "description": "日本の祝日が自動で表示されるので、手動で入力する必要がありません。毎月の更新作業を大幅に削減。",
-      "image": "hero.webp"
-    },
-    {
-      "title": "SNSですぐにシェア",
-      "description": "作成したカレンダーをワンクリックでInstagramやLINEにシェア。お客様への情報発信がスムーズに。",
-      "image": "hero.webp"
-    }
+    {"title": "ワンクリック編集", "description": "日付をクリックするだけで営業日・休業日を切り替え。直感的な操作で誰でもすぐに使えます。", "image": "hero.webp"},
+    {"title": "20カ国以上の祝日対応", "description": "日本だけでなく、20カ国以上の祝日を自動表示。インバウンド対応も簡単。", "image": "hero.webp"},
+    {"title": "六曜表示", "description": "大安・仏滅など六曜を自動表示。冠婚葬祭業の方にも便利。", "image": "hero.webp"},
+    {"title": "QRコード生成", "description": "カレンダーURLのQRコードを自動生成。完全オフラインで安心・安全。", "image": "hero.webp"},
+    {"title": "14種類のテーマ", "description": "ライト/ダーク各7色のカラーバリエーション。お店の雰囲気に合わせて選択。", "image": "hero.webp"},
+    {"title": "PWA対応", "description": "オフラインで動作、ホーム画面にインストール可能。いつでもどこでも編集できます。", "image": "hero.webp"}
   ],
   "author": {
     "name": "kako-jun"

@@ -1,0 +1,17 @@
+{
+  "name": "Sasso",
+  "catch": "Calculadora y puzzle. Elimina dígitos.",
+  "description": "Un juego de puzzle basado en calculadora. Elimina dígitos idénticos adyacentes. Desafíate en modo Infinito.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
+  "og": {"title": "Sasso", "description": "Juego de puzzle con calculadora"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Puzzle de eliminación", "description": "Crea dígitos idénticos adyacentes para eliminarlos. Domina la aritmética para reacciones en cadena.", "image": "hero.webp"},
+    {"title": "3 modos de juego", "description": "Calculadora para lo básico, Práctica para juego libre, Infinito para el desafío.", "image": "hero.webp"},
+    {"title": "Multiplicadores de puntuación", "description": "Sistema Base×Chain×Prep×Risk. Juego estratégico para puntuaciones altas.", "image": "hero.webp"},
+    {"title": "Negativos y decimales", "description": "Usa números negativos y decimales estratégicamente. Técnicas avanzadas.", "image": "hero.webp"},
+    {"title": "UI estilo Mac System 7", "description": "Diseño retro clásico. Nostalgia combinada con jugabilidad moderna.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

@@ -7,9 +7,10 @@
   "og": {"title": "diffai", "description": "AI/ML模型差异工具"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "支持4种格式", "description": "支持PyTorch、Safetensors、NumPy、MATLAB。", "image": "hero.webp"},
-    {"title": "自动ML分析", "description": "自动执行11种分析：学习率、梯度、量化、收敛等。", "image": "hero.webp"},
-    {"title": "CI/CD集成", "description": "退出码和结构化输出可集成到管道。", "image": "hero.webp"}
+    {"title": "4种格式支持", "description": "比较PyTorch、Safetensors、NumPy、MATLAB文件。", "image": "hero.webp"},
+    {"title": "张量统计显示", "description": "比较mean、std、min、max等详细统计信息。", "image": "hero.webp"},
+    {"title": "形状变更检测", "description": "自动检测层的添加、删除、修改。", "image": "hero.webp"},
+    {"title": "训练进度确认", "description": "可视化检查点之间的权重变化。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

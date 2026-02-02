@@ -1,0 +1,16 @@
+{
+  "name": "riscfetch",
+  "catch": "Herramienta de información del sistema para RISC-V",
+  "description": "Muestra información específica de RISC-V en estilo neofetch. Extensiones ISA, conteo de harts, IDs de hardware bellamente formateados.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/riscfetch", "github": "https://github.com/kako-jun/riscfetch"},
+  "og": {"title": "riscfetch", "description": "Herramienta de información del sistema para arquitectura RISC-V"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "144 extensiones RISC-V", "description": "Muestra 98 extensiones Z y 46 extensiones S por categoría.", "image": "hero.webp"},
+    {"title": "13 logos de vendedores", "description": "Logos ASCII para Pine64, SiFive, StarFive, WCH y más.", "image": "hero.webp"},
+    {"title": "Detalles de hardware", "description": "Conteo de harts, ID de hardware, información de caché y más especificaciones.", "image": "hero.webp"},
+    {"title": "Explicaciones de extensiones", "description": "Consulta descripciones detalladas de cada extensión ISA.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

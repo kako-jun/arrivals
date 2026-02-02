@@ -1,5 +1,5 @@
 // Supported locales
-export const SUPPORTED_LOCALES = ['ja', 'en', 'zh-cn'] as const;
+export const SUPPORTED_LOCALES = ['ja', 'en', 'zh-cn', 'es'] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 
 // Default theme values (dark purple gradient)
@@ -15,6 +15,7 @@ export const LOCALE_LABELS: Record<Locale, string> = {
   ja: '日本語',
   en: 'English',
   'zh-cn': '简体中文',
+  es: 'Español',
 };
 
 // OG locale mapping
@@ -22,6 +23,7 @@ export const OG_LOCALE_MAP: Record<Locale, string> = {
   ja: 'ja_JP',
   en: 'en_US',
   'zh-cn': 'zh_CN',
+  es: 'es_ES',
 };
 
 // 404 page messages
@@ -41,6 +43,11 @@ export const NOT_FOUND_MESSAGES: Record<Locale, { title: string; message: string
       title: '页面未找到',
       message: '您访问的页面不存在或已被移动。',
       back: '返回首页',
+    },
+    es: {
+      title: 'Página no encontrada',
+      message: 'La página que busca no existe o ha sido movida.',
+      back: 'Volver al inicio',
     },
   };
 

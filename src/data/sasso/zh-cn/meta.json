@@ -7,9 +7,11 @@
   "og": {"title": "Sasso", "description": "计算器益智游戏"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "数字消除", "description": "创造相邻的相同数字来消除它们。掌握四则运算实现连锁反应。", "image": "hero.webp"},
-    {"title": "3种游戏模式", "description": "计算器模式、练习模式、无尽模式。按自己的节奏游玩或接受挑战。", "image": "hero.webp"},
-    {"title": "计分系统", "description": "连锁、准备、风险倍率加成。争取最高分。", "image": "hero.webp"}
+    {"title": "数字消除谜题", "description": "创造相邻的相同数字来消除它们。掌握四则运算实现连锁反应。", "image": "hero.webp"},
+    {"title": "3种游戏模式", "description": "计算器模式学习基础，练习模式自由探索，无尽模式挑战极限。", "image": "hero.webp"},
+    {"title": "分数倍率系统", "description": "Base×Chain×Prep×Risk复杂计分。策略性游玩获取高分。", "image": "hero.webp"},
+    {"title": "负数与小数", "description": "负数和小数也可战略使用。高级玩家的进阶技巧。", "image": "hero.webp"},
+    {"title": "Mac System 7风格UI", "description": "经典复古设计。怀旧感与现代游戏性的融合。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }
