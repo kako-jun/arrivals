@@ -16,7 +16,24 @@
     "title": "Agasteer",
     "description": "直接连接GitHub的最简Markdown笔记应用"
   },
-  "gallery": [],
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {
+      "title": "直接同步GitHub",
+      "description": "无需中间服务器，直接保存到您的GitHub仓库。数据始终在您的掌控之中。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "无冲突",
+      "description": "独特的合并算法可安全同步来自多个设备的编辑。无需担心数据丢失。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "简洁的Markdown",
+      "description": "没有多余功能。极简界面让您专注于写作。",
+      "image": "hero.webp"
+    }
+  ],
   "author": {
     "name": "kako-jun"
   }
