@@ -1,17 +1,16 @@
 {
   "name": "Sid Note",
-  "catch": "Learn music theory visually",
-  "description": "Visualize chords, scales, diatonic progressions, and the circle of fifths. A music theory tool for composers and players.",
+  "catch": "More detailed than TAB notation for bass",
+  "description": "Web app for viewing and practicing bass fingering with more specific notation than TAB. Chord practice, fretboard practice, and song tracks included.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
-  "og": {"title": "Sid Note", "description": "Learn music theory visually"},
+  "og": {"title": "Sid Note", "description": "Bass fingering practice app"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Bass Fretboard Display", "description": "More detailed than TAB notation. Visualize exact finger positions.", "image": "hero.webp"},
-    {"title": "Chord Visualization", "description": "Display chords on guitar frets, staff notation, and keyboard simultaneously. Understand theory intuitively.", "image": "hero.webp"},
-    {"title": "Scales & Diatonic", "description": "Display scales and diatonic chords for all keys. Easy to grasp modulations.", "image": "hero.webp"},
-    {"title": "Circle of Fifths", "description": "Understand key relationships intuitively. Powerful tool for composition and arranging.", "image": "hero.webp"},
-    {"title": "34+ Practice Tracks", "description": "Multiple practice tracks included. Play along while checking fretboard positions.", "image": "hero.webp"}
+    {"title": "More Detailed Than TAB", "description": "Provides more specific fingering information than standard tablature. Visualize exact finger positions.", "image": "hero.webp"},
+    {"title": "Chord Practice Modes", "description": "4 modes: Chromatic, Pentatonic, Diatonic, and All Chord practice.", "image": "hero.webp"},
+    {"title": "Fretboard & Fingering", "description": "Separate exercises for fretboard navigation and finger positioning technique.", "image": "hero.webp"},
+    {"title": "Song Tracks", "description": "Practice with real songs: FF5, Vaundy, Stand By Me, and more.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

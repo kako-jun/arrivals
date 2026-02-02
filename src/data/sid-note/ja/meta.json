@@ -1,17 +1,16 @@
 {
   "name": "Sid Note",
-  "catch": "音楽理論をビジュアルで学ぶ",
-  "description": "コード、スケール、ダイアトニック、五度圏を視覚的に理解。作曲や演奏に役立つ音楽理論ツール。",
+  "catch": "TABより詳細なベース指板記法",
+  "description": "ベースのフィンガリングをTAB譜より詳細に表示・練習できるWebアプリ。コード練習、指板練習、楽曲トラック収録。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
   "og": {"title": "Sid Note", "description": "音楽理論をビジュアルで学ぶ"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "ベース指板表示", "description": "TAB譜より詳細な指板記法。正確な指の位置を視覚化して学習。", "image": "hero.webp"},
-    {"title": "コード可視化", "description": "ギターフレット、五線譜、鍵盤でコードを同時表示。理論を直感的に理解。", "image": "hero.webp"},
-    {"title": "スケール・ダイアトニック", "description": "全キーのスケールとダイアトニックコードを表示。転調も簡単に把握。", "image": "hero.webp"},
-    {"title": "五度圏", "description": "調性関係を五度圏で直感的に理解。作曲・アレンジの強力なツール。", "image": "hero.webp"},
-    {"title": "34曲以上のトラック", "description": "練習用トラックを多数収録。実際の曲で指板を確認しながら演奏。", "image": "hero.webp"}
+    {"title": "TABより詳細な記法", "description": "標準的なTAB譜より詳細なフィンガリング情報を提供。正確な指の位置を視覚化。", "image": "hero.webp"},
+    {"title": "コード練習モード", "description": "クロマチック、ペンタトニック、ダイアトニック、全コード練習の4モード。", "image": "hero.webp"},
+    {"title": "指板・フィンガリング練習", "description": "指板ナビゲーションと指のポジショニングを個別に練習。", "image": "hero.webp"},
+    {"title": "楽曲トラック収録", "description": "FF5、Vaundy、Stand By Meなど実際の曲で練習。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

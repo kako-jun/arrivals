@@ -1,17 +1,16 @@
 {
   "name": "Sid Note",
-  "catch": "Aprende teoría musical visualmente",
-  "description": "Entiende acordes, escalas, diatónicos y círculo de quintas visualmente. Herramienta de teoría musical para composición y práctica.",
+  "catch": "Notación de bajo más detallada que TAB",
+  "description": "Aplicación web para ver y practicar digitación de bajo con notación más específica que TAB. Incluye práctica de acordes, diapasón y pistas de canciones.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
-  "og": {"title": "Sid Note", "description": "Aprende teoría musical visualmente"},
+  "og": {"title": "Sid Note", "description": "Aplicación de práctica de digitación de bajo"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Diapasón de bajo", "description": "Notación de diapasón más detallada que TAB. Aprende posiciones exactas visualmente.", "image": "hero.webp"},
-    {"title": "Visualización de acordes", "description": "Muestra acordes en diapasón, pentagrama y teclado simultáneamente. Teoría intuitiva.", "image": "hero.webp"},
-    {"title": "Escalas y diatónicos", "description": "Muestra escalas y acordes diatónicos para todas las tonalidades. Fácil modulación.", "image": "hero.webp"},
-    {"title": "Círculo de quintas", "description": "Entiende relaciones tonales intuitivamente. Herramienta poderosa para composición.", "image": "hero.webp"},
-    {"title": "34+ pistas de práctica", "description": "Muchas pistas de práctica incluidas. Toca canciones reales viendo el diapasón.", "image": "hero.webp"}
+    {"title": "Más detallado que TAB", "description": "Proporciona información de digitación más específica que la tablatura estándar. Visualiza posiciones exactas.", "image": "hero.webp"},
+    {"title": "Modos de práctica de acordes", "description": "4 modos: Cromático, Pentatónico, Diatónico y práctica de todos los acordes.", "image": "hero.webp"},
+    {"title": "Diapasón y digitación", "description": "Ejercicios separados para navegación del diapasón y técnica de posicionamiento.", "image": "hero.webp"},
+    {"title": "Pistas de canciones", "description": "Practica con canciones reales: FF5, Vaundy, Stand By Me y más.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }
