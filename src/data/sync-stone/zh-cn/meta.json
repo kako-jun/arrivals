@@ -1,0 +1,16 @@
+{
+  "name": "SyncStone",
+  "catch": "备份你的FF14陆行鸟站回忆",
+  "description": "将FINAL FANTASY XIV官方博客「The Lodestone」的日志导出为Markdown格式。支持图片、评论的批量保存。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
+  "og": {"title": "SyncStone", "description": "FF14陆行鸟站导出工具"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Markdown导出", "description": "将陆行鸟站日记保存为Markdown格式。轻松迁移到其他博客。", "image": "hero.webp"},
+    {"title": "图片与评论", "description": "完整备份，包括附加图片和评论，不仅仅是文本。", "image": "hero.webp"},
+    {"title": "批量导出", "description": "一次性导出所有条目。在服务关闭前保存您的回忆。", "image": "hero.webp"},
+    {"title": "Chrome扩展", "description": "直接从浏览器运行。安装后即可使用。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

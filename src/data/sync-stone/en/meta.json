@@ -1,0 +1,16 @@
+{
+  "name": "SyncStone",
+  "catch": "Backup your FF14 Lodestone memories",
+  "description": "Export FINAL FANTASY XIV official blog 'The Lodestone' entries to Markdown format. Includes images and comments with bulk export support.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
+  "og": {"title": "SyncStone", "description": "FF14 Lodestone export tool"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Markdown Export", "description": "Save Lodestone diary entries in Markdown format. Easy migration to other blogs.", "image": "hero.webp"},
+    {"title": "Images & Comments", "description": "Complete backup including attached images and comments, not just text.", "image": "hero.webp"},
+    {"title": "Bulk Export", "description": "Export all entries at once. Save your memories before service shutdown.", "image": "hero.webp"},
+    {"title": "Chrome Extension", "description": "Run directly from browser. Install and use immediately.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "SyncStone",
+  "catch": "FF14ロドストの思い出をバックアップ",
+  "description": "FINAL FANTASY XIV公式ブログ「The Lodestone」のエントリーをMarkdown形式でエクスポート。画像・コメント含む一括保存。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
+  "og": {"title": "SyncStone", "description": "FF14ロドストのエクスポートツール"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Markdownエクスポート", "description": "ロドストの日記エントリーをMarkdown形式で保存。他のブログへの移行も簡単。", "image": "hero.webp"},
+    {"title": "画像・コメント対応", "description": "本文だけでなく、添付画像やコメントも含めて完全バックアップ。", "image": "hero.webp"},
+    {"title": "一括エクスポート", "description": "全記事を一度にエクスポート。サービス終了前の思い出保存に。", "image": "hero.webp"},
+    {"title": "Chrome拡張機能", "description": "ブラウザから直接実行。インストールして即使用可能。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}
