@@ -23,6 +23,7 @@ const urlPattern = /^https?:\/\/.+/;
 
 export const LinksSchema = z.object({
   play: z.string().regex(urlPattern).optional(),
+  demo: z.string().regex(urlPattern).optional(),
   github: z.string().regex(urlPattern).optional(),
   zenn: z.string().regex(urlPattern).optional(),
 });
@@ -37,6 +38,12 @@ export const AuthorSchema = z.object({
   name: z.string().optional(),
 });
 
+export const FeatureSchema = z.object({
+  title: z.string().min(1),
+  description: z.string().optional(),
+  image: z.string().optional(),
+});
+
 export const MetaSchema = z.object({
   name: z.string().min(1),
   catch: z.string().optional(),
@@ -45,6 +52,7 @@ export const MetaSchema = z.object({
   links: LinksSchema.optional(),
   og: OgMetaSchema.optional(),
   gallery: z.array(z.string()).optional(),
+  features: z.array(FeatureSchema).optional(),
   author: AuthorSchema.optional(),
 });
 
@@ -60,6 +68,7 @@ export type Voice = z.infer<typeof VoiceSchema>;
 export type Theme = z.infer<typeof ThemeSchema>;
 export type Links = z.infer<typeof LinksSchema>;
 export type Author = z.infer<typeof AuthorSchema>;
+export type Feature = z.infer<typeof FeatureSchema>;
 
 export function validateMeta(data: unknown, path: string): Meta {
   const result = MetaSchema.safeParse(data);

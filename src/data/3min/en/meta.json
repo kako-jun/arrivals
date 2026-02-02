@@ -3,10 +3,10 @@
   "catch": "Create your business calendar in 3 minutes.",
   "description": "Save time for busy small business owners. Share instantly on Instagram or LINE.",
   "theme": {
-    "bg": "#eff6ff",
-    "fg": "#1e3a5f",
-    "accent": "#3b82f6",
-    "muted": "#64748b"
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
   },
   "links": {
     "play": "https://3min.llll-ll.com/",
@@ -16,7 +16,24 @@
     "title": "3 min. Calendar",
     "description": "Create this month's business calendar in just 3 minutes"
   },
-  "gallery": [],
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {
+      "title": "Easy Drag & Drop Editing",
+      "description": "Just click on calendar dates to toggle business days and holidays. Intuitive operation anyone can use immediately.",
+      "image": "hero.webp"
+    },
+    {
+      "title": "Auto Holiday Detection",
+      "description": "Japanese holidays are automatically displayed, eliminating manual entry. Significantly reduces monthly update work.",
+      "image": "hero.webp"
+    },
+    {
+      "title": "Instant Social Sharing",
+      "description": "Share your created calendar to Instagram or LINE with one click. Smooth customer communication.",
+      "image": "hero.webp"
+    }
+  ],
   "author": {
     "name": "kako-jun"
   }

@@ -1,0 +1,124 @@
+---
+import type { Feature } from '@/lib';
+
+interface Props {
+  features: Feature[];
+  basePath: string;
+  app: string;
+  locale: string;
+}
+
+const { features, basePath, app, locale } = Astro.props;
+
+const sectionTitle: Record<string, string> = {
+  ja: '機能',
+  en: 'Features',
+  'zh-cn': '功能',
+};
+const title = sectionTitle[locale] ?? sectionTitle.en;
+---
+
+{
+  features.length > 0 && (
+    <section id="features" class="features-section fade-in">
+      <h2 class="section-title">{title}</h2>
+      <div class="features-grid">
+        {features.map((feature, index) => (
+          <div class="feature-item">
+            {feature.image && (
+              <div class="feature-image">
+                <img
+                  src={`${basePath}content/${app}/${feature.image}`}
+                  alt={feature.title}
+                  loading="lazy"
+                />
+              </div>
+            )}
+            <div class="feature-content">
+              <h3>{feature.title}</h3>
+              {feature.description && <p>{feature.description}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .features-section {
+    width: 100%;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: #fff;
+  }
+
+  .features-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .feature-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .feature-item:nth-child(even) {
+    direction: rtl;
+  }
+
+  .feature-item:nth-child(even) > * {
+    direction: ltr;
+  }
+
+  .feature-image {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  }
+
+  .feature-image img {
+    width: 100%;
+    display: block;
+  }
+
+  .feature-content {
+    padding: 20px 0;
+  }
+
+  .feature-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    color: #fff;
+  }
+
+  .feature-content p {
+    color: var(--muted);
+    font-size: 1.05rem;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 768px) {
+    .feature-item {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .feature-item:nth-child(even) {
+      direction: ltr;
+    }
+
+    .feature-content {
+      text-align: center;
+    }
+  }
+</style>

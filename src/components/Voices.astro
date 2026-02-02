@@ -15,7 +15,8 @@ const displayVoices = voices.slice(0, maxCount);
     <section class="voices fade-in" aria-label="Reviews">
       {displayVoices.map((v) => (
         <blockquote>
-          "{v.text}"{v.by && <cite>— {v.by}</cite>}
+          <p class="voice-text">"{v.text}"</p>
+          {v.by && <cite>— {v.by}</cite>}
         </blockquote>
       ))}
     </section>

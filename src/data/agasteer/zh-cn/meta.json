@@ -3,10 +3,10 @@
   "catch": "永不冲突的最简Markdown笔记应用。",
   "description": "直接同步GitHub。无中间服务器，直接保存到您的仓库。",
   "theme": {
-    "bg": "#e8f4f8",
-    "fg": "#1a1a2e",
-    "accent": "#4a90e2",
-    "muted": "#5a6a7a"
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
   },
   "links": {
     "play": "https://agasteer.llll-ll.com/",

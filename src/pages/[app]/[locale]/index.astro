@@ -16,10 +16,13 @@ import {
   resolveTheme,
   generateThemeCSS,
 } from '@/lib';
+import Header from '@/components/Header.astro';
 import Hero from '@/components/Hero.astro';
 import HeroMedia from '@/components/HeroMedia.astro';
+import ImageCarousel from '@/components/ImageCarousel.astro';
 import Gallery from '@/components/Gallery.astro';
 import Voices from '@/components/Voices.astro';
+import Features from '@/components/Features.astro';
 import CTA from '@/components/CTA.astro';
 import Footer from '@/components/Footer.astro';
 
@@ -93,6 +96,7 @@ const ogLocale = getOGLocale(locale);
     <ClientRouter />
   </head>
   <body>
+    <Header iconSrc={iconWebp} name={meta.name} locale={locale} links={meta.links} />
     <a href="#main" class="skip-link">Skip to content</a>
     <main id="main" class="section">
       <Hero
@@ -106,7 +110,14 @@ const ogLocale = getOGLocale(locale);
         app={app}
       />
 
-      <HeroMedia hasVideo={hasVideo} videoSrc={heroMp4} imageSrc={heroWebp} alt={meta.name} />
+      {meta.gallery && meta.gallery.length > 0 ? (
+        <ImageCarousel
+          images={[heroWebp, ...meta.gallery.map(img => `${base}content/${app}/${img}`)]}
+          alt={meta.name}
+        />
+      ) : (
+        <HeroMedia hasVideo={hasVideo} videoSrc={heroMp4} imageSrc={heroWebp} alt={meta.name} />
+      )}
 
       {
         meta.description && (
@@ -118,9 +129,9 @@ const ogLocale = getOGLocale(locale);
 
       {meta.links?.play && <CTA href={meta.links.play} locale={locale} />}
 
-      {meta.gallery && <Gallery images={meta.gallery} basePath={base} />}
-
       <Voices voices={voices} />
+
+      {meta.features && <Features features={meta.features} basePath={base} app={app} locale={locale} />}
 
       <Footer author={meta.author} links={meta.links} />
     </main>

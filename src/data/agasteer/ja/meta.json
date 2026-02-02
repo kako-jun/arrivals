@@ -3,10 +3,10 @@
   "catch": "コンフリクトしない、最もシンプルなMarkdownノートアプリ。",
   "description": "GitHubと直接同期。中間サーバーなし、あなたのリポジトリに直接保存。",
   "theme": {
-    "bg": "#e8f4f8",
-    "fg": "#1a1a2e",
-    "accent": "#4a90e2",
-    "muted": "#5a6a7a"
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
   },
   "links": {
     "play": "https://agasteer.llll-ll.com/",

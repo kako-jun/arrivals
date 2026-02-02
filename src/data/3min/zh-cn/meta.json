@@ -3,10 +3,10 @@
   "catch": "3分钟完成本月营业日历。",
   "description": "为忙碌的个体经营者节省时间。轻松分享到Instagram或LINE。",
   "theme": {
-    "bg": "#eff6ff",
-    "fg": "#1e3a5f",
-    "accent": "#3b82f6",
-    "muted": "#64748b"
+    "bg": "#1a0a2e",
+    "fg": "#ffffff",
+    "accent": "#e879f9",
+    "muted": "#c4b5fd"
   },
   "links": {
     "play": "https://3min.llll-ll.com/",
@@ -16,7 +16,24 @@
     "title": "3 min. Calendar",
     "description": "只需3分钟即可完成本月营业日历"
   },
-  "gallery": [],
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {
+      "title": "拖放简单编辑",
+      "description": "只需点击日历日期即可切换营业日和休息日。直观的操作，任何人都能立即上手。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "自动显示节假日",
+      "description": "日本节假日自动显示，无需手动输入。大幅减少每月更新工作。",
+      "image": "hero.webp"
+    },
+    {
+      "title": "即时社交分享",
+      "description": "一键将制作的日历分享到Instagram或LINE。与客户沟通更顺畅。",
+      "image": "hero.webp"
+    }
+  ],
   "author": {
     "name": "kako-jun"
   }

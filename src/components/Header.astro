@@ -1,0 +1,103 @@
+---
+interface Props {
+  iconSrc: string;
+  name: string;
+  locale: string;
+  links?: {
+    play?: string;
+    github?: string;
+  };
+}
+
+const { iconSrc, name, locale, links } = Astro.props;
+
+const featuresText: Record<string, string> = {
+  ja: '機能',
+  en: 'Features',
+  'zh-cn': '功能',
+};
+const featuresLabel = featuresText[locale] ?? featuresText.en;
+---
+
+<header class="site-header">
+  <div class="header-content">
+    <a href="#" class="logo">
+      <img src={iconSrc} alt="" width="32" height="32" />
+      <span>{name}</span>
+    </a>
+    <nav class="header-nav">
+      <a href="#features">{featuresLabel}</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    padding: 16px 24px;
+    background: rgba(26, 10, 46, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .header-content {
+    max-width: var(--maxw);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+
+  .logo img {
+    border-radius: 8px;
+  }
+
+  .logo:hover {
+    text-decoration: none;
+  }
+
+  .header-nav {
+    display: flex;
+    gap: 32px;
+  }
+
+  .header-nav a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .header-nav a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .header-nav {
+      gap: 16px;
+    }
+
+    .header-nav a {
+      font-size: 0.85rem;
+    }
+
+    .logo span {
+      display: none;
+    }
+  }
+</style>

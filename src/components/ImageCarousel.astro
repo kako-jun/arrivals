@@ -1,0 +1,164 @@
+---
+interface Props {
+  images: string[];
+  alt: string;
+  interval?: number;
+}
+
+const { images, alt, interval = 4000 } = Astro.props;
+---
+
+<div class="carousel fade-in" data-interval={interval}>
+  <div class="carousel-track">
+    {images.map((src, index) => (
+      <div class="carousel-slide">
+        <img
+          src={src}
+          alt={`${alt} ${index + 1}`}
+          loading={index === 0 ? 'eager' : 'lazy'}
+          decoding="async"
+        />
+      </div>
+    ))}
+  </div>
+  {images.length > 1 && (
+    <div class="carousel-dots">
+      {images.map((_, index) => (
+        <button
+          class={`carousel-dot ${index === 0 ? 'active' : ''}`}
+          data-index={index}
+          aria-label={`Go to slide ${index + 1}`}
+        />
+      ))}
+    </div>
+  )}
+</div>
+
+<style>
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 16px 64px rgba(0, 0, 0, 0.6), 0 0 80px rgba(168, 85, 247, 0.15);
+  }
+
+  .carousel-track {
+    display: flex;
+    width: 100%;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-slide {
+    width: 100%;
+    min-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  .carousel-dots {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+  }
+
+  .carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.2s ease;
+  }
+
+  .carousel-dot:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .carousel-dot.active {
+    background: #fff;
+    transform: scale(1.2);
+  }
+</style>
+
+<script>
+  function initCarousels() {
+    document.querySelectorAll('.carousel').forEach((carousel) => {
+      if (carousel.hasAttribute('data-initialized')) return;
+      carousel.setAttribute('data-initialized', 'true');
+
+      const track = carousel.querySelector('.carousel-track') as HTMLElement;
+      const dots = carousel.querySelectorAll('.carousel-dot');
+      const slides = carousel.querySelectorAll('.carousel-slide');
+      const interval = parseInt(carousel.getAttribute('data-interval') || '4000');
+
+      if (slides.length <= 1) return;
+
+      let currentIndex = 0;
+      let autoplayTimer: number | null = null;
+
+      function goToSlide(index: number) {
+        currentIndex = index;
+        track.style.transform = `translateX(-${index * 100}%)`;
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('active', i === index);
+        });
+      }
+
+      function nextSlide() {
+        goToSlide((currentIndex + 1) % slides.length);
+      }
+
+      function startAutoplay() {
+        if (autoplayTimer) clearInterval(autoplayTimer);
+        autoplayTimer = window.setInterval(nextSlide, interval);
+      }
+
+      function stopAutoplay() {
+        if (autoplayTimer) {
+          clearInterval(autoplayTimer);
+          autoplayTimer = null;
+        }
+      }
+
+      // Initialize to first slide
+      goToSlide(0);
+
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          goToSlide(index);
+          stopAutoplay();
+          startAutoplay();
+        });
+      });
+
+      carousel.addEventListener('mouseenter', stopAutoplay);
+      carousel.addEventListener('mouseleave', startAutoplay);
+
+      startAutoplay();
+    });
+  }
+
+  // Run on load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCarousels);
+  } else {
+    initCarousels();
+  }
+  document.addEventListener('astro:after-swap', initCarousels);
+</script>

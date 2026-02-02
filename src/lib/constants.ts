@@ -2,12 +2,12 @@
 export const SUPPORTED_LOCALES = ['ja', 'en', 'zh-cn'] as const;
 export type Locale = (typeof SUPPORTED_LOCALES)[number];
 
-// Default theme values (light)
+// Default theme values (dark purple gradient)
 export const DEFAULT_THEME = {
-  bg: '#ffffff',
-  fg: '#1f2937',
-  accent: '#3b82f6',
-  muted: '#6b7280',
+  bg: '#1a0a2e',
+  fg: '#ffffff',
+  accent: '#e879f9',
+  muted: '#c4b5fd',
 } as const;
 
 // Locale display labels
@@ -26,9 +26,9 @@ export const OG_LOCALE_MAP: Record<Locale, string> = {
 
 // CTA button text
 export const CTA_TEXT: Record<Locale, string> = {
-  ja: '今すぐプレイ',
-  en: 'Play Now',
-  'zh-cn': '立即游玩',
+  ja: '無料で始める',
+  en: 'Get Started Free',
+  'zh-cn': '免费开始',
 };
 
 // 404 page messages
