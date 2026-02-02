@@ -1,0 +1,15 @@
+{
+  "name": "SID Note",
+  "catch": "Learn music theory visually",
+  "description": "Visualize chords, scales, diatonic progressions, and the circle of fifths. A music theory tool for composers and players.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
+  "og": {"title": "SID Note", "description": "Learn music theory visually"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Chord Display", "description": "Visualize chords on guitar frets, staff notation, and keyboard.", "image": "hero.webp"},
+    {"title": "Scales & Diatonic", "description": "Display scales and diatonic chords for all keys.", "image": "hero.webp"},
+    {"title": "Circle of Fifths", "description": "Understand key relationships intuitively.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

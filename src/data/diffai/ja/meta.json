@@ -1,0 +1,15 @@
+{
+  "name": "diffai",
+  "catch": "AI/MLモデルのセマンティックdiff",
+  "description": "PyTorch、Safetensors、NumPy、MATLABファイルを意味のある差分で比較。学習率、勾配、収束状況を自動分析。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
+  "og": {"title": "diffai", "description": "AI/MLモデル用差分ツール"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "4形式対応", "description": "PyTorch、Safetensors、NumPy、MATLABに対応。", "image": "hero.webp"},
+    {"title": "自動ML分析", "description": "学習率、勾配、量子化、収束など11種類の分析を自動実行。", "image": "hero.webp"},
+    {"title": "CI/CD統合", "description": "終了コードと構造化出力でパイプラインに組み込み可能。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

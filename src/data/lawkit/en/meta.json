@@ -1,0 +1,15 @@
+{
+  "name": "lawkit",
+  "catch": "Detect data anomalies with statistical laws",
+  "description": "Analyze data with Benford's law, Pareto principle, Zipf's law, Normal and Poisson distributions. For fraud detection and data quality.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/lawkit", "github": "https://github.com/kako-jun/lawkit"},
+  "og": {"title": "lawkit", "description": "Statistical law analysis toolkit"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "5 Statistical Laws", "description": "Benford, Pareto, Zipf, Normal, and Poisson distributions.", "image": "hero.webp"},
+    {"title": "Anomaly Detection", "description": "Risk levels and exit codes for CI/CD integration.", "image": "hero.webp"},
+    {"title": "Flexible I/O", "description": "CSV/JSON/YAML input, text/json/yaml/csv output.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

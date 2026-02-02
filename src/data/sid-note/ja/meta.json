@@ -1,0 +1,15 @@
+{
+  "name": "SID Note",
+  "catch": "音楽理論をビジュアルで学ぶ",
+  "description": "コード、スケール、ダイアトニック、五度圏を視覚的に理解。作曲や演奏に役立つ音楽理論ツール。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
+  "og": {"title": "SID Note", "description": "音楽理論をビジュアルで学ぶ"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "コード表示", "description": "ギターフレット、五線譜、鍵盤でコードを視覚化。", "image": "hero.webp"},
+    {"title": "スケール・ダイアトニック", "description": "全キーのスケールとダイアトニックコードを表示。", "image": "hero.webp"},
+    {"title": "五度圏", "description": "調性関係を五度圏で直感的に理解。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

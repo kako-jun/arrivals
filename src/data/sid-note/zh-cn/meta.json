@@ -1,0 +1,15 @@
+{
+  "name": "SID Note",
+  "catch": "可视化学习音乐理论",
+  "description": "可视化和弦、音阶、自然和弦、五度圈。为作曲和演奏提供音乐理论工具。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
+  "og": {"title": "SID Note", "description": "可视化学习音乐理论"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "和弦显示", "description": "在吉他指板、五线谱、键盘上可视化和弦。", "image": "hero.webp"},
+    {"title": "音阶与自然和弦", "description": "显示所有调的音阶和自然和弦。", "image": "hero.webp"},
+    {"title": "五度圈", "description": "直观理解调性关系。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}
