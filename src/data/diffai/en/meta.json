@@ -1,16 +1,16 @@
 {
   "name": "diffai",
-  "catch": "Semantic diff for AI/ML models",
-  "description": "Compare PyTorch, Safetensors, NumPy, MATLAB files with meaningful diffs. See model changes at a glance.",
+  "catch": "\"Binary files differ\" is not enough",
+  "description": "Shows meaningful diffs for ML model files. Learning rate changes, gradient health, layer additions and deletions at a glance.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
-  "og": {"title": "diffai", "description": "Diff tool for AI/ML models"},
+  "og": {"title": "diffai", "description": "Semantic diff tool for AI/ML models"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "4 Formats", "description": "Compare PyTorch, Safetensors, NumPy, MATLAB files.", "image": "hero.webp"},
-    {"title": "Tensor Statistics", "description": "Compare detailed stats: mean, std, min, max.", "image": "hero.webp"},
-    {"title": "Shape Change Detection", "description": "Auto-detect layer additions, deletions, modifications.", "image": "hero.webp"},
-    {"title": "Training Progress Check", "description": "Visualize weight changes between checkpoints.", "image": "hero.webp"}
+    {"title": "11 Auto Analyses", "description": "Learning rate, optimizer, loss, accuracy, model version, gradient, quantization, convergence, activation, attention, ensemble.", "image": "hero.webp"},
+    {"title": "Tensor Statistics", "description": "Compare mean, std, min, max. Detects shape changes and parameter additions/deletions.", "image": "hero.webp"},
+    {"title": "4 Formats", "description": "PyTorch (.pt/.pth), Safetensors, NumPy (.npy/.npz), MATLAB (.mat).", "image": "hero.webp"},
+    {"title": "JSON/YAML Output", "description": "--output json/yaml for machine-readable output. Detect model changes in CI/CD.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

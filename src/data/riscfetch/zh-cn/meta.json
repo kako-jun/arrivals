@@ -1,29 +1,18 @@
 {
   "name": "riscfetch",
-  "catch": "RISC-V专用系统信息工具",
-  "description": "以neofetch风格显示RISC-V特定信息。ISA扩展、核心数、硬件ID等美观格式化展示。",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://crates.io/crates/riscfetch",
-    "github": "https://github.com/kako-jun/riscfetch"
-  },
-  "og": {
-    "title": "riscfetch",
-    "description": "RISC-V专用系统信息显示工具"
-  },
+  "catch": "仅限RISC-V。其他架构上会退出。",
+  "description": "以neofetch风格显示RISC-V信息。ISA扩展、核心数、硬件ID等。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://crates.io/crates/riscfetch", "github": "https://github.com/kako-jun/riscfetch"},
+  "og": {"title": "riscfetch", "description": "RISC-V专用系统信息工具"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "144种RISC-V扩展", "description": "按类别显示98个Z扩展和46个S扩展。", "image": "hero.webp"},
-    {"title": "13种厂商Logo", "description": "Pine64、SiFive、StarFive、WCH等厂商的ASCII艺术Logo。", "image": "hero.webp"},
-    {"title": "硬件详情", "description": "核心数、硬件ID、缓存信息等详细规格。", "image": "hero.webp"},
-    {"title": "扩展功能说明", "description": "查看每个ISA扩展的详细功能说明。", "image": "hero.webp"}
+    {"title": "144种扩展", "description": "98个Z扩展和46个S扩展。按类别分组便于阅读。", "image": "hero.webp"},
+    {"title": "13种厂商Logo", "description": "Pine64、SiFive、StarFive、Milk-V、Sipeed、T-Head、Kendryte、Allwinner、Espressif、SpacemiT、Sophgo、WCH。", "image": "hero.webp"},
+    {"title": "说明模式", "description": "-e显示每个扩展的功能。-a用✓/✗显示全部144种扩展。", "image": "hero.webp"},
+    {"title": "JSON输出", "description": "-j输出机器可读格式。方便集成到脚本和CI/CD。", "image": "hero.webp"},
+    {"title": "基准测试", "description": "-b运行ISA特定的基准测试。", "image": "hero.webp"},
+    {"title": "配合fastfetch", "description": "-r仅显示RISC-V信息。与fastfetch组合获取完整系统信息。", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

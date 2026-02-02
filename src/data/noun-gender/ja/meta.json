@@ -7,12 +7,13 @@
   "og": {"title": "Noun Gender", "description": "8言語の名詞の性を楽しく学習"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "8言語対応", "description": "フランス語、ドイツ語、スペイン語、イタリア語、ポルトガル語、ロシア語、アラビア語、ヒンディー語。", "image": "hero.webp"},
-    {"title": "4,600語以上収録", "description": "厳選された日常語彙をカバー。実用的な単語から学習開始。", "image": "hero.webp"},
-    {"title": "インタラクティブクイズ", "description": "クイズ形式で名詞の性をテスト。ゲーム感覚で記憶定着。", "image": "hero.webp"},
-    {"title": "音声発音", "description": "Web Speech APIで正しい発音を確認。ネイティブに近い発音を習得。", "image": "hero.webp"},
-    {"title": "記憶トリック", "description": "性別を覚えるためのヒントやコツを収録。効率的に暗記。", "image": "hero.webp"},
-    {"title": "A-Zブラウズ", "description": "アルファベット順で辞書閲覧。気になる単語をすぐに検索。", "image": "hero.webp"}
+    {"title": "8言語対応", "description": "フランス語、ドイツ語、スペイン語、イタリア語、ポルトガル語、ロシア語、アラビア語、ヒンディー語。男性/女性/中性の性体系に対応。", "image": "hero.webp"},
+    {"title": "4,600語以上", "description": "翻訳と意味、記憶のコツ付き。英語または各言語で検索可能。", "image": "hero.webp"},
+    {"title": "性クイズ", "description": "英語で単語が出題され、正しい性を選ぶ。スコアと連続正解数を表示。", "image": "hero.webp"},
+    {"title": "音声発音", "description": "Web Speech APIでネイティブ発音を再生。リスニング学習にも。", "image": "hero.webp"},
+    {"title": "A-Zブラウズ", "description": "アルファベット順で辞書閲覧。無限スクロールで連続学習。", "image": "hero.webp"},
+    {"title": "REST API", "description": "/api/search?q=house&lang=deで単語検索。プログラムからも利用可能。", "image": "hero.webp"},
+    {"title": "11言語UI", "description": "インターフェースは英語、日本語、中国語など11言語に対応。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

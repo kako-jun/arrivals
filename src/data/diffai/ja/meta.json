@@ -1,16 +1,16 @@
 {
   "name": "diffai",
-  "catch": "AI/MLモデルのセマンティックdiff",
-  "description": "PyTorch、Safetensors、NumPy、MATLABファイルを意味のある差分で比較。モデルの変化を一目で把握。",
+  "catch": "「Binary files differ」で終わらない",
+  "description": "MLモデルファイルの中身を意味のある差分で表示。学習率の変化、勾配の健全性、レイヤーの追加削除が一目で分かる。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
-  "og": {"title": "diffai", "description": "AI/MLモデル用差分ツール"},
+  "og": {"title": "diffai", "description": "MLモデルのセマンティックdiff"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "4形式対応", "description": "PyTorch、Safetensors、NumPy、MATLABファイルを比較。", "image": "hero.webp"},
-    {"title": "テンソル統計表示", "description": "mean、std、min、maxなど詳細な統計情報を比較。", "image": "hero.webp"},
-    {"title": "形状変更の検出", "description": "レイヤーの追加・削除・変更を自動検出。", "image": "hero.webp"},
-    {"title": "学習進捗の確認", "description": "チェックポイント間の重みの変化を可視化。", "image": "hero.webp"}
+    {"title": "11種類の自動分析", "description": "学習率、オプティマイザ、損失、精度、モデルバージョン、勾配、量子化、収束、アクティベーション、アテンション、アンサンブル。", "image": "hero.webp"},
+    {"title": "テンソル統計", "description": "mean、std、min、maxを比較表示。形状変更やパラメータの追加削除も検出。", "image": "hero.webp"},
+    {"title": "4形式対応", "description": "PyTorch (.pt/.pth)、Safetensors、NumPy (.npy/.npz)、MATLAB (.mat)。", "image": "hero.webp"},
+    {"title": "JSON/YAML出力", "description": "--output json/yamlで機械可読な出力。CI/CDでのモデル変更検出に。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

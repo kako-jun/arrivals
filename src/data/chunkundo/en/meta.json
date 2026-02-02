@@ -1,15 +1,17 @@
 {
   "name": "chunkundo.nvim",
   "catch": "Smart undo chunking for Neovim",
-  "description": "Undo incrementally even in long edit sessions. Neovim plugin powered by chillout.nvim's debounce/throttle/batch.",
+  "description": "Neovim treats an entire insert session as one undo unit. This plugin breaks it into smaller chunks by time and word boundaries.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
   "og": {"title": "chunkundo.nvim", "description": "Smart undo chunking for Neovim"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Time-based Chunking", "description": "Detect typing pauses and split undo units automatically. No more losing everything.", "image": "hero.webp"},
-    {"title": "Auto-adjust", "description": "Learns your typing pattern and adjusts interval automatically.", "image": "hero.webp"},
-    {"title": "chillout.nvim Integration", "description": "Built on debounce/throttle/batch library. Useful for plugin development too.", "image": "hero.webp"}
+    {"title": "Time-based Chunking", "description": "Detects typing pauses (default 300ms) and splits undo blocks. Undo long edits incrementally.", "image": "hero.webp"},
+    {"title": "Word-based Chunking", "description": "Splits on space, tab, enter, punctuation. Fine-grained undo at character level.", "image": "hero.webp"},
+    {"title": "Auto-adjust", "description": "Learns your typing pattern and adjusts interval automatically. Gets better as you use it.", "image": "hero.webp"},
+    {"title": "Statusline", "description": "u+5 (growing), u=12 (confirmed), etc. Real-time chunk status. Works with lualine.", "image": "hero.webp"},
+    {"title": "chillout.nvim Integration", "description": "Uses debounce, throttle, and batch. This plugin is a showcase for chillout.nvim.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

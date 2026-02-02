@@ -1,15 +1,18 @@
 {
   "name": "大阪宪法",
   "catch": "用亲切的大阪方言解读法律",
-  "description": "从日本宪法到国际条约，70多部法律用通俗易懂的大阪方言解释。让法律变得触手可及。",
+  "description": "灵感来自《阿滋漫画大王》的大阪。用温暖亲切的语调，降低法律的心理门槛。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://osaka-kenpo.llll-ll.com", "github": "https://github.com/kako-jun/osaka-kenpo"},
   "og": {"title": "大阪宪法", "description": "用大阪方言解读法律"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "收录70多部法律", "description": "涵盖宪法、民法、刑法以及历史法律和国际条约。", "image": "hero.webp"},
-    {"title": "原文与翻译切换", "description": "一键切换复杂法律原文和通俗易懂的大阪方言翻译。", "image": "hero.webp"},
-    {"title": "分类浏览", "description": "法律按类别整理。支持移动端，随时随地学习法律。", "image": "hero.webp"}
+    {"title": "日本现行法", "description": "日本国宪法、民法、刑法、商法、民事诉讼法、刑事诉讼法。", "image": "hero.webp"},
+    {"title": "日本历史法", "description": "十七条宪法、大日本帝国宪法、大宝律令、御成败式目、武家�的法度等。", "image": "hero.webp"},
+    {"title": "外国法律", "description": "德国基本法、美国宪法、中华人民共和国宪法。", "image": "hero.webp"},
+    {"title": "历史法律", "description": "汉谟拉比法典、大宪章、拿破仑法典。", "image": "hero.webp"},
+    {"title": "国际条约", "description": "联合国宪章、南极条约、核不扩散条约、拉姆萨尔公约、外层空间条约、奥林匹克宪章等。", "image": "hero.webp"},
+    {"title": "原文/大阪切换", "description": "一键切换正式法律文本和亲切的大阪方言。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

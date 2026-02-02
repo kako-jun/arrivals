@@ -1,17 +1,15 @@
 {
   "name": "Sasso",
-  "catch": "Calculator meets puzzle. Eliminate digits.",
-  "description": "A calculator-based puzzle game. Eliminate adjacent identical digits. Challenge yourself in Endless mode.",
+  "catch": "A puzzle game Mensa members would enjoy",
+  "description": "Eliminate adjacent identical digits. 124×9=1116, three 1s vanish. If you don't get the name, this game might not be for you.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
-  "og": {"title": "Sasso", "description": "Calculator puzzle game"},
+  "og": {"title": "Sasso", "description": "A calculator puzzle for Mensa minds"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Digit Elimination", "description": "Create adjacent identical digits to eliminate them. Master arithmetic for chain reactions.", "image": "hero.webp"},
-    {"title": "3 Game Modes", "description": "Calculator for basics, Practice for free play, Endless for the challenge.", "image": "hero.webp"},
-    {"title": "Score Multipliers", "description": "Base×Chain×Prep×Risk scoring. Strategic play for high scores.", "image": "hero.webp"},
-    {"title": "Negative & Decimal", "description": "Use negative numbers and decimals strategically. Advanced techniques.", "image": "hero.webp"},
-    {"title": "Mac System 7 UI", "description": "Classic retro design. Nostalgia meets modern gameplay.", "image": "hero.webp"}
+    {"title": "Eliminate digits", "description": "Use arithmetic to create adjacent identical digits. That satisfaction when they vanish.", "image": "hero.webp"},
+    {"title": "Endless mode", "description": "Next operation predicted every 4.2 seconds. Eliminate before you overflow.", "image": "hero.webp"},
+    {"title": "Risk for high scores", "description": "Base×Chain×Prep×Risk. Play close to 10 digits for maximum points.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

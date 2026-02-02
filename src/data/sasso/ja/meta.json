@@ -1,17 +1,15 @@
 {
   "name": "Sasso",
-  "catch": "電卓×パズル。数字を消す新感覚ゲーム",
-  "description": "隣り合う同じ数字を消す電卓パズル。メンサ会員も唸る頭脳ゲーム。エンドレスモードで限界に挑戦。",
+  "catch": "メンサ会員も唸る電卓パズル",
+  "description": "隣り合う同じ数字を消す。124×9=1116で「1」が3つ並んで消える。名前の意味が分からないなら、向いてないかも。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
-  "og": {"title": "Sasso", "description": "電卓パズルゲーム"},
+  "og": {"title": "Sasso", "description": "メンサ会員も唸る電卓パズル"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "数字消去パズル", "description": "隣り合う同じ数字を作って消す。四則演算を駆使して連鎖を狙え。", "image": "hero.webp"},
-    {"title": "3つのゲームモード", "description": "電卓モードで基本操作、練習モードで自由プレイ、エンドレスで限界挑戦。", "image": "hero.webp"},
-    {"title": "スコア倍率システム", "description": "Base×Chain×Prep×Riskの複雑なスコア計算。戦略的プレイでハイスコア。", "image": "hero.webp"},
-    {"title": "負数・小数対応", "description": "負の数や小数も戦略的に使用可能。上級者向けのテクニック。", "image": "hero.webp"},
-    {"title": "Mac System 7風UI", "description": "クラシックなレトロデザイン。懐かしさと新しさの融合。", "image": "hero.webp"}
+    {"title": "同じ数字を消せ", "description": "四則演算で隣り合う同じ数字を作る。消えたときの快感。", "image": "hero.webp"},
+    {"title": "エンドレスモード", "description": "4.2秒ごとに次の演算が予告される。オーバーフロー前に消せ。", "image": "hero.webp"},
+    {"title": "リスクと連鎖で高得点", "description": "Base×Chain×Prep×Risk。10桁ギリギリで攻めろ。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

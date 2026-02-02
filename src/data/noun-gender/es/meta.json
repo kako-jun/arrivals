@@ -1,18 +1,19 @@
 {
   "name": "Noun Gender",
   "catch": "Aprende el género gramatical en 8 idiomas",
-  "description": "Aplicación web para aprender y buscar sustantivos con género en francés, alemán, español y más. 4,651 palabras con quizzes y pronunciación.",
+  "description": "4,600+ palabras en francés, alemán, español y 5 idiomas más. Aprende con quizzes y pronunciación.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://noun-gender.llll-ll.com", "github": "https://github.com/kako-jun/noun-gender"},
-  "og": {"title": "Noun Gender", "description": "Aprende el género gramatical en múltiples idiomas"},
+  "og": {"title": "Noun Gender", "description": "Aprende el género gramatical en 8 idiomas"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "8 idiomas", "description": "Francés, alemán, español, italiano, portugués, ruso, árabe, hindi.", "image": "hero.webp"},
-    {"title": "4,600+ palabras", "description": "Vocabulario esencial cuidadosamente seleccionado. Empieza con palabras prácticas.", "image": "hero.webp"},
-    {"title": "Quizzes interactivos", "description": "Pon a prueba los géneros de sustantivos con quizzes. Aprendizaje gamificado.", "image": "hero.webp"},
-    {"title": "Pronunciación de voz", "description": "Confirma la pronunciación correcta con Web Speech API. Aprende como nativo.", "image": "hero.webp"},
-    {"title": "Trucos de memoria", "description": "Consejos y trucos para recordar géneros. Memorización eficiente.", "image": "hero.webp"},
-    {"title": "Navegación A-Z", "description": "Busca en el diccionario por orden alfabético. Encuentra palabras rápidamente.", "image": "hero.webp"}
+    {"title": "8 idiomas", "description": "Francés, alemán, español, italiano, portugués, ruso, árabe, hindi. Soporta sistemas m/f/n.", "image": "hero.webp"},
+    {"title": "4,600+ palabras", "description": "Con traducciones, significados y trucos de memoria. Busca en inglés o idioma objetivo.", "image": "hero.webp"},
+    {"title": "Quiz de género", "description": "Las palabras aparecen en inglés, elige el género correcto. Muestra puntuación y racha.", "image": "hero.webp"},
+    {"title": "Pronunciación de audio", "description": "Web Speech API reproduce pronunciación nativa. Ideal para práctica de escucha.", "image": "hero.webp"},
+    {"title": "Navegación A-Z", "description": "Navega el diccionario alfabéticamente. Scroll infinito para aprendizaje continuo.", "image": "hero.webp"},
+    {"title": "REST API", "description": "/api/search?q=house&lang=de para acceso programático.", "image": "hero.webp"},
+    {"title": "11 idiomas de UI", "description": "Interfaz disponible en inglés, japonés, chino y más.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

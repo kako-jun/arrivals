@@ -1,31 +1,16 @@
 {
   "name": "Agasteer",
-  "catch": "La aplicación Markdown más simple que nunca tiene conflictos.",
-  "description": "Sincronización directa con GitHub. Sin servidor intermedio - guarda directamente en tu repositorio.",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://agasteer.llll-ll.com/",
-    "github": "https://github.com/kako-jun/agasteer"
-  },
-  "og": {
-    "title": "Agasteer",
-    "description": "La aplicación Markdown más simple con sincronización GitHub"
-  },
+  "catch": "Libérate del miedo a perder datos",
+  "description": "Siempre hace Pull al iniciar. GitHub es la única verdad. Los conflictos son teóricamente imposibles.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://agasteer.llll-ll.com/", "github": "https://github.com/kako-jun/agasteer"},
+  "og": {"title": "Agasteer", "description": "La app Markdown que nunca tiene conflictos"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Sincronización GitHub directa", "description": "Guarda directamente en tu repositorio GitHub. Sin servidores intermedios. Tus datos bajo tu control.", "image": "hero.webp"},
-    {"title": "Cero conflictos", "description": "Pull automático al iniciar. GitHub es la única fuente de verdad. Sincronización segura multi-dispositivo.", "image": "hero.webp"},
-    {"title": "Modo Vim", "description": "Navegación con teclas hjkl para edición rápida en PC. Perfecto para usuarios de Vim.", "image": "hero.webp"},
-    {"title": "Modo líneas de pauta", "description": "Muestra líneas como en un cuaderno. Aspecto de notas manuscritas para mejor concentración.", "image": "hero.webp"},
-    {"title": "Temas únicos", "description": "Ventana azul estilo RPG retro y más. Temas diseñados para usuarios asiáticos.", "image": "hero.webp"},
-    {"title": "Soporte PWA", "description": "Sin instalación, funciona en el navegador. También funciona offline.", "image": "hero.webp"}
+    {"title": "Sin conflictos. Nunca.", "description": "Siempre Pull al iniciar. GitHub es la verdad. Seguro en múltiples dispositivos.", "image": "hero.webp"},
+    {"title": "Directo a GitHub", "description": "Sin servidor intermedio. Guarda directo en tu repo. Tus datos, tu control.", "image": "hero.webp"},
+    {"title": "¡Modo Vim!", "description": "Navega con hjkl. La experiencia de notas más rápida, solo con teclado.", "image": "hero.webp"},
+    {"title": "¡Modo líneas!", "description": "Se ve como un cuaderno real. ¿Por qué nadie más tiene esto?", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

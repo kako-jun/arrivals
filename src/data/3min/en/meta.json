@@ -1,31 +1,16 @@
 {
   "name": "3 min. Calendar",
-  "catch": "Create your business calendar in 3 minutes.",
-  "description": "Save time for busy small business owners. Share instantly on Instagram or LINE.",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://3min.llll-ll.com/",
-    "github": "https://github.com/kako-jun/3min"
-  },
-  "og": {
-    "title": "3 min. Calendar",
-    "description": "Create this month's business calendar in just 3 minutes"
-  },
+  "catch": "Done in the time it takes to make instant noodles",
+  "description": "Just tap-tap the buttons. Holidays are automatic. Share to Instagram or LINE instantly. A time-saver for busy shop owners.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
+  "og": {"title": "3 min. Calendar", "description": "Create this month's business calendar in just 3 minutes"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "One-Click Editing", "description": "Click dates to toggle business days and holidays. Intuitive operation anyone can use immediately.", "image": "hero.webp"},
-    {"title": "20+ Countries Supported", "description": "Automatic holidays for 20+ countries, not just Japan. Perfect for international businesses.", "image": "hero.webp"},
-    {"title": "Rokuyo Display", "description": "Japanese traditional calendar days (Taian, Butsumetsu) shown automatically. Great for wedding/funeral industries.", "image": "hero.webp"},
-    {"title": "QR Code Generation", "description": "Auto-generate QR codes for calendar URLs. Completely offline, secure and safe.", "image": "hero.webp"},
-    {"title": "14 Color Themes", "description": "7 light and 7 dark color variations. Match your store's atmosphere.", "image": "hero.webp"},
-    {"title": "PWA Support", "description": "Works offline, installable to home screen. Edit anytime, anywhere.", "image": "hero.webp"}
+    {"title": "Just tap-tap", "description": "Tap dates to toggle ○△✕ availability. Add 'Closed' or 'Full' stamps. Zero hassle.", "image": "hero.webp"},
+    {"title": "Auto holidays", "description": "20+ countries supported. No more manually marking holidays red every month.", "image": "hero.webp"},
+    {"title": "Share instantly", "description": "Post directly to Instagram, LINE, or X. Save as image too.", "image": "hero.webp"},
+    {"title": "Rokuyo & QR codes", "description": "Japanese lucky days shown automatically. QR codes generated completely offline.", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

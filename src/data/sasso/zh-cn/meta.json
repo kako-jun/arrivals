@@ -1,17 +1,15 @@
 {
   "name": "Sasso",
-  "catch": "计算器遇上益智游戏。消除数字。",
-  "description": "基于计算器的益智游戏。消除相邻的相同数字。在无尽模式中挑战极限。",
+  "catch": "门萨会员都点头的计算器谜题",
+  "description": "消除相邻的相同数字。124×9=1116，三个1消失。如果你不懂这个名字的含义，可能不适合你。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
-  "og": {"title": "Sasso", "description": "计算器益智游戏"},
+  "og": {"title": "Sasso", "description": "门萨级计算器谜题"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "数字消除谜题", "description": "创造相邻的相同数字来消除它们。掌握四则运算实现连锁反应。", "image": "hero.webp"},
-    {"title": "3种游戏模式", "description": "计算器模式学习基础，练习模式自由探索，无尽模式挑战极限。", "image": "hero.webp"},
-    {"title": "分数倍率系统", "description": "Base×Chain×Prep×Risk复杂计分。策略性游玩获取高分。", "image": "hero.webp"},
-    {"title": "负数与小数", "description": "负数和小数也可战略使用。高级玩家的进阶技巧。", "image": "hero.webp"},
-    {"title": "Mac System 7风格UI", "description": "经典复古设计。怀旧感与现代游戏性的融合。", "image": "hero.webp"}
+    {"title": "消除数字", "description": "用四则运算创造相邻的相同数字。消除时的快感。", "image": "hero.webp"},
+    {"title": "无尽模式", "description": "每4.2秒预告下一个运算。在溢出前消除。", "image": "hero.webp"},
+    {"title": "冒险得高分", "description": "Base×Chain×Prep×Risk。逼近10位数极限。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

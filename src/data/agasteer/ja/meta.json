@@ -1,31 +1,16 @@
 {
   "name": "Agasteer",
-  "catch": "コンフリクトしない、最もシンプルなMarkdownノートアプリ。",
-  "description": "GitHubと直接同期。中間サーバーなし、あなたのリポジトリに直接保存。",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://agasteer.llll-ll.com/",
-    "github": "https://github.com/kako-jun/agasteer"
-  },
-  "og": {
-    "title": "Agasteer",
-    "description": "GitHubと直接つながる、最もシンプルなMarkdownノートアプリ"
-  },
+  "catch": "データ消失の恐怖から、解放される",
+  "description": "起動時に常にPull。GitHubが唯一の真実。理論上、コンフリクトが起きない設計。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://agasteer.llll-ll.com/", "github": "https://github.com/kako-jun/agasteer"},
+  "og": {"title": "Agasteer", "description": "コンフリクトしないMarkdownノートアプリ"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "GitHubと直接同期", "description": "中間サーバーを介さず、あなたのGitHubリポジトリに直接保存。データは常にあなたの管理下に。", "image": "hero.webp"},
-    {"title": "コンフリクトゼロ", "description": "起動時に常にPull。GitHubが唯一の真実。複数デバイスからの編集も安全に同期。", "image": "hero.webp"},
-    {"title": "Vimモード対応", "description": "hjklキーナビゲーションでPC上での高速編集。Vimユーザーに最適。", "image": "hero.webp"},
-    {"title": "ルール線モード", "description": "ノートのようなルール線を表示。手書きノート風の見た目で集中力アップ。", "image": "hero.webp"},
-    {"title": "日本語テーマ", "description": "レトロRPG風青ウィンドウなど、日本語ユーザー向けの独自テーマ。", "image": "hero.webp"},
-    {"title": "PWA対応", "description": "インストール不要、ブラウザで即座に開始。オフラインでも動作。", "image": "hero.webp"}
+    {"title": "コンフリクトしない", "description": "起動時に常にPull。GitHubが真実。複数デバイスでも安心。", "image": "hero.webp"},
+    {"title": "GitHubに直接保存", "description": "中間サーバーなし。あなたのリポジトリに直接。データはあなたの手の中。", "image": "hero.webp"},
+    {"title": "Vimモード!", "description": "hjklで爆速編集。キーボードだけで最速メモ体験。", "image": "hero.webp"},
+    {"title": "罫線モード!", "description": "本物のノートみたいな罫線表示。なんで他にないんだろう？", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

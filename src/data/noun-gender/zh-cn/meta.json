@@ -7,12 +7,13 @@
   "og": {"title": "Noun Gender", "description": "学习8种语言的名词性别"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "支持8种语言", "description": "法语、德语、西班牙语、意大利语、葡萄牙语、俄语、阿拉伯语、印地语。", "image": "hero.webp"},
-    {"title": "收录4,600多个词汇", "description": "涵盖精选日常词汇。从实用单词开始学习。", "image": "hero.webp"},
-    {"title": "互动测验", "description": "通过测验形式测试名词性别。游戏化学习，加深记忆。", "image": "hero.webp"},
-    {"title": "语音发音", "description": "使用Web Speech API确认正确发音。学习接近母语者的发音。", "image": "hero.webp"},
-    {"title": "记忆技巧", "description": "收录记忆性别的提示和技巧。高效背诵。", "image": "hero.webp"},
-    {"title": "A-Z浏览", "description": "按字母顺序浏览词典。快速搜索感兴趣的单词。", "image": "hero.webp"}
+    {"title": "8种语言", "description": "法语、德语、西班牙语、意大利语、葡萄牙语、俄语、阿拉伯语、印地语。支持阳性/阴性/中性体系。", "image": "hero.webp"},
+    {"title": "4,600多个词汇", "description": "带翻译、释义和记忆技巧。可用英语或目标语言搜索。", "image": "hero.webp"},
+    {"title": "性别测验", "description": "单词以英语出现，选择正确的性别。显示得分和连续正确数。", "image": "hero.webp"},
+    {"title": "语音发音", "description": "Web Speech API播放母语发音。也适合听力练习。", "image": "hero.webp"},
+    {"title": "A-Z浏览", "description": "按字母顺序浏览词典。无限滚动持续学习。", "image": "hero.webp"},
+    {"title": "REST API", "description": "/api/search?q=house&lang=de用于程序化访问。", "image": "hero.webp"},
+    {"title": "11种UI语言", "description": "界面支持英语、日语、中文等11种语言。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

@@ -7,12 +7,13 @@
   "og": {"title": "Noun Gender", "description": "Learn grammatical gender in 8 languages"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "8 Languages", "description": "French, German, Spanish, Italian, Portuguese, Russian, Arabic, and Hindi.", "image": "hero.webp"},
-    {"title": "4,600+ Words", "description": "Curated everyday vocabulary. Start learning with practical words.", "image": "hero.webp"},
-    {"title": "Interactive Quizzes", "description": "Test your knowledge with quizzes. Gamified learning for better retention.", "image": "hero.webp"},
-    {"title": "Audio Pronunciation", "description": "Hear correct pronunciation via Web Speech API. Learn native-like pronunciation.", "image": "hero.webp"},
-    {"title": "Memory Tricks", "description": "Tips and tricks to memorize gender. Learn efficiently.", "image": "hero.webp"},
-    {"title": "A-Z Browse", "description": "Browse dictionary alphabetically. Quickly search any word.", "image": "hero.webp"}
+    {"title": "8 Languages", "description": "French, German, Spanish, Italian, Portuguese, Russian, Arabic, Hindi. Supports m/f/n gender systems.", "image": "hero.webp"},
+    {"title": "4,600+ Words", "description": "With translations, meanings, and memory tricks. Search in English or target language.", "image": "hero.webp"},
+    {"title": "Gender Quiz", "description": "Words appear in English, pick the correct gender. Shows score and streak.", "image": "hero.webp"},
+    {"title": "Audio Pronunciation", "description": "Web Speech API plays native pronunciation. Great for listening practice.", "image": "hero.webp"},
+    {"title": "A-Z Browse", "description": "Browse dictionary alphabetically. Infinite scroll for continuous learning.", "image": "hero.webp"},
+    {"title": "REST API", "description": "/api/search?q=house&lang=de for programmatic access.", "image": "hero.webp"},
+    {"title": "11 UI Languages", "description": "Interface available in English, Japanese, Chinese, and more.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

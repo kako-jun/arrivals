@@ -1,15 +1,17 @@
 {
   "name": "chunkundo.nvim",
   "catch": "Neovim智能撤销分块",
-  "description": "即使在长时间编辑中也能增量撤销。基于chillout.nvim的debounce/throttle/batch的Neovim插件。",
+  "description": "Neovim将整个插入会话作为一个撤销单位。这个插件按时间和单词边界将其分割成小块。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
   "og": {"title": "chunkundo.nvim", "description": "Neovim智能撤销分块"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "基于时间的分块", "description": "检测打字间隔自动分割撤销单位。不再一次失去所有。", "image": "hero.webp"},
-    {"title": "自动调整", "description": "学习你的打字模式并自动调整间隔。", "image": "hero.webp"},
-    {"title": "chillout.nvim集成", "description": "基于debounce/throttle/batch库构建。也可用于插件开发。", "image": "hero.webp"}
+    {"title": "基于时间的分块", "description": "检测打字暂停（默认300ms）并分割撤销块。长编辑也能增量撤销。", "image": "hero.webp"},
+    {"title": "基于单词的分块", "description": "在空格、Tab、回车、标点处分割。字符级别的细粒度撤销。", "image": "hero.webp"},
+    {"title": "自动调整", "description": "学习你的打字模式并自动调整间隔。使用越多越优化。", "image": "hero.webp"},
+    {"title": "状态栏", "description": "u+5（增长中）、u=12（已确认）等。实时显示块状态。支持lualine。", "image": "hero.webp"},
+    {"title": "chillout.nvim集成", "description": "使用debounce、throttle和batch。这个插件是chillout.nvim的展示案例。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

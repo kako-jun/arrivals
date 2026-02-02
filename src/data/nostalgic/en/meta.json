@@ -1,17 +1,16 @@
 {
   "name": "Nostalgic",
-  "catch": "Revive 1990s Internet in modern era",
-  "description": "Counter, Like button, BBS, Ranking, Lucky Cat widget. Classic web features with simple APIs.",
+  "catch": "Bring the 90s internet back to life",
+  "description": "Counter, Like, BBS, Ranking, Lucky Cat. Everything works with just GET requests. No registration needed.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
-  "og": {"title": "Nostalgic", "description": "Revive classic web features for modern sites"},
+  "og": {"title": "Nostalgic", "description": "90s web features for modern sites"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Counter", "description": "Display total, today, yesterday, weekly, and monthly visitor counts. A 90s classic fully recreated.", "image": "hero.webp"},
-    {"title": "Like Button", "description": "Track and display 'likes' per page. Simple API for easy integration.", "image": "hero.webp"},
-    {"title": "BBS", "description": "Classic bulletin board functionality. Enable visitor-to-visitor communication.", "image": "hero.webp"},
-    {"title": "Ranking", "description": "Show page popularity rankings. Compare multiple pages at once.", "image": "hero.webp"},
-    {"title": "Lucky Cat", "description": "Waving lucky cat widget. Bring good fortune to your site with a playful touch.", "image": "hero.webp"}
+    {"title": "Counter", "description": "Total, today, yesterday, weekly, monthly. The classic feature everyone had.", "image": "hero.webp"},
+    {"title": "Like & BBS", "description": "Per-page likes. Message board too.", "image": "hero.webp"},
+    {"title": "Ranking", "description": "Scoreboard feature. Real-time updates.", "image": "hero.webp"},
+    {"title": "Lucky Cat", "description": "Waving lucky cat widget. Embed in GitHub READMEs too.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

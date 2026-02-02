@@ -1,15 +1,17 @@
 {
   "name": "chunkundo.nvim",
   "catch": "Neovimのundoを賢くチャンク化",
-  "description": "長い編集セッションでもインクリメンタルにundo可能。chillout.nvimのdebounce/throttle/batchを活用したNeovimプラグイン。",
+  "description": "Neovimは挿入モードの編集を1つのundoにまとめてしまう。このプラグインは時間と単語で小分けにする。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
   "og": {"title": "chunkundo.nvim", "description": "Neovimのundoを賢くチャンク化"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "時間ベースのチャンク化", "description": "タイピングの間を検出して自動でundo単位を分割。一度に全部消えない。", "image": "hero.webp"},
-    {"title": "自動学習", "description": "あなたのタイピングパターンを学習し、最適な間隔を自動調整。", "image": "hero.webp"},
-    {"title": "chillout.nvim連携", "description": "debounce/throttle/batchライブラリを活用。Neovimプラグイン開発にも使える。", "image": "hero.webp"}
+    {"title": "時間ベースのチャンク化", "description": "タイピングの間（デフォルト300ms）を検出してundoブロックを分割。長い編集も段階的に戻せる。", "image": "hero.webp"},
+    {"title": "単語ベースのチャンク化", "description": "スペース、タブ、Enter、句読点でも分割。文字単位で細かくundo可能。", "image": "hero.webp"},
+    {"title": "自動学習", "description": "タイピングパターンを学習して間隔を自動調整。使うほど最適化される。", "image": "hero.webp"},
+    {"title": "ステータスライン", "description": "u+5（成長中）、u=12（確定）などチャンク状態をリアルタイム表示。lualine対応。", "image": "hero.webp"},
+    {"title": "chillout.nvim連携", "description": "debounce、throttle、batchを全て活用。このプラグイン自体がchillout.nvimのショーケース。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

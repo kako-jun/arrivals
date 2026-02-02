@@ -1,31 +1,16 @@
 {
   "name": "Agasteer",
-  "catch": "The simplest Markdown app that never conflicts.",
-  "description": "Direct GitHub sync. No intermediate server - saves directly to your repository.",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://agasteer.llll-ll.com/",
-    "github": "https://github.com/kako-jun/agasteer"
-  },
-  "og": {
-    "title": "Agasteer",
-    "description": "The simplest Markdown app with GitHub sync"
-  },
+  "catch": "Free yourself from the fear of data loss",
+  "description": "Always pulls on startup. GitHub is the single source of truth. Conflicts are theoretically impossible.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://agasteer.llll-ll.com/", "github": "https://github.com/kako-jun/agasteer"},
+  "og": {"title": "Agasteer", "description": "The Markdown app that never conflicts"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Direct GitHub Sync", "description": "Save directly to your GitHub repository without intermediate servers. Your data stays under your control.", "image": "hero.webp"},
-    {"title": "Zero Conflicts", "description": "Always pulls on startup. GitHub is the single source of truth. Safe sync from multiple devices.", "image": "hero.webp"},
-    {"title": "Vim Mode", "description": "hjkl key navigation for fast editing on PC. Perfect for Vim users.", "image": "hero.webp"},
-    {"title": "Rule Line Mode", "description": "Display notebook-like ruled lines. Hand-written note feel for better focus.", "image": "hero.webp"},
-    {"title": "Japanese Themes", "description": "Unique themes for Japanese users including retro RPG-style blue windows.", "image": "hero.webp"},
-    {"title": "PWA Support", "description": "No installation needed, start instantly in browser. Works offline too.", "image": "hero.webp"}
+    {"title": "No conflicts. Ever.", "description": "Always pulls on startup. GitHub is truth. Safe across multiple devices.", "image": "hero.webp"},
+    {"title": "Direct to GitHub", "description": "No middleman server. Saves straight to your repo. Your data, your control.", "image": "hero.webp"},
+    {"title": "Vim mode!", "description": "Navigate with hjkl. Keyboard-only fastest note-taking experience.", "image": "hero.webp"},
+    {"title": "Ruled-line mode!", "description": "Looks just like a real notebook. Why doesn't everyone have this?", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

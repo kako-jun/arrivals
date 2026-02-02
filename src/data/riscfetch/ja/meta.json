@@ -1,16 +1,18 @@
 {
   "name": "riscfetch",
-  "catch": "RISC-V専用のシステム情報ツール",
-  "description": "neofetchスタイルでRISC-V固有の情報を表示。ISA拡張、ハート数、ハードウェアIDを美しくフォーマット。",
+  "catch": "RISC-V専用。他のアーキテクチャでは動かない。",
+  "description": "neofetchスタイルでRISC-Vの情報を表示。ISA拡張、ハート数、ハードウェアIDなど。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/riscfetch", "github": "https://github.com/kako-jun/riscfetch"},
-  "og": {"title": "riscfetch", "description": "RISC-V専用のシステム情報表示ツール"},
+  "og": {"title": "riscfetch", "description": "RISC-V専用システム情報ツール"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "144種類のRISC-V拡張", "description": "98のZ拡張と46のS拡張をカテゴリ別に表示。", "image": "hero.webp"},
-    {"title": "13種のベンダーロゴ", "description": "Pine64、SiFive、StarFive、WCHなどのアスキーアートロゴ。", "image": "hero.webp"},
-    {"title": "ハードウェア情報", "description": "ハート数、HW ID、キャッシュ情報などを詳細表示。", "image": "hero.webp"},
-    {"title": "拡張機能の説明", "description": "各ISA拡張が何をするか、詳細な説明を表示。", "image": "hero.webp"}
+    {"title": "144拡張対応", "description": "98のZ拡張と46のS拡張。カテゴリ別に整理して表示。", "image": "hero.webp"},
+    {"title": "13ベンダーロゴ", "description": "Pine64、SiFive、StarFive、Milk-V、Sipeed、T-Head、Kendryte、Allwinner、Espressif、SpacemiT、Sophgo、WCH。", "image": "hero.webp"},
+    {"title": "詳細説明モード", "description": "-eで各拡張の意味を表示。-aで144拡張すべてを✓/✗でチェック。", "image": "hero.webp"},
+    {"title": "JSON出力", "description": "-jで機械可読出力。スクリプトやCI/CDに組み込める。", "image": "hero.webp"},
+    {"title": "ベンチマーク", "description": "-bでISA固有のベンチマークを実行。", "image": "hero.webp"},
+    {"title": "fastfetchと併用", "description": "-rでRISC-V情報のみ表示。fastfetchと組み合わせて完全なシステム情報を取得。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

@@ -1,17 +1,16 @@
 {
   "name": "Nostalgic",
-  "catch": "1990年代のインターネットを現代に",
-  "description": "カウンター、いいねボタン、掲示板、ランキング、招き猫ウィジェット。懐かしのWeb機能をシンプルなAPIで。",
+  "catch": "90年代のインターネットを現代に",
+  "description": "カウンター、いいね、BBS、ランキング、招き猫。GETリクエストだけで全部動く。登録不要。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
-  "og": {"title": "Nostalgic", "description": "懐かしのWeb機能を現代に蘇らせるツール"},
+  "og": {"title": "Nostalgic", "description": "90年代のWeb機能を現代に"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "カウンター", "description": "累計・今日・昨日・週間・月間の訪問者数を表示。90年代の定番機能を完全再現。", "image": "hero.webp"},
-    {"title": "いいねボタン", "description": "ページごとの「いいね」数を記録・表示。シンプルなAPIで簡単導入。", "image": "hero.webp"},
-    {"title": "掲示板（BBS）", "description": "懐かしの掲示板機能。訪問者同士のコミュニケーションに。", "image": "hero.webp"},
-    {"title": "ランキング", "description": "ページの人気順位を表示。複数ページの比較にも対応。", "image": "hero.webp"},
-    {"title": "招き猫", "description": "手を振る招き猫ウィジェット。サイトに幸運を呼び込む遊び心。", "image": "hero.webp"}
+    {"title": "カウンター", "description": "累計・今日・昨日・週間・月間。あの頃の定番機能。", "image": "hero.webp"},
+    {"title": "いいね & BBS", "description": "ページごとの「いいね」。掲示板機能も。", "image": "hero.webp"},
+    {"title": "ランキング", "description": "スコアボード機能。リアルタイム更新。", "image": "hero.webp"},
+    {"title": "招き猫", "description": "手を振る招き猫ウィジェット。GitHubのREADMEにも埋め込める。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

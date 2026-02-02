@@ -1,16 +1,17 @@
 {
   "name": "diffx",
-  "catch": "结构化数据语义比较工具",
-  "description": "比较JSON、YAML、TOML、XML、INI、CSV，忽略键顺序和空白。只显示有意义的变更。",
+  "catch": "只显示有意义的变更",
+  "description": "键顺序改变后，传统diff显示每行都有变化。diffx理解结构，只显示真正的变更。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
   "og": {"title": "diffx", "description": "结构化数据语义比较工具"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "6种格式支持", "description": "自动检测JSON、YAML、TOML、XML、INI、CSV。", "image": "hero.webp"},
-    {"title": "忽略键顺序和空白", "description": "只高亮显示有意义的变更。无噪音。", "image": "hero.webp"},
-    {"title": "目录批量比较", "description": "递归比较整个文件夹。适合配置文件差异检查。", "image": "hero.webp"},
-    {"title": "Python/Node.js支持", "description": "可通过pip或npm安装。用你喜欢的语言调用。", "image": "hero.webp"}
+    {"title": "语义比较", "description": "忽略键顺序和空白。只显示真正的值变更，用+/-/~符号标记。", "image": "hero.webp"},
+    {"title": "6种格式", "description": "JSON、YAML、TOML、XML、INI、CSV。根据扩展名自动检测。", "image": "hero.webp"},
+    {"title": "数组ID键", "description": "--array-id-key按指定键识别数组元素。正确检测重排序。", "image": "hero.webp"},
+    {"title": "目录比较", "description": "-r递归比较。适合批量检查配置文件差异。", "image": "hero.webp"},
+    {"title": "JSON/YAML输出", "description": "--output json/yaml输出机器可读格式。可集成到CI/CD管道。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

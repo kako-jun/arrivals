@@ -1,16 +1,18 @@
 {
   "name": "SyncStone",
   "catch": "Guarda tus recuerdos de FF14 Lodestone",
-  "description": "Exporta entradas del blog oficial de FINAL FANTASY XIV 'The Lodestone' a formato Markdown. Incluye imágenes y comentarios con exportación masiva.",
+  "description": "Exporta el diario de \"The Lodestone\" de FINAL FANTASY XIV a Markdown. Lodestone no tiene función de exportación, así que guarda tus preciosos recuerdos localmente.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
   "og": {"title": "SyncStone", "description": "Herramienta de exportación de FF14 Lodestone"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Exportación Markdown", "description": "Guarda entradas del diario Lodestone en formato Markdown. Fácil migración a otros blogs.", "image": "hero.webp"},
-    {"title": "Imágenes y comentarios", "description": "Respaldo completo incluyendo imágenes adjuntas y comentarios, no solo texto.", "image": "hero.webp"},
-    {"title": "Exportación masiva", "description": "Exporta todas las entradas de una vez. Guarda tus recuerdos antes del cierre del servicio.", "image": "hero.webp"},
-    {"title": "Extensión de Chrome", "description": "Ejecuta directamente desde el navegador. Instala y usa inmediatamente.", "image": "hero.webp"}
+    {"title": "Respaldo completo", "description": "Título, cuerpo, imágenes, comentarios, likes, fecha, etiquetas. Todo guardado como Markdown y ZIP.", "image": "hero.webp"},
+    {"title": "Exportación masiva", "description": "Exporta todas las entradas de una vez. Genera index.md con enlaces a todos los artículos.", "image": "hero.webp"},
+    {"title": "5 regiones", "description": "JP, NA, EU, FR, DE. Funciona en cualquier región de Lodestone.", "image": "hero.webp"},
+    {"title": "Descarga masiva de imágenes", "description": "Descarga imágenes de artículos y galería. Guarda en carpeta images/ sin duplicados.", "image": "hero.webp"},
+    {"title": "Entradas de otros jugadores", "description": "Exporta entradas de amigos también. Guarda recuerdos antes de que se retiren.", "image": "hero.webp"},
+    {"title": "Amigable con servidores", "description": "Intervalo de acceso configurable (2 segundos por defecto). Diseño respetuoso con los servidores.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

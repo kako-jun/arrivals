@@ -1,16 +1,18 @@
 {
   "name": "SyncStone",
   "catch": "备份你的FF14陆行鸟站回忆",
-  "description": "将FINAL FANTASY XIV官方博客「The Lodestone」的日志导出为Markdown格式。支持图片、评论的批量保存。",
+  "description": "将FINAL FANTASY XIV的「The Lodestone」日记导出为Markdown。陆行鸟站没有导出功能，所以把珍贵的回忆保存到本地。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
   "og": {"title": "SyncStone", "description": "FF14陆行鸟站导出工具"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "Markdown导出", "description": "将陆行鸟站日记保存为Markdown格式。轻松迁移到其他博客。", "image": "hero.webp"},
-    {"title": "图片与评论", "description": "完整备份，包括附加图片和评论，不仅仅是文本。", "image": "hero.webp"},
-    {"title": "批量导出", "description": "一次性导出所有条目。在服务关闭前保存您的回忆。", "image": "hero.webp"},
-    {"title": "Chrome扩展", "description": "直接从浏览器运行。安装后即可使用。", "image": "hero.webp"}
+    {"title": "完整备份", "description": "标题、正文、图片、评论、点赞数、日期、标签。全部保存为Markdown和ZIP。", "image": "hero.webp"},
+    {"title": "批量导出", "description": "一次性导出所有条目。自动生成包含所有文章链接的index.md。", "image": "hero.webp"},
+    {"title": "5个区域", "description": "JP、NA、EU、FR、DE。适用于任何区域的陆行鸟站。", "image": "hero.webp"},
+    {"title": "批量下载图片", "description": "下载文章内和图片库的所有图片。保存到images/文件夹，无重复。", "image": "hero.webp"},
+    {"title": "其他玩家的条目", "description": "也可导出朋友的条目。在他们退游前保存回忆。", "image": "hero.webp"},
+    {"title": "服务器友好", "description": "可配置访问间隔（默认2秒）。对服务器友好的设计。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

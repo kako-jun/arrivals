@@ -1,15 +1,18 @@
 {
   "name": "Osaka Kenpo",
   "catch": "Textos legales en dialecto de Osaka amigable",
-  "description": "Más de 70 leyes desde la Constitución japonesa hasta tratados internacionales, explicadas en dialecto de Osaka accesible.",
+  "description": "Inspirado en \"Osaka-san\" de Azumanga Daioh. Un tono cálido y amigable que reduce la barrera psicológica hacia la ley.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://osaka-kenpo.llll-ll.com", "github": "https://github.com/kako-jun/osaka-kenpo"},
   "og": {"title": "Osaka Kenpo", "description": "Documentos legales explicados en dialecto de Osaka"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "70+ leyes cubiertas", "description": "Desde constitución, derecho civil, penal hasta leyes históricas y tratados internacionales.", "image": "hero.webp"},
-    {"title": "Alternar original y traducción", "description": "Cambia entre texto legal complejo y dialecto de Osaka fácil de entender con un clic.", "image": "hero.webp"},
-    {"title": "Navegación por categorías", "description": "Leyes organizadas por categoría. Adaptado a móviles para aprender en cualquier lugar.", "image": "hero.webp"}
+    {"title": "Ley japonesa moderna", "description": "Constitución japonesa, Código Civil, Código Penal, Código de Comercio, Procedimiento Civil/Penal.", "image": "hero.webp"},
+    {"title": "Ley histórica japonesa", "description": "Constitución de Diecisiete Artículos, Constitución Meiji, Código Taiho, Goseibai Shikimoku, etc.", "image": "hero.webp"},
+    {"title": "Ley extranjera", "description": "Ley Fundamental alemana, Constitución de EE.UU., Constitución de RPC.", "image": "hero.webp"},
+    {"title": "Ley histórica", "description": "Código de Hammurabi, Carta Magna, Código Napoleónico.", "image": "hero.webp"},
+    {"title": "Tratados internacionales", "description": "Carta de la ONU, Tratado Antártico, TNP, Convención de Ramsar, Tratado del Espacio Exterior, Carta Olímpica, etc.", "image": "hero.webp"},
+    {"title": "Alternar Original/Osaka", "description": "Un clic para cambiar entre texto legal formal y dialecto de Osaka amigable.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

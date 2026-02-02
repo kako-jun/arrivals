@@ -1,31 +1,16 @@
 {
   "name": "3 min. Calendar",
-  "catch": "3分钟完成本月营业日历。",
-  "description": "为忙碌的个体经营者节省时间。轻松分享到Instagram或LINE。",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://3min.llll-ll.com/",
-    "github": "https://github.com/kako-jun/3min"
-  },
-  "og": {
-    "title": "3 min. Calendar",
-    "description": "只需3分钟即可完成本月营业日历"
-  },
+  "catch": "泡面的时间，日历就做好了",
+  "description": "点点按钮就行。节假日自动显示。一键分享到Instagram或LINE。忙碌店主的省时神器。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
+  "og": {"title": "3 min. Calendar", "description": "3分钟完成本月营业日历"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "一键编辑", "description": "点击日期即可切换营业日和休息日。直观操作，任何人都能立即上手。", "image": "hero.webp"},
-    {"title": "支持20多个国家", "description": "自动显示20多个国家的节假日，不仅限于日本。跨境业务必备。", "image": "hero.webp"},
-    {"title": "六曜显示", "description": "自动显示日本传统历法（大安、佛灭等）。婚礼/葬礼行业必备。", "image": "hero.webp"},
-    {"title": "QR码生成", "description": "自动生成日历URL的QR码。完全离线，安全可靠。", "image": "hero.webp"},
-    {"title": "14种主题", "description": "7种亮色和7种暗色主题。匹配您店铺的氛围。", "image": "hero.webp"},
-    {"title": "PWA支持", "description": "离线可用，可安装到主屏幕。随时随地编辑。", "image": "hero.webp"}
+    {"title": "点点就好", "description": "点击日期切换○△✕。添加「休」「满」标记。零麻烦。", "image": "hero.webp"},
+    {"title": "节假日自动", "description": "支持20多个国家。再也不用每月手动标红了。", "image": "hero.webp"},
+    {"title": "即时分享", "description": "直接发布到Instagram、LINE、X。也可保存图片。", "image": "hero.webp"},
+    {"title": "六曜与二维码", "description": "日本吉日自动显示。二维码完全离线生成。", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

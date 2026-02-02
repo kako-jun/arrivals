@@ -1,31 +1,16 @@
 {
   "name": "3 min. Calendar",
-  "catch": "3分で、今月の営業カレンダー完成。",
-  "description": "がんばる個人経営者の時短に。InstagramやLINEで、お客様にサッと共有できます。",
-  "theme": {
-    "bg": "#1a0a2e",
-    "fg": "#ffffff",
-    "accent": "#e879f9",
-    "muted": "#c4b5fd"
-  },
-  "links": {
-    "play": "https://3min.llll-ll.com/",
-    "github": "https://github.com/kako-jun/3min"
-  },
-  "og": {
-    "title": "3 min. Calendar",
-    "description": "カップラーメンができる間に、今月のカレンダー完成"
-  },
+  "catch": "カップラーメンができる間に、営業カレンダー完成",
+  "description": "ボタンをポンポン押すだけ。祝日は自動。InstagramやLINEでサッと共有。がんばる個人経営者の時短ツール。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
+  "og": {"title": "3 min. Calendar", "description": "カップラーメンができる間に、今月のカレンダー完成"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "ワンクリック編集", "description": "日付をクリックするだけで営業日・休業日を切り替え。直感的な操作で誰でもすぐに使えます。", "image": "hero.webp"},
-    {"title": "20カ国以上の祝日対応", "description": "日本だけでなく、20カ国以上の祝日を自動表示。インバウンド対応も簡単。", "image": "hero.webp"},
-    {"title": "六曜表示", "description": "大安・仏滅など六曜を自動表示。冠婚葬祭業の方にも便利。", "image": "hero.webp"},
-    {"title": "QRコード生成", "description": "カレンダーURLのQRコードを自動生成。完全オフラインで安心・安全。", "image": "hero.webp"},
-    {"title": "14種類のテーマ", "description": "ライト/ダーク各7色のカラーバリエーション。お店の雰囲気に合わせて選択。", "image": "hero.webp"},
-    {"title": "PWA対応", "description": "オフラインで動作、ホーム画面にインストール可能。いつでもどこでも編集できます。", "image": "hero.webp"}
+    {"title": "ポンポン押すだけ", "description": "日付タップで○△✕を切り替え。「休」「満」スタンプも。面倒な作業はゼロ。", "image": "hero.webp"},
+    {"title": "祝日自動表示", "description": "20カ国以上の祝日に対応。毎月手動で赤くする必要なし。", "image": "hero.webp"},
+    {"title": "SNSにすぐシェア", "description": "Instagram、LINE、Xに直接投稿。画像保存も可能。", "image": "hero.webp"},
+    {"title": "六曜・QRコード", "description": "大安・仏滅を自動表示。QRコードも完全オフラインで生成。", "image": "hero.webp"}
   ],
-  "author": {
-    "name": "kako-jun"
-  }
+  "author": {"name": "kako-jun"}
 }

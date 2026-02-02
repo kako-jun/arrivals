@@ -1,16 +1,17 @@
 {
   "name": "diffx",
-  "catch": "Semantic diff tool for structured data",
-  "description": "Compare JSON, YAML, TOML, XML, INI, CSV ignoring key ordering and whitespace. Shows only meaningful changes.",
+  "catch": "Shows only meaningful changes",
+  "description": "When key ordering changes, traditional diff shows every line as changed. diffx understands structure and shows what actually changed.",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
   "og": {"title": "diffx", "description": "Semantic diff tool for structured data"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "6 File Formats", "description": "Auto-detect JSON, YAML, TOML, XML, INI, CSV.", "image": "hero.webp"},
-    {"title": "Ignore Key Order & Whitespace", "description": "Highlights only meaningful changes. No noise.", "image": "hero.webp"},
-    {"title": "Directory Comparison", "description": "Recursively compare entire folders. Great for config file diffs.", "image": "hero.webp"},
-    {"title": "Python/Node.js Support", "description": "Install via pip or npm. Use from your favorite language.", "image": "hero.webp"}
+    {"title": "Semantic Comparison", "description": "Ignores key order and whitespace. Shows only real value changes with +/-/~ symbols.", "image": "hero.webp"},
+    {"title": "6 Formats", "description": "JSON, YAML, TOML, XML, INI, CSV. Auto-detects from file extension.", "image": "hero.webp"},
+    {"title": "Array ID Keys", "description": "--array-id-key identifies array elements by a specific key. Correctly detects reordering.", "image": "hero.webp"},
+    {"title": "Directory Comparison", "description": "-r for recursive comparison. Perfect for diffing config files across directories.", "image": "hero.webp"},
+    {"title": "JSON/YAML Output", "description": "--output json/yaml for machine-readable output. Integrates into CI/CD pipelines.", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }
