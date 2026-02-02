@@ -1,0 +1,15 @@
+{
+  "name": "chunkundo.nvim",
+  "catch": "Neovim智能撤销分块",
+  "description": "即使在长时间编辑中也能增量撤销。基于chillout.nvim的debounce/throttle/batch的Neovim插件。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
+  "og": {"title": "chunkundo.nvim", "description": "Neovim智能撤销分块"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "基于时间的分块", "description": "检测打字间隔自动分割撤销单位。不再一次失去所有。", "image": "hero.webp"},
+    {"title": "自动调整", "description": "学习你的打字模式并自动调整间隔。", "image": "hero.webp"},
+    {"title": "chillout.nvim集成", "description": "基于debounce/throttle/batch库构建。也可用于插件开发。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

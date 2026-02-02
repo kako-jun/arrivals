@@ -1,0 +1,15 @@
+{
+  "name": "chunkundo.nvim",
+  "catch": "Smart undo chunking for Neovim",
+  "description": "Undo incrementally even in long edit sessions. Neovim plugin powered by chillout.nvim's debounce/throttle/batch.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
+  "og": {"title": "chunkundo.nvim", "description": "Smart undo chunking for Neovim"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Time-based Chunking", "description": "Detect typing pauses and split undo units automatically. No more losing everything.", "image": "hero.webp"},
+    {"title": "Auto-adjust", "description": "Learns your typing pattern and adjusts interval automatically.", "image": "hero.webp"},
+    {"title": "chillout.nvim Integration", "description": "Built on debounce/throttle/batch library. Useful for plugin development too.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}
