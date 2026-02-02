@@ -1,15 +1,15 @@
 {
   "name": "Sasso",
-  "catch": "メンサ会員も唸る電卓パズル",
-  "description": "隣り合う同じ数字を消す。124×9=1116で「1」が3つ並んで消える。名前の意味が分からないなら、向いてないかも。",
+  "catch": "メンサ会員も唸る電卓パズルです",
+  "description": "隣り合う同じ数字を消していきます。124×9=1116で「1」が3つ並んで消えます。名前の意味が分からないなら、向いていないかもしれません。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
-  "og": {"title": "Sasso", "description": "メンサ会員も唸る電卓パズル"},
+  "og": {"title": "Sasso", "description": "メンサ会員も唸る電卓パズルです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "同じ数字を消せ", "description": "四則演算で隣り合う同じ数字を作る。消えたときの快感。", "image": "hero.webp"},
-    {"title": "エンドレスモード", "description": "4.2秒ごとに次の演算が予告される。オーバーフロー前に消せ。", "image": "hero.webp"},
-    {"title": "リスクと連鎖で高得点", "description": "Base×Chain×Prep×Risk。10桁ギリギリで攻めろ。", "image": "hero.webp"}
+    {"title": "同じ数字を消せ", "description": "四則演算で隣り合う同じ数字を作ります。消えたときの快感をお楽しみください。", "image": "hero.webp"},
+    {"title": "エンドレスモード", "description": "4.2秒ごとに次の演算が予告されます。オーバーフロー前に消してください。", "image": "hero.webp"},
+    {"title": "リスクと連鎖で高得点", "description": "Base×Chain×Prep×Riskで計算されます。10桁ギリギリで攻めてください。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

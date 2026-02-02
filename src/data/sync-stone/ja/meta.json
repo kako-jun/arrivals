@@ -1,18 +1,18 @@
 {
   "name": "SyncStone",
-  "catch": "FF14ロドストの思い出をバックアップ",
-  "description": "FINAL FANTASY XIVの「The Lodestone」日記をMarkdown形式でエクスポート。ロドストにはエクスポート機能がないので、大切な思い出を手元に。",
+  "catch": "FF14ロドストの思い出をバックアップできます",
+  "description": "FINAL FANTASY XIVの「The Lodestone」日記をMarkdown形式でエクスポートします。ロドストにはエクスポート機能がないので、大切な思い出を手元に保存できます。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
-  "og": {"title": "SyncStone", "description": "FF14ロドストのエクスポートツール"},
+  "og": {"title": "SyncStone", "description": "FF14ロドストのエクスポートツールです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "完全バックアップ", "description": "タイトル、本文、画像、コメント、いいね数、公開日、タグ。すべてをMarkdownとZIPで保存。", "image": "hero.webp"},
-    {"title": "一括エクスポート", "description": "全記事を一度に取得。index.mdに全記事へのリンクを自動生成。", "image": "hero.webp"},
-    {"title": "5リージョン対応", "description": "JP、NA、EU、FR、DE。どのリージョンのロドストでも動作。", "image": "hero.webp"},
-    {"title": "画像の一括ダウンロード", "description": "記事内の画像も画像管理ページの画像もすべて取得。重複なくimages/フォルダに保存。", "image": "hero.webp"},
-    {"title": "他プレイヤーの記事", "description": "フレンドの記事もエクスポート可能。引退前の思い出を保存。", "image": "hero.webp"},
-    {"title": "サーバー負荷配慮", "description": "アクセス間隔を設定可能（デフォルト2秒）。サーバーに優しい設計。", "image": "hero.webp"}
+    {"title": "完全バックアップ", "description": "タイトル、本文、画像、コメント、いいね数、公開日、タグをすべてMarkdownとZIPで保存します。", "image": "hero.webp"},
+    {"title": "一括エクスポート", "description": "全記事を一度に取得できます。index.mdに全記事へのリンクを自動生成します。", "image": "hero.webp"},
+    {"title": "5リージョン対応", "description": "JP、NA、EU、FR、DEに対応しています。どのリージョンのロドストでも動作します。", "image": "hero.webp"},
+    {"title": "画像の一括ダウンロード", "description": "記事内の画像も画像管理ページの画像もすべて取得します。重複なくimages/フォルダに保存します。", "image": "hero.webp"},
+    {"title": "他プレイヤーの記事", "description": "フレンドの記事もエクスポートできます。引退前の思い出を保存しておけます。", "image": "hero.webp"},
+    {"title": "サーバー負荷配慮", "description": "アクセス間隔を設定できます（デフォルト2秒）。サーバーに優しい設計になっています。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

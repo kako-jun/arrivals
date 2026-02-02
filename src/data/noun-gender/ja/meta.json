@@ -1,19 +1,19 @@
 {
   "name": "Noun Gender",
-  "catch": "8言語の名詞の性を学ぶ",
-  "description": "フランス語、ドイツ語、スペイン語など8言語の4,600語以上を収録。クイズと発音で楽しく学習。",
+  "catch": "8言語の名詞の性を楽しく学べます",
+  "description": "フランス語、ドイツ語、スペイン語など8言語の4,600語以上を収録しています。クイズと発音で楽しく学習できます。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://noun-gender.llll-ll.com", "github": "https://github.com/kako-jun/noun-gender"},
-  "og": {"title": "Noun Gender", "description": "8言語の名詞の性を楽しく学習"},
+  "og": {"title": "Noun Gender", "description": "8言語の名詞の性を楽しく学習できます"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "8言語対応", "description": "フランス語、ドイツ語、スペイン語、イタリア語、ポルトガル語、ロシア語、アラビア語、ヒンディー語。男性/女性/中性の性体系に対応。", "image": "hero.webp"},
-    {"title": "4,600語以上", "description": "翻訳と意味、記憶のコツ付き。英語または各言語で検索可能。", "image": "hero.webp"},
-    {"title": "性クイズ", "description": "英語で単語が出題され、正しい性を選ぶ。スコアと連続正解数を表示。", "image": "hero.webp"},
-    {"title": "音声発音", "description": "Web Speech APIでネイティブ発音を再生。リスニング学習にも。", "image": "hero.webp"},
-    {"title": "A-Zブラウズ", "description": "アルファベット順で辞書閲覧。無限スクロールで連続学習。", "image": "hero.webp"},
-    {"title": "REST API", "description": "/api/search?q=house&lang=deで単語検索。プログラムからも利用可能。", "image": "hero.webp"},
-    {"title": "11言語UI", "description": "インターフェースは英語、日本語、中国語など11言語に対応。", "image": "hero.webp"}
+    {"title": "8言語対応", "description": "フランス語、ドイツ語、スペイン語、イタリア語、ポルトガル語、ロシア語、アラビア語、ヒンディー語に対応しています。男性/女性/中性の性体系をカバーしています。", "image": "hero.webp"},
+    {"title": "4,600語以上", "description": "翻訳と意味、記憶のコツが付いています。英語または各言語で検索できます。", "image": "hero.webp"},
+    {"title": "性クイズ", "description": "英語で単語が出題され、正しい性を選びます。スコアと連続正解数を表示します。", "image": "hero.webp"},
+    {"title": "音声発音", "description": "Web Speech APIでネイティブ発音を再生します。リスニング学習にもお使いいただけます。", "image": "hero.webp"},
+    {"title": "A-Zブラウズ", "description": "アルファベット順で辞書を閲覧できます。無限スクロールで連続学習が可能です。", "image": "hero.webp"},
+    {"title": "REST API", "description": "/api/search?q=house&lang=deで単語検索ができます。プログラムからもご利用いただけます。", "image": "hero.webp"},
+    {"title": "11言語UI", "description": "インターフェースは英語、日本語、中国語など11言語に対応しています。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

@@ -1,16 +1,16 @@
 {
   "name": "Agasteer",
-  "catch": "データ消失の恐怖から、解放される",
-  "description": "起動時に常にPull。GitHubが唯一の真実。理論上、コンフリクトが起きない設計。",
+  "catch": "データ消失の恐怖から解放されます",
+  "description": "起動時に常にPullします。GitHubが唯一の真実です。理論上、コンフリクトが起きない設計になっています。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://agasteer.llll-ll.com/", "github": "https://github.com/kako-jun/agasteer"},
-  "og": {"title": "Agasteer", "description": "コンフリクトしないMarkdownノートアプリ"},
+  "og": {"title": "Agasteer", "description": "コンフリクトしないMarkdownノートアプリです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "コンフリクトしない", "description": "起動時に常にPull。GitHubが真実。複数デバイスでも安心。", "image": "hero.webp"},
-    {"title": "GitHubに直接保存", "description": "中間サーバーなし。あなたのリポジトリに直接。データはあなたの手の中。", "image": "hero.webp"},
-    {"title": "Vimモード!", "description": "hjklで爆速編集。キーボードだけで最速メモ体験。", "image": "hero.webp"},
-    {"title": "罫線モード!", "description": "本物のノートみたいな罫線表示。なんで他にないんだろう？", "image": "hero.webp"}
+    {"title": "コンフリクトしません", "description": "起動時に常にPullします。GitHubが真実です。複数デバイスでも安心してお使いいただけます。", "image": "hero.webp"},
+    {"title": "GitHubに直接保存", "description": "中間サーバーはありません。あなたのリポジトリに直接保存されます。データはあなたの手の中にあります。", "image": "hero.webp"},
+    {"title": "Vimモード搭載", "description": "hjklで爆速編集ができます。キーボードだけで最速のメモ体験をお届けします。", "image": "hero.webp"},
+    {"title": "罫線モード搭載", "description": "本物のノートのような罫線を表示できます。なぜ他にないのか不思議なくらいです。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

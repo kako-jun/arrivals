@@ -1,18 +1,18 @@
 {
   "name": "riscfetch",
-  "catch": "RISC-V専用。他のアーキテクチャでは動かない。",
-  "description": "neofetchスタイルでRISC-Vの情報を表示。ISA拡張、ハート数、ハードウェアIDなど。",
+  "catch": "RISC-V専用です。他のアーキテクチャでは動きません。",
+  "description": "neofetchスタイルでRISC-Vの情報を表示します。ISA拡張、ハート数、ハードウェアIDなどを確認できます。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/riscfetch", "github": "https://github.com/kako-jun/riscfetch"},
-  "og": {"title": "riscfetch", "description": "RISC-V専用システム情報ツール"},
+  "og": {"title": "riscfetch", "description": "RISC-V専用のシステム情報ツールです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "144拡張対応", "description": "98のZ拡張と46のS拡張。カテゴリ別に整理して表示。", "image": "hero.webp"},
-    {"title": "13ベンダーロゴ", "description": "Pine64、SiFive、StarFive、Milk-V、Sipeed、T-Head、Kendryte、Allwinner、Espressif、SpacemiT、Sophgo、WCH。", "image": "hero.webp"},
-    {"title": "詳細説明モード", "description": "-eで各拡張の意味を表示。-aで144拡張すべてを✓/✗でチェック。", "image": "hero.webp"},
-    {"title": "JSON出力", "description": "-jで機械可読出力。スクリプトやCI/CDに組み込める。", "image": "hero.webp"},
-    {"title": "ベンチマーク", "description": "-bでISA固有のベンチマークを実行。", "image": "hero.webp"},
-    {"title": "fastfetchと併用", "description": "-rでRISC-V情報のみ表示。fastfetchと組み合わせて完全なシステム情報を取得。", "image": "hero.webp"}
+    {"title": "144拡張対応", "description": "98のZ拡張と46のS拡張に対応しています。カテゴリ別に整理して表示します。", "image": "hero.webp"},
+    {"title": "13ベンダーロゴ", "description": "Pine64、SiFive、StarFive、Milk-V、Sipeed、T-Head、Kendryte、Allwinner、Espressif、SpacemiT、Sophgo、WCHに対応しています。", "image": "hero.webp"},
+    {"title": "詳細説明モード", "description": "-eで各拡張の意味を表示します。-aで144拡張すべてを✓/✗でチェックできます。", "image": "hero.webp"},
+    {"title": "JSON出力", "description": "-jで機械可読な出力ができます。スクリプトやCI/CDに組み込めます。", "image": "hero.webp"},
+    {"title": "ベンチマーク", "description": "-bでISA固有のベンチマークを実行できます。", "image": "hero.webp"},
+    {"title": "fastfetchと併用", "description": "-rでRISC-V情報のみ表示します。fastfetchと組み合わせて完全なシステム情報を取得できます。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

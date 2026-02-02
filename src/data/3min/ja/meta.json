@@ -1,16 +1,16 @@
 {
   "name": "3 min. Calendar",
-  "catch": "カップラーメンができる間に、営業カレンダー完成",
-  "description": "ボタンをポンポン押すだけ。祝日は自動。InstagramやLINEでサッと共有。がんばる個人経営者の時短ツール。",
+  "catch": "カップラーメンができる間に、営業カレンダーが完成します",
+  "description": "ボタンをポンポン押すだけで完成します。祝日は自動で表示されます。InstagramやLINEでサッと共有できます。がんばる個人経営者のための時短ツールです。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
-  "og": {"title": "3 min. Calendar", "description": "カップラーメンができる間に、今月のカレンダー完成"},
+  "og": {"title": "3 min. Calendar", "description": "カップラーメンができる間に、今月のカレンダーが完成します"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "ポンポン押すだけ", "description": "日付タップで○△✕を切り替え。「休」「満」スタンプも。面倒な作業はゼロ。", "image": "hero.webp"},
-    {"title": "祝日自動表示", "description": "20カ国以上の祝日に対応。毎月手動で赤くする必要なし。", "image": "hero.webp"},
-    {"title": "SNSにすぐシェア", "description": "Instagram、LINE、Xに直接投稿。画像保存も可能。", "image": "hero.webp"},
-    {"title": "六曜・QRコード", "description": "大安・仏滅を自動表示。QRコードも完全オフラインで生成。", "image": "hero.webp"}
+    {"title": "ポンポン押すだけ", "description": "日付をタップすると○△✕が切り替わります。「休」「満」スタンプもあります。面倒な作業はありません。", "image": "hero.webp"},
+    {"title": "祝日自動表示", "description": "20カ国以上の祝日に対応しています。毎月手動で赤くする必要はありません。", "image": "hero.webp"},
+    {"title": "SNSにすぐシェア", "description": "Instagram、LINE、Xに直接投稿できます。画像保存も可能です。", "image": "hero.webp"},
+    {"title": "六曜・QRコード", "description": "大安・仏滅を自動で表示します。QRコードも完全オフラインで生成できます。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

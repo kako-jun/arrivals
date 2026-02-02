@@ -1,16 +1,16 @@
 {
   "name": "diffai",
-  "catch": "「Binary files differ」で終わらない",
-  "description": "MLモデルファイルの中身を意味のある差分で表示。学習率の変化、勾配の健全性、レイヤーの追加削除が一目で分かる。",
+  "catch": "「Binary files differ」で終わりません",
+  "description": "MLモデルファイルの中身を意味のある差分で表示します。学習率の変化、勾配の健全性、レイヤーの追加削除が一目で分かります。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
-  "og": {"title": "diffai", "description": "MLモデルのセマンティックdiff"},
+  "og": {"title": "diffai", "description": "MLモデルのセマンティックdiffツールです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "11種類の自動分析", "description": "学習率、オプティマイザ、損失、精度、モデルバージョン、勾配、量子化、収束、アクティベーション、アテンション、アンサンブル。", "image": "hero.webp"},
-    {"title": "テンソル統計", "description": "mean、std、min、maxを比較表示。形状変更やパラメータの追加削除も検出。", "image": "hero.webp"},
-    {"title": "4形式対応", "description": "PyTorch (.pt/.pth)、Safetensors、NumPy (.npy/.npz)、MATLAB (.mat)。", "image": "hero.webp"},
-    {"title": "JSON/YAML出力", "description": "--output json/yamlで機械可読な出力。CI/CDでのモデル変更検出に。", "image": "hero.webp"}
+    {"title": "11種類の自動分析", "description": "学習率、オプティマイザ、損失、精度、モデルバージョン、勾配、量子化、収束、アクティベーション、アテンション、アンサンブルを分析します。", "image": "hero.webp"},
+    {"title": "テンソル統計", "description": "mean、std、min、maxを比較表示します。形状変更やパラメータの追加削除も検出します。", "image": "hero.webp"},
+    {"title": "4形式対応", "description": "PyTorch (.pt/.pth)、Safetensors、NumPy (.npy/.npz)、MATLAB (.mat)に対応しています。", "image": "hero.webp"},
+    {"title": "JSON/YAML出力", "description": "--output json/yamlで機械可読な出力ができます。CI/CDでのモデル変更検出にお使いいただけます。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

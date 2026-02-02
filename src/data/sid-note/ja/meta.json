@@ -1,16 +1,16 @@
 {
   "name": "Sid Note",
-  "catch": "TABより詳細なベース指板記法",
-  "description": "ベースのフィンガリングをTAB譜より詳細に表示・練習できるWebアプリ。コード練習、指板練習、楽曲トラック収録。",
+  "catch": "TABより詳細なベース指板記法を提供します",
+  "description": "ベースのフィンガリングをTAB譜より詳細に表示・練習できるWebアプリです。コード練習、指板練習、楽曲トラックを収録しています。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
-  "og": {"title": "Sid Note", "description": "音楽理論をビジュアルで学ぶ"},
+  "og": {"title": "Sid Note", "description": "音楽理論をビジュアルで学べます"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "TABより詳細な記法", "description": "標準的なTAB譜より詳細なフィンガリング情報を提供。正確な指の位置を視覚化。", "image": "hero.webp"},
-    {"title": "コード練習モード", "description": "クロマチック、ペンタトニック、ダイアトニック、全コード練習の4モード。", "image": "hero.webp"},
-    {"title": "指板・フィンガリング練習", "description": "指板ナビゲーションと指のポジショニングを個別に練習。", "image": "hero.webp"},
-    {"title": "楽曲トラック収録", "description": "FF5、Vaundy、Stand By Meなど実際の曲で練習。", "image": "hero.webp"}
+    {"title": "TABより詳細な記法", "description": "標準的なTAB譜より詳細なフィンガリング情報を提供します。正確な指の位置を視覚化できます。", "image": "hero.webp"},
+    {"title": "コード練習モード", "description": "クロマチック、ペンタトニック、ダイアトニック、全コード練習の4モードを搭載しています。", "image": "hero.webp"},
+    {"title": "指板・フィンガリング練習", "description": "指板ナビゲーションと指のポジショニングを個別に練習できます。", "image": "hero.webp"},
+    {"title": "楽曲トラック収録", "description": "FF5、Vaundy、Stand By Meなど実際の曲で練習できます。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }

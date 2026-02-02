@@ -1,17 +1,17 @@
 {
   "name": "diffx",
-  "catch": "意味のある変更だけを表示",
-  "description": "キーの並び順が変わっただけで全行が差分になる。構造化データのその問題を解決。",
+  "catch": "意味のある変更だけを表示します",
+  "description": "キーの並び順が変わっただけで全行が差分になってしまう問題を解決します。構造化データの比較に最適です。",
   "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
   "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
-  "og": {"title": "diffx", "description": "構造化データのセマンティックdiff"},
+  "og": {"title": "diffx", "description": "構造化データのセマンティックdiffツールです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
   "features": [
-    {"title": "セマンティック比較", "description": "キー順序や空白は無視。値が本当に変わった部分だけを+/-/~で表示。", "image": "hero.webp"},
-    {"title": "6形式対応", "description": "JSON、YAML、TOML、XML、INI、CSV。拡張子から自動検出。", "image": "hero.webp"},
-    {"title": "配列のID指定", "description": "--array-id-keyで配列要素を特定キーで識別。順序入れ替えを正しく検出。", "image": "hero.webp"},
-    {"title": "ディレクトリ比較", "description": "-rで再帰比較。設定ファイル群の差分確認に。", "image": "hero.webp"},
-    {"title": "JSON/YAML出力", "description": "--output json/yamlで機械可読な出力。CI/CDパイプラインに組み込み可能。", "image": "hero.webp"}
+    {"title": "セマンティック比較", "description": "キー順序や空白は無視します。値が本当に変わった部分だけを+/-/~で表示します。", "image": "hero.webp"},
+    {"title": "6形式対応", "description": "JSON、YAML、TOML、XML、INI、CSVに対応しています。拡張子から自動検出します。", "image": "hero.webp"},
+    {"title": "配列のID指定", "description": "--array-id-keyで配列要素を特定キーで識別できます。順序入れ替えを正しく検出します。", "image": "hero.webp"},
+    {"title": "ディレクトリ比較", "description": "-rで再帰比較ができます。設定ファイル群の差分確認に便利です。", "image": "hero.webp"},
+    {"title": "JSON/YAML出力", "description": "--output json/yamlで機械可読な出力ができます。CI/CDパイプラインに組み込めます。", "image": "hero.webp"}
   ],
   "author": {"name": "kako-jun"}
 }
