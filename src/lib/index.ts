@@ -9,7 +9,6 @@ export {
   DEFAULT_THEME,
   LOCALE_LABELS,
   OG_LOCALE_MAP,
-  CTA_TEXT,
   NOT_FOUND_MESSAGES,
   ASSET_DIMENSIONS,
 } from './constants';
@@ -34,3 +33,6 @@ export { generatePageMeta, getOGLocale, generateJsonLd } from './seo';
 // Theme utilities
 export type { ResolvedTheme } from './theme';
 export { resolveTheme, generateThemeCSS } from './theme';
+
+// i18n utilities
+export { UI_TEXT, t, detectLocale } from './i18n';

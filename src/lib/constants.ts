@@ -24,13 +24,6 @@ export const OG_LOCALE_MAP: Record<Locale, string> = {
   'zh-cn': 'zh_CN',
 };
 
-// CTA button text
-export const CTA_TEXT: Record<Locale, string> = {
-  ja: '無料で始める',
-  en: 'Get Started Free',
-  'zh-cn': '免费开始',
-};
-
 // 404 page messages
 export const NOT_FOUND_MESSAGES: Record<Locale, { title: string; message: string; back: string }> =
   {

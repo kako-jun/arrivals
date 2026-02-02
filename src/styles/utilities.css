@@ -1,0 +1,83 @@
+/* Utilities and Animations */
+
+/* Fade in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .cta-button,
+  .gallery img,
+  .lang a,
+  .footer-link,
+  .feature-card {
+    transition: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  :root {
+    --bg: #fff;
+    --fg: #000;
+    --accent: #000;
+    --muted: #666;
+    --card-bg: #f5f5f5;
+    --card-border: #ddd;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .skip-link,
+  .lang,
+  .cta,
+  video {
+    display: none !important;
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  .media img {
+    max-height: 300px;
+    object-fit: contain;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    color: #666;
+  }
+}

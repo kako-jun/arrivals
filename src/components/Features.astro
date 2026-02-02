@@ -1,4 +1,5 @@
 ---
+import { t } from '@/lib';
 import type { Feature } from '@/lib';
 
 interface Props {
@@ -9,13 +10,7 @@ interface Props {
 }
 
 const { features, basePath, app, locale } = Astro.props;
-
-const sectionTitle: Record<string, string> = {
-  ja: '機能',
-  en: 'Features',
-  'zh-cn': '功能',
-};
-const title = sectionTitle[locale] ?? sectionTitle.en;
+const title = t('features', locale);
 ---
 
 {

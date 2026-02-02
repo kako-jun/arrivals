@@ -1,6 +1,5 @@
 ---
-import type { Locale } from '@/lib';
-import { CTA_TEXT } from '@/lib';
+import { t } from '@/lib';
 import ExternalLink from './ExternalLink.astro';
 
 interface Props {
@@ -9,7 +8,7 @@ interface Props {
 }
 
 const { href, locale } = Astro.props;
-const text = CTA_TEXT[locale as Locale] ?? CTA_TEXT.en;
+const text = t('cta', locale);
 ---
 
 <div class="cta fade-in">
