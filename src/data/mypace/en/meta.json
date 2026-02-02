@@ -1,0 +1,17 @@
+{
+  "name": "MY PACE",
+  "catch": "A decentralized SNS at your own pace",
+  "description": "A decentralized SNS running on the Nostr protocol. No installation required, no account registration, just open in your browser. Not dependent on any specific server, private keys stored locally only.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
+  "og": {"title": "MY PACE", "description": "A decentralized SNS at your own pace"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Decentralized", "description": "Built on Nostr protocol. Not dependent on any specific server.", "image": "hero.webp"},
+    {"title": "Privacy-focused", "description": "Private keys stored locally only. Never sent to servers.", "image": "hero.webp"},
+    {"title": "Personal Colors", "description": "FF7-style 4-corner gradient for your unique color scheme.", "image": "hero.webp"},
+    {"title": "Creative Tools", "description": "Drawing, voice memos, stickers and more creative features.", "image": "hero.webp"},
+    {"title": "No Installation", "description": "Just open in browser. No account registration. Enter your name and start posting.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MY PACE",
+  "catch": "按自己的节奏玩的去中心化社交网络",
+  "description": "运行在Nostr协议上的去中心化社交网络。无需安装、无需注册账户，只需在浏览器中打开。不依赖特定服务器，私钥仅本地保存。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
+  "og": {"title": "MY PACE", "description": "按自己的节奏玩的去中心化社交网络"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "去中心化", "description": "采用Nostr协议。不依赖任何特定服务器。", "image": "hero.webp"},
+    {"title": "注重隐私", "description": "私钥仅本地保存。绝不发送到服务器。", "image": "hero.webp"},
+    {"title": "个人色彩", "description": "FF7风格4角渐变，设置专属于你的配色。", "image": "hero.webp"},
+    {"title": "创意工具", "description": "绘图、语音备忘录、贴纸等创作功能。", "image": "hero.webp"},
+    {"title": "无需安装", "description": "浏览器打开即用。无需注册账户。输入名字即可开始发帖。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

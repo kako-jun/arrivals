@@ -1,0 +1,17 @@
+{
+  "name": "MY PACE",
+  "catch": "Una red social descentralizada a tu propio ritmo",
+  "description": "Una red social descentralizada que funciona con el protocolo Nostr. Sin instalacion, sin registro de cuenta, solo abre en tu navegador. No depende de ningun servidor especifico, claves privadas solo almacenadas localmente.",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
+  "og": {"title": "MY PACE", "description": "Una red social descentralizada a tu propio ritmo"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "Descentralizado", "description": "Construido sobre el protocolo Nostr. No depende de ningun servidor especifico.", "image": "hero.webp"},
+    {"title": "Enfocado en privacidad", "description": "Claves privadas solo almacenadas localmente. Nunca enviadas a servidores.", "image": "hero.webp"},
+    {"title": "Colores personales", "description": "Gradiente de 4 esquinas estilo FF7 para tu esquema de color unico.", "image": "hero.webp"},
+    {"title": "Herramientas creativas", "description": "Dibujo, notas de voz, stickers y mas funciones creativas.", "image": "hero.webp"},
+    {"title": "Sin instalacion", "description": "Solo abre en el navegador. Sin registro de cuenta. Ingresa tu nombre y comienza a publicar.", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}

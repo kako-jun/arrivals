@@ -1,0 +1,17 @@
+{
+  "name": "MY PACE",
+  "catch": "マイペースでいいミディアムレアSNS",
+  "description": "Nostrプロトコル上で動作する分散型SNS。インストール不要、アカウント登録不要、ブラウザで開くだけ。特定サーバーに依存せず、秘密鍵はローカルのみに保存。",
+  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
+  "og": {"title": "MY PACE", "description": "マイペースでいいミディアムレアSNS"},
+  "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
+  "features": [
+    {"title": "分散型", "description": "Nostrプロトコル採用。特定のサーバーに依存しない設計。", "image": "hero.webp"},
+    {"title": "プライバシー重視", "description": "秘密鍵はローカルのみに保存。サーバーに送信されない。", "image": "hero.webp"},
+    {"title": "パーソナルカラー", "description": "FF7風4隅グラデーションで自分だけの色を設定できる。", "image": "hero.webp"},
+    {"title": "クリエイティブ", "description": "お絵かき、ボイスメモ、ステッカーなど創作ツール搭載。", "image": "hero.webp"},
+    {"title": "インストール不要", "description": "ブラウザで開くだけ。アカウント登録も不要。名前を入力したらすぐ投稿。", "image": "hero.webp"}
+  ],
+  "author": {"name": "kako-jun"}
+}
