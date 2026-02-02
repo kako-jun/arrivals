@@ -2,7 +2,7 @@
   "name": "riscfetch",
   "catch": "RISC-V only. Exits on other architectures.",
   "description": "Display RISC-V info in neofetch style. ISA extensions, hart count, hardware IDs and more.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#22c55e", "muted": "#4ade80"},
   "links": {"play": "https://crates.io/crates/riscfetch", "github": "https://github.com/kako-jun/riscfetch"},
   "og": {"title": "riscfetch", "description": "System information tool for RISC-V architecture"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

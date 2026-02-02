@@ -2,7 +2,7 @@
   "name": "chunkundo.nvim",
   "catch": "Neovim智能撤销分块",
   "description": "Neovim将整个插入会话作为一个撤销单位。这个插件按时间和单词边界将其分割成小块。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#22c55e", "muted": "#4ade80"},
   "links": {"play": "https://github.com/kako-jun/chunkundo.nvim", "github": "https://github.com/kako-jun/chunkundo.nvim"},
   "og": {"title": "chunkundo.nvim", "description": "Neovim智能撤销分块"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

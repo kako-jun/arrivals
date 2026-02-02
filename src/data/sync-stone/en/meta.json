@@ -2,7 +2,7 @@
   "name": "SyncStone",
   "catch": "Backup your FF14 Lodestone memories",
   "description": "Export FINAL FANTASY XIV's \"The Lodestone\" diary to Markdown. Lodestone has no export function, so save your precious memories locally.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#3b82f6", "muted": "#93c5fd"},
   "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
   "og": {"title": "SyncStone", "description": "FF14 Lodestone export tool"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

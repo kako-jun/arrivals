@@ -2,7 +2,7 @@
   "name": "3 min. Calendar",
   "catch": "泡面的时间，日历就做好了",
   "description": "点点按钮就行。节假日自动显示。一键分享到Instagram或LINE。忙碌店主的省时神器。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#d97706", "muted": "#fbbf24"},
   "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
   "og": {"title": "3 min. Calendar", "description": "3分钟完成本月营业日历"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

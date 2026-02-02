@@ -2,7 +2,7 @@
   "name": "Agasteer",
   "catch": "Free yourself from the fear of data loss",
   "description": "Always pulls on startup. GitHub is the single source of truth. Conflicts are theoretically impossible.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#4ade80", "muted": "#86efac"},
   "links": {"play": "https://agasteer.llll-ll.com/", "github": "https://github.com/kako-jun/agasteer"},
   "og": {"title": "Agasteer", "description": "The Markdown app that never conflicts"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

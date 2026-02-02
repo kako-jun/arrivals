@@ -2,7 +2,7 @@
   "name": "MY PACE",
   "catch": "按自己的节奏玩的去中心化社交网络",
   "description": "运行在Nostr协议上的去中心化社交网络。无需安装、无需注册账户，只需在浏览器中打开。不依赖特定服务器，私钥仅本地保存。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#f5c542", "muted": "#fde68a"},
   "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
   "og": {"title": "MY PACE", "description": "按自己的节奏玩的去中心化社交网络"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

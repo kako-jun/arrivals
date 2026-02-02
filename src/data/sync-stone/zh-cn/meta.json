@@ -2,7 +2,7 @@
   "name": "SyncStone",
   "catch": "备份你的FF14陆行鸟站回忆",
   "description": "将FINAL FANTASY XIV的「The Lodestone」日记导出为Markdown。陆行鸟站没有导出功能，所以把珍贵的回忆保存到本地。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#3b82f6", "muted": "#93c5fd"},
   "links": {"play": "https://github.com/kako-jun/sync-stone", "github": "https://github.com/kako-jun/sync-stone"},
   "og": {"title": "SyncStone", "description": "FF14陆行鸟站导出工具"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

@@ -2,7 +2,7 @@
   "name": "Nostalgic",
   "catch": "Revive el internet de los 90",
   "description": "Contador, Like, BBS, Ranking, Gato de la Suerte. Todo funciona solo con GET. Sin registro.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#84cc16", "muted": "#bef264"},
   "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
   "og": {"title": "Nostalgic", "description": "Funciones web de los 90 para sitios modernos"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

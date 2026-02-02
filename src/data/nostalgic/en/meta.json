@@ -2,7 +2,7 @@
   "name": "Nostalgic",
   "catch": "Bring the 90s internet back to life",
   "description": "Counter, Like, BBS, Ranking, Lucky Cat. Everything works with just GET requests. No registration needed.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#84cc16", "muted": "#bef264"},
   "links": {"play": "https://nostalgic.llll-ll.com", "github": "https://github.com/kako-jun/nostalgic"},
   "og": {"title": "Nostalgic", "description": "90s web features for modern sites"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

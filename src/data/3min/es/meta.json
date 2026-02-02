@@ -2,7 +2,7 @@
   "name": "3 min. Calendar",
   "catch": "Listo en lo que tarda un ramen instantáneo",
   "description": "Solo toca los botones. Los festivos son automáticos. Comparte al instante en Instagram o LINE. Ahorra tiempo a los dueños de negocios.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#d97706", "muted": "#fbbf24"},
   "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
   "og": {"title": "3 min. Calendar", "description": "Crea el calendario de tu negocio en solo 3 minutos"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

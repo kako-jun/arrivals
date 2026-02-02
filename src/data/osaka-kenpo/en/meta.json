@@ -2,7 +2,7 @@
   "name": "Osaka Kenpo",
   "catch": "Legal documents in friendly Osaka dialect",
   "description": "Inspired by \"Osaka-san\" from Azumanga Daioh. A warm, friendly tone that lowers the psychological barrier to law.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#ec4899", "muted": "#f9a8d4"},
   "links": {"play": "https://osaka-kenpo.llll-ll.com", "github": "https://github.com/kako-jun/osaka-kenpo"},
   "og": {"title": "Osaka Kenpo", "description": "Legal documents explained in Osaka dialect"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

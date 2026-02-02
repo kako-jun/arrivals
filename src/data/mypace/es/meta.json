@@ -2,7 +2,7 @@
   "name": "MY PACE",
   "catch": "Una red social descentralizada a tu propio ritmo",
   "description": "Una red social descentralizada que funciona con el protocolo Nostr. Sin instalacion, sin registro de cuenta, solo abre en tu navegador. No depende de ningun servidor especifico, claves privadas solo almacenadas localmente.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#f5c542", "muted": "#fde68a"},
   "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
   "og": {"title": "MY PACE", "description": "Una red social descentralizada a tu propio ritmo"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

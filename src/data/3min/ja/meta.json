@@ -2,7 +2,7 @@
   "name": "3 min. Calendar",
   "catch": "カップラーメンができる間に、営業カレンダーが完成します",
   "description": "ボタンをポンポン押すだけで完成します。祝日は自動で表示されます。InstagramやLINEでサッと共有できます。がんばる個人経営者のための時短ツールです。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#d97706", "muted": "#fbbf24"},
   "links": {"play": "https://3min.llll-ll.com/", "github": "https://github.com/kako-jun/3min"},
   "og": {"title": "3 min. Calendar", "description": "カップラーメンができる間に、今月のカレンダーが完成します"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

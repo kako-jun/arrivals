@@ -2,7 +2,7 @@
   "name": "Sid Note",
   "catch": "比TAB谱更详细的贝斯指法记谱",
   "description": "用比TAB谱更详细的记谱法查看和练习贝斯指法的Web应用。包含和弦练习、指板练习和歌曲曲目。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#a855f7", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
   "og": {"title": "Sid Note", "description": "贝斯指法练习应用"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

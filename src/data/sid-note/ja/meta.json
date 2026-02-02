@@ -2,7 +2,7 @@
   "name": "Sid Note",
   "catch": "TABより詳細なベース指板記法を提供します",
   "description": "ベースのフィンガリングをTAB譜より詳細に表示・練習できるWebアプリです。コード練習、指板練習、楽曲トラックを収録しています。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#a855f7", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
   "og": {"title": "Sid Note", "description": "音楽理論をビジュアルで学べます"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

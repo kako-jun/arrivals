@@ -2,7 +2,7 @@
   "name": "MY PACE",
   "catch": "マイペースでいいミディアムレアSNSです",
   "description": "Nostrプロトコル上で動作する分散型SNSです。インストール不要、アカウント登録不要、ブラウザで開くだけでお使いいただけます。特定サーバーに依存せず、秘密鍵はローカルのみに保存されます。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#f5c542", "muted": "#fde68a"},
   "links": {"play": "https://mypace.llll-ll.com", "github": "https://github.com/kako-jun/mypace"},
   "og": {"title": "MY PACE", "description": "マイペースでいいミディアムレアSNSです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

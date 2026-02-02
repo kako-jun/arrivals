@@ -2,7 +2,7 @@
   "name": "Sasso",
   "catch": "A puzzle game Mensa members would enjoy",
   "description": "Eliminate adjacent identical digits. 124×9=1116, three 1s vanish. If you don't get the name, this game might not be for you.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#9ca3af", "muted": "#d1d5db"},
   "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
   "og": {"title": "Sasso", "description": "A calculator puzzle for Mensa minds"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

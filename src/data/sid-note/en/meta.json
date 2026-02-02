@@ -2,7 +2,7 @@
   "name": "Sid Note",
   "catch": "More detailed than TAB notation for bass",
   "description": "Web app for viewing and practicing bass fingering with more specific notation than TAB. Chord practice, fretboard practice, and song tracks included.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#a855f7", "muted": "#c4b5fd"},
   "links": {"play": "https://sid-note.llll-ll.com", "github": "https://github.com/kako-jun/sid-note"},
   "og": {"title": "Sid Note", "description": "Bass fingering practice app"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

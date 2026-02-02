@@ -2,7 +2,7 @@
   "name": "diffai",
   "catch": "\"Binary files differ\" no es suficiente",
   "description": "Muestra diferencias significativas para archivos de modelos ML. Cambios en learning rate, salud de gradientes, capas añadidas/eliminadas de un vistazo.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#22c55e", "muted": "#4ade80"},
   "links": {"play": "https://crates.io/crates/diffai", "github": "https://github.com/kako-jun/diffai"},
   "og": {"title": "diffai", "description": "Diferencias semánticas para modelos AI/ML"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

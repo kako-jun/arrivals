@@ -2,7 +2,7 @@
   "name": "diffx",
   "catch": "意味のある変更だけを表示します",
   "description": "キーの並び順が変わっただけで全行が差分になってしまう問題を解決します。構造化データの比較に最適です。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#22c55e", "muted": "#4ade80"},
   "links": {"play": "https://crates.io/crates/diffx", "github": "https://github.com/kako-jun/diffx"},
   "og": {"title": "diffx", "description": "構造化データのセマンティックdiffツールです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

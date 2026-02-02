@@ -2,7 +2,7 @@
   "name": "Sasso",
   "catch": "Un puzzle que aprobarían los de Mensa",
   "description": "Elimina dígitos idénticos adyacentes. 124×9=1116, tres 1s desaparecen. Si no entiendes el nombre, quizás no es para ti.",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#9ca3af", "muted": "#d1d5db"},
   "links": {"play": "https://sasso.llll-ll.com", "github": "https://github.com/kako-jun/sasso"},
   "og": {"title": "Sasso", "description": "Puzzle de calculadora para mentes Mensa"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

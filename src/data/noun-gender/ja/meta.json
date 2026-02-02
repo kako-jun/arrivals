@@ -2,7 +2,7 @@
   "name": "Noun Gender",
   "catch": "8言語の名詞の性を楽しく学べます",
   "description": "フランス語、ドイツ語、スペイン語など8言語の4,600語以上を収録しています。クイズと発音で楽しく学習できます。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#78716c", "muted": "#a8a29e"},
   "links": {"play": "https://noun-gender.llll-ll.com", "github": "https://github.com/kako-jun/noun-gender"},
   "og": {"title": "Noun Gender", "description": "8言語の名詞の性を楽しく学習できます"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],

@@ -2,7 +2,7 @@
   "name": "Agasteer",
   "catch": "データ消失の恐怖から解放されます",
   "description": "起動時に常にPullします。GitHubが唯一の真実です。理論上、コンフリクトが起きない設計になっています。",
-  "theme": {"bg": "#1a0a2e", "fg": "#ffffff", "accent": "#e879f9", "muted": "#c4b5fd"},
+  "theme": {"bg": "#121212", "fg": "#ffffff", "accent": "#4ade80", "muted": "#86efac"},
   "links": {"play": "https://agasteer.llll-ll.com/", "github": "https://github.com/kako-jun/agasteer"},
   "og": {"title": "Agasteer", "description": "コンフリクトしないMarkdownノートアプリです"},
   "gallery": ["gallery/slide1.webp", "gallery/slide2.webp", "gallery/slide3.webp"],
