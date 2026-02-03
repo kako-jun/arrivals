@@ -5,13 +5,9 @@ interface Props {
   iconSrc: string;
   name: string;
   locale: string;
-  links?: {
-    play?: string;
-    github?: string;
-  };
 }
 
-const { iconSrc, name, locale, links } = Astro.props;
+const { iconSrc, name, locale } = Astro.props;
 const featuresLabel = t('features', locale);
 ---
 
