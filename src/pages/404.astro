@@ -31,7 +31,7 @@ const messages = NOT_FOUND_MESSAGES;
   <script>
     function detectLocale(): string {
       // Check URL path for locale hint
-      const pathMatch = window.location.pathname.match(/\/landing\/[^/]+\/([a-z-]+)\//);
+      const pathMatch = window.location.pathname.match(/\/[^/]+\/([a-z-]+)\//);
       if (pathMatch) return pathMatch[1];
 
       // Check browser language

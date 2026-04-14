@@ -3,12 +3,12 @@ import { buildAssetPath, buildPageUrl, buildHreflangUrls } from './url';
 
 describe('buildAssetPath', () => {
   it('builds path without file', () => {
-    expect(buildAssetPath('/landing/', 'myapp')).toBe('/landing/content/myapp');
+    expect(buildAssetPath('/', 'myapp')).toBe('/content/myapp');
   });
 
   it('builds path with file', () => {
-    expect(buildAssetPath('/landing/', 'myapp', 'icon.webp')).toBe(
-      '/landing/content/myapp/icon.webp'
+    expect(buildAssetPath('/', 'myapp', 'icon.webp')).toBe(
+      '/content/myapp/icon.webp'
     );
   });
 
@@ -17,8 +17,8 @@ describe('buildAssetPath', () => {
 
 describe('buildPageUrl', () => {
   it('builds correct page URL', () => {
-    const result = buildPageUrl('https://example.com', '/landing/', 'myapp', 'ja');
-    expect(result).toBe('https://example.com/landing/myapp/ja/');
+    const result = buildPageUrl('https://example.com', '/', 'myapp', 'ja');
+    expect(result).toBe('https://example.com/myapp/ja/');
   });
 
   it('handles different locales', () => {
@@ -29,10 +29,10 @@ describe('buildPageUrl', () => {
 
 describe('buildHreflangUrls', () => {
   it('builds URLs for all locales', () => {
-    const result = buildHreflangUrls('https://example.com', '/landing/', 'myapp', ['ja', 'en']);
+    const result = buildHreflangUrls('https://example.com', '/', 'myapp', ['ja', 'en']);
     expect(result).toEqual([
-      { locale: 'ja', url: 'https://example.com/landing/myapp/ja/' },
-      { locale: 'en', url: 'https://example.com/landing/myapp/en/' },
+      { locale: 'ja', url: 'https://example.com/myapp/ja/' },
+      { locale: 'en', url: 'https://example.com/myapp/en/' },
     ]);
   });
 });

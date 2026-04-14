@@ -40,7 +40,7 @@ export function t(
 
 // Detect locale from URL path or browser
 export function detectLocale(pathname: string, acceptLanguage?: string): Locale {
-  // Try to extract from URL path (e.g., /landing/app/ja/)
+  // Try to extract from URL path (e.g., /app/ja/)
   const pathMatch = pathname.match(/\/([a-z]{2}(?:-[a-z]{2})?)\/?$/i);
   if (pathMatch) {
     const pathLocale = pathMatch[1].toLowerCase();
